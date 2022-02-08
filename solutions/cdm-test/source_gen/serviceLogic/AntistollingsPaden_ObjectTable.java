@@ -6,7 +6,7 @@ import org.modelingvalue.cds.runtime.CDSInstanceTable;
 import org.modelingvalue.collections.Collection;
 import org.modelingvalue.cds.runtime.CDSObject;
 
-public class AntistollingPaden_ObjectTable implements CDSInstanceTable {
+public class AntistollingsPaden_ObjectTable implements CDSInstanceTable {
   @Override
   public Collection<? extends CDSObject> getInstances() {
     return Collection.of(of("VKA"), of("DOAC"), of("TAR"), of("TAR-P2Y12-remmers"), of("DAPT"), of("TripleTherapie"));

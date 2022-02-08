@@ -28,7 +28,6 @@ public class Patient_Concept extends CDSObject {
   public static final Observed<Patient_Concept, AntistollingsPad_Concept> ANTISTOLLINGSPAD_OBSERVED = Observed.<Patient_Concept,AntistollingsPad_Concept>of("=antistollingsPad", null, null);
 
   public static final Observed<Patient_Concept, Set> PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN = Observed.<Patient_Concept,Set>of("PatientMedicijnGebruikPad_c0", null);
-  public static final Observed<Patient_Concept, AntistollingsPad_Concept> PATIENTMEDICIJNGEBRUIKPAD_C1_COLUMN = Observed.<Patient_Concept,AntistollingsPad_Concept>of("PatientMedicijnGebruikPad_c1", null);
   public static final Observed<Patient_Concept, Boolean> PATIENTMEDICIJNGEBRUIKPAD_R0_ROW = Observed.<Patient_Concept,Boolean>of("PatientMedicijnGebruikPad_r0", null);
   public static final Observed<Patient_Concept, Boolean> PATIENTMEDICIJNGEBRUIKPAD_R1_ROW = Observed.<Patient_Concept,Boolean>of("PatientMedicijnGebruikPad_r1", null);
   public static final Observed<Patient_Concept, Boolean> PATIENTMEDICIJNGEBRUIKPAD_R2_ROW = Observed.<Patient_Concept,Boolean>of("PatientMedicijnGebruikPad_r2", null);
@@ -40,11 +39,6 @@ public class Patient_Concept extends CDSObject {
   public static final Observer<Patient_Concept> PATIENTMEDICIJNGEBRUIKPAD_C0_OBSERVER = Observer.of("PatientMedicijnGebruikPad_c0", Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN, new Function<Patient_Concept, Set>() {
     public Set apply(Patient_Concept it) {
       return it.PatientMedicijnGebruikPad_c0();
-    }
-  });
-  public static final Observer<Patient_Concept> PATIENTMEDICIJNGEBRUIKPAD_C1_OBSERVER = Observer.of("PatientMedicijnGebruikPad_c1", Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C1_COLUMN, new Function<Patient_Concept, AntistollingsPad_Concept>() {
-    public AntistollingsPad_Concept apply(Patient_Concept it) {
-      return it.PatientMedicijnGebruikPad_c1();
     }
   });
   public static final Observer<Patient_Concept> PATIENTMEDICIJNGEBRUIKPAD_R0_OBSERVER = Observer.of("PatientMedicijnGebruikPad_r0", Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_R0_ROW, new Function<Patient_Concept, Boolean>() {
@@ -165,7 +159,7 @@ public class Patient_Concept extends CDSObject {
   }
 
   public Set PatientMedicijnGebruikPad_c0() {
-    return as_xl4sqf_a0a0a73(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
+    return as_xl4sqf_a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(MedicijnGebruik_Concept e) {
         Object w = MedicijnGebruik_Concept.SAMENSTELLING_OBSERVED.get(e);
@@ -183,43 +177,43 @@ public class Patient_Concept extends CDSObject {
     return Patient_Concept.ANTISTOLLINGSPAD_OBSERVED.get(this);
   }
   public Boolean PatientMedicijnGebruikPad_c0_r0() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("VKA")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("VKA")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r0() {
     return new AntistollingsPad_Concept("VKA");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r1() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("DOAC")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("DOAC")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r1() {
     return new AntistollingsPad_Concept("DOAC");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r2() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r2() {
     return new AntistollingsPad_Concept("TAR");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r3() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r3() {
     return new AntistollingsPad_Concept("TAR-P2Y12-remmers");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r4() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r4() {
     return new AntistollingsPad_Concept("DAPT");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r5() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("DOAC"), new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("DOAC"), new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r5() {
     return new AntistollingsPad_Concept("TripleTherapie");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r6() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("VKA"), new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("VKA"), new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r6() {
     return new AntistollingsPad_Concept("TripleTherapie");
@@ -237,7 +231,7 @@ public class Patient_Concept extends CDSObject {
       return ConceptUniverse.D_CLASS;
     }
   }
-  private static <T> T as_xl4sqf_a0a0a73(Object o, Class<T> type) {
+  private static <T> T as_xl4sqf_a0a0a53(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

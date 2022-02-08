@@ -5,7 +5,9 @@ package serviceLogic;
 import org.modelingvalue.dclare.Observed;
 import java.util.function.Supplier;
 import org.modelingvalue.dclare.Setable;
-import org.modelingvalue.collections.Set;
+import org.modelingvalue.dclare.Observer;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import org.modelingvalue.dclare.MutableClass;
 import org.modelingvalue.cds.runtime.CDSClass;
 import org.modelingvalue.cds.runtime.CDSUniverse;
@@ -18,14 +20,24 @@ public class GeneriekMedicijn_Concept extends Medicijn_Concept {
       return MedicijnGroep_Concept.MEDICIJNEN_OBSERVED;
     }
   });
-  public static final Observed<GeneriekMedicijn_Concept, Set> SPECIFIEKE_OBSERVED = Observed.<GeneriekMedicijn_Concept,Set>of("=specifieke", Set.of(), new Supplier<Setable<?, ?>>() {
-    @Override
-    public Setable<?, ?> get() {
-      return Medicijn_Concept.GENERIEK_OBSERVED;
+
+  public static final Observed<GeneriekMedicijn_Concept, Boolean> GENERIEKMEDICIJNGENERIEK_R0_ROW = Observed.<GeneriekMedicijn_Concept,Boolean>of("GeneriekMedicijnGeneriek_r0", null);
+
+  public static final Observer<GeneriekMedicijn_Concept> GENERIEKMEDICIJNGENERIEK_R0_OBSERVER = Observer.of("GeneriekMedicijnGeneriek_r0", GeneriekMedicijn_Concept.GENERIEKMEDICIJNGENERIEK_R0_ROW, new Function<GeneriekMedicijn_Concept, Boolean>() {
+    public Boolean apply(GeneriekMedicijn_Concept it) {
+      return true;
     }
   });
-
-
+  public static final Observer<GeneriekMedicijn_Concept> GENERIEKMEDICIJNGENERIEK_C0_R0_OBSERVER = Observer.of("GeneriekMedicijnGeneriek_c0_r0", Medicijn_Concept.GENERIEK_OBSERVED, new Predicate<GeneriekMedicijn_Concept>() {
+    @Override
+    public boolean test(GeneriekMedicijn_Concept a) {
+      return GeneriekMedicijn_Concept.GENERIEKMEDICIJNGENERIEK_R0_ROW.get(a) == Boolean.TRUE;
+    }
+  }, new Function<GeneriekMedicijn_Concept, GeneriekMedicijn_Concept>() {
+    public GeneriekMedicijn_Concept apply(GeneriekMedicijn_Concept it) {
+      return it.GeneriekMedicijnGeneriek_c0_r0();
+    }
+  });
 
   private static final MutableClass D_CLASS = CDSClass.of(GeneriekMedicijn_Concept.class);
 
@@ -38,6 +50,12 @@ public class GeneriekMedicijn_Concept extends Medicijn_Concept {
     return D_CLASS;
   }
 
+  public GeneriekMedicijn_Concept GeneriekMedicijnGeneriek_c0() {
+    return Medicijn_Concept.GENERIEK_OBSERVED.get(this);
+  }
+  public GeneriekMedicijn_Concept GeneriekMedicijnGeneriek_c0_r0() {
+    return this;
+  }
 
   public static class ConceptUniverse extends GeneriekMedicijn_Concept implements CDSUniverse {
     private static final MutableClass D_CLASS = CDSClass.of(ConceptUniverse.class);

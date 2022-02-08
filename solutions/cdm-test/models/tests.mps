@@ -5,7 +5,7 @@
     <use id="2b379ad1-c243-479c-be1a-0c81bd5ce136" name="cdm.lang" version="5" />
   </languages>
   <imports>
-    <import index="h4z" ref="r:920679ab-9520-45c7-a30f-3dd0e860917f(logic)" />
+    <import index="h4z" ref="r:920679ab-9520-45c7-a30f-3dd0e860917f(antistolling)" />
   </imports>
   <registry />
 </model>

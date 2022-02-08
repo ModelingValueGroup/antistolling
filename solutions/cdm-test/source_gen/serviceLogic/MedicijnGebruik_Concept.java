@@ -27,14 +27,8 @@ public class MedicijnGebruik_Concept extends CDSObject {
   public static final Observed<MedicijnGebruik_Concept, BigInteger> INAMEPERDAG_OBSERVED = Observed.<MedicijnGebruik_Concept,BigInteger>of("=inamePerDag", null, null);
   public static final Observed<MedicijnGebruik_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<MedicijnGebruik_Concept,Set>of("=samenstelling", Set.of(), null);
 
-  public static final Observed<MedicijnGebruik_Concept, Set> MEDICIJNGEBRUIKSAMENSTELLING_C0_COLUMN = Observed.<MedicijnGebruik_Concept,Set>of("MedicijnGebruikSamenstelling_c0", null);
   public static final Observed<MedicijnGebruik_Concept, Boolean> MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW = Observed.<MedicijnGebruik_Concept,Boolean>of("MedicijnGebruikSamenstelling_r0", null);
 
-  public static final Observer<MedicijnGebruik_Concept> MEDICIJNGEBRUIKSAMENSTELLING_C0_OBSERVER = Observer.of("MedicijnGebruikSamenstelling_c0", MedicijnGebruik_Concept.MEDICIJNGEBRUIKSAMENSTELLING_C0_COLUMN, new Function<MedicijnGebruik_Concept, Set>() {
-    public Set apply(MedicijnGebruik_Concept it) {
-      return it.MedicijnGebruikSamenstelling_c0();
-    }
-  });
   public static final Observer<MedicijnGebruik_Concept> MEDICIJNGEBRUIKSAMENSTELLING_R0_OBSERVER = Observer.of("MedicijnGebruikSamenstelling_r0", MedicijnGebruik_Concept.MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW, new Function<MedicijnGebruik_Concept, Boolean>() {
     public Boolean apply(MedicijnGebruik_Concept it) {
       return true;
