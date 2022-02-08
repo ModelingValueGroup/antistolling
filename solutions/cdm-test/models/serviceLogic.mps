@@ -244,8 +244,224 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="7dOrQaztw2V" role="jymVt">
+      <property role="TrG5h" value="SAMENSTELLING_OBSERVED" />
+      <property role="IEkAT" value="false" />
+      <property role="3TUv4t" value="true" />
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <node concept="2YIFZM" id="7dOrQaztw2U" role="33vP2m">
+        <ref role="1Pybhc" to="kag7:~Observed" resolve="Observed" />
+        <ref role="37wK5l" to="kag7:~Observed.of(java.lang.Object,java.lang.Object,java.util.function.Supplier,org.modelingvalue.dclare.SetableModifier...)" resolve="of" />
+        <node concept="Xl_RD" id="7dOrQaztw2Y" role="37wK5m">
+          <property role="Xl_RC" value="=samenstelling" />
+        </node>
+        <node concept="2YIFZM" id="7dOrQaztw2T" role="37wK5m">
+          <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+          <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+        </node>
+        <node concept="3uibUv" id="7dOrQaztw2W" role="3PaCim">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+        <node concept="3uibUv" id="7dOrQaztw2X" role="3PaCim">
+          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+        </node>
+        <node concept="10Nm6u" id="7dOrQaztw2Z" role="37wK5m" />
+      </node>
+      <node concept="3Tm1VV" id="7dOrQaztw41" role="1B3o_S" />
+      <node concept="3uibUv" id="7dOrQaztw43" role="1tU5fm">
+        <ref role="3uigEE" to="kag7:~Observed" resolve="Observed" />
+        <node concept="3uibUv" id="7dOrQaztw4A" role="11_B2D">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+        <node concept="3uibUv" id="7dOrQaztw4B" role="11_B2D">
+          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4pUypdCHwUu" role="jymVt" />
+    <node concept="Wx3nA" id="7dOrQazv8nw" role="jymVt">
+      <property role="TrG5h" value="MEDICIJNSAMENSTELLING_R0_ROW" />
+      <property role="IEkAT" value="false" />
+      <property role="3TUv4t" value="true" />
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <node concept="2YIFZM" id="7dOrQazv8nv" role="33vP2m">
+        <ref role="1Pybhc" to="kag7:~Observed" resolve="Observed" />
+        <ref role="37wK5l" to="kag7:~Observed.of(java.lang.Object,java.lang.Object,org.modelingvalue.dclare.SetableModifier...)" resolve="of" />
+        <node concept="3uibUv" id="7dOrQazv8nx" role="3PaCim">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+        <node concept="3uibUv" id="7dOrQazv8ny" role="3PaCim">
+          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+        </node>
+        <node concept="Xl_RD" id="7dOrQazv8nz" role="37wK5m">
+          <property role="Xl_RC" value="MedicijnSamenstelling_r0" />
+        </node>
+        <node concept="10Nm6u" id="7dOrQazv8n$" role="37wK5m" />
+      </node>
+      <node concept="3Tm1VV" id="7dOrQazv8oo" role="1B3o_S" />
+      <node concept="3uibUv" id="7dOrQazv8os" role="1tU5fm">
+        <ref role="3uigEE" to="kag7:~Observed" resolve="Observed" />
+        <node concept="3uibUv" id="7dOrQazv8pr" role="11_B2D">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+        <node concept="3uibUv" id="7dOrQazv8ps" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4pUypdCHwUv" role="jymVt" />
+    <node concept="Wx3nA" id="7dOrQazv8nl" role="jymVt">
+      <property role="TrG5h" value="MEDICIJNSAMENSTELLING_R0_OBSERVER" />
+      <property role="IEkAT" value="false" />
+      <property role="3TUv4t" value="true" />
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <node concept="2YIFZM" id="7dOrQazv8nk" role="33vP2m">
+        <ref role="1Pybhc" to="kag7:~Observer" resolve="Observer" />
+        <ref role="37wK5l" to="kag7:~Observer.of(java.lang.Object,org.modelingvalue.dclare.Setable,java.util.function.Function)" resolve="of" />
+        <node concept="Xl_RD" id="7dOrQazv8nm" role="37wK5m">
+          <property role="Xl_RC" value="MedicijnSamenstelling_r0" />
+        </node>
+        <node concept="10M0yZ" id="7dOrQazv8nn" role="37wK5m">
+          <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+          <ref role="3cqZAo" node="7dOrQazv8nw" resolve="MEDICIJNSAMENSTELLING_R0_ROW" />
+        </node>
+        <node concept="1bVj0M" id="7dOrQazv8no" role="37wK5m">
+          <property role="3yWfEV" value="false" />
+          <node concept="37vLTG" id="7dOrQazv8nH" role="1bW2Oz">
+            <property role="TrG5h" value="it" />
+            <property role="3TUv4t" value="false" />
+            <node concept="3uibUv" id="7dOrQazv8nI" role="1tU5fm">
+              <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7dOrQazv8op" role="1bW5cS">
+            <node concept="3clFbF" id="7dOrQazv8pd" role="3cqZAp">
+              <node concept="3clFbT" id="7dOrQazv8pc" role="3clFbG">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7dOrQazv8ok" role="1B3o_S" />
+      <node concept="3uibUv" id="7dOrQazv8ot" role="1tU5fm">
+        <ref role="3uigEE" to="kag7:~Observer" resolve="Observer" />
+        <node concept="3uibUv" id="7dOrQazv8pp" role="11_B2D">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="7dOrQazv8nq" role="jymVt">
+      <property role="TrG5h" value="MEDICIJNSAMENSTELLING_C0_R0_OBSERVER" />
+      <property role="IEkAT" value="false" />
+      <property role="3TUv4t" value="true" />
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <node concept="2YIFZM" id="7dOrQazv8np" role="33vP2m">
+        <ref role="1Pybhc" to="kag7:~Observer" resolve="Observer" />
+        <ref role="37wK5l" to="kag7:~Observer.of(java.lang.Object,org.modelingvalue.dclare.Setable,java.util.function.Predicate,java.util.function.Function)" resolve="of" />
+        <node concept="Xl_RD" id="7dOrQazv8nr" role="37wK5m">
+          <property role="Xl_RC" value="MedicijnSamenstelling_c0_r0" />
+        </node>
+        <node concept="10M0yZ" id="7dOrQazv8ns" role="37wK5m">
+          <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+          <ref role="3cqZAo" node="7dOrQaztw2V" resolve="SAMENSTELLING_OBSERVED" />
+        </node>
+        <node concept="2ShNRf" id="7dOrQazv8nt" role="37wK5m">
+          <node concept="YeOm9" id="7dOrQazv8nM" role="2ShVmc">
+            <node concept="1Y3b0j" id="7dOrQazv8nL" role="YeSDq">
+              <property role="IEkAT" value="false" />
+              <property role="1EXbeo" value="false" />
+              <property role="1sVAO0" value="false" />
+              <property role="3n5e7y" value="false" />
+              <property role="2bfB8j" value="true" />
+              <property role="3AfOCB" value="false" />
+              <property role="373rjd" value="true" />
+              <ref role="1Y3XeK" to="82uw:~Predicate" resolve="Predicate" />
+              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+              <node concept="3clFb_" id="7dOrQazv8nK" role="jymVt">
+                <property role="TrG5h" value="test" />
+                <property role="IEkAT" value="false" />
+                <property role="DiZV1" value="false" />
+                <property role="od$2w" value="false" />
+                <property role="1EzhhJ" value="false" />
+                <property role="2aFKle" value="false" />
+                <node concept="37vLTG" id="7dOrQazv8nJ" role="3clF46">
+                  <property role="TrG5h" value="a" />
+                  <property role="3TUv4t" value="false" />
+                  <node concept="3uibUv" id="7dOrQazv8nN" role="1tU5fm">
+                    <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="7dOrQazv8nV" role="3clF47">
+                  <node concept="3cpWs6" id="7dOrQazv8nU" role="3cqZAp">
+                    <node concept="3clFbC" id="7dOrQazv8nT" role="3cqZAk">
+                      <node concept="2OqwBi" id="7dOrQazv8nS" role="3uHU7B">
+                        <node concept="liA8E" id="7dOrQazv8nR" role="2OqNvi">
+                          <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+                          <node concept="37vLTw" id="7dOrQazv8nQ" role="37wK5m">
+                            <ref role="3cqZAo" node="7dOrQazv8nJ" resolve="a" />
+                          </node>
+                        </node>
+                        <node concept="10M0yZ" id="7dOrQazv8pm" role="2Oq$k0">
+                          <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+                          <ref role="3cqZAo" node="7dOrQazv8nw" resolve="MEDICIJNSAMENSTELLING_R0_ROW" />
+                        </node>
+                      </node>
+                      <node concept="10M0yZ" id="7dOrQazv8pg" role="3uHU7w">
+                        <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
+                        <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2AHcQZ" id="7dOrQazv8of" role="2AJF6D">
+                  <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                </node>
+                <node concept="3Tm1VV" id="7dOrQazv8on" role="1B3o_S" />
+                <node concept="10P_77" id="7dOrQazv8ph" role="3clF45" />
+              </node>
+              <node concept="3Tm1VV" id="7dOrQazv8om" role="1B3o_S" />
+              <node concept="3uibUv" id="7dOrQazv8or" role="2Ghqu4">
+                <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1bVj0M" id="7dOrQazv8nu" role="37wK5m">
+          <property role="3yWfEV" value="false" />
+          <node concept="37vLTG" id="7dOrQazv8nO" role="1bW2Oz">
+            <property role="TrG5h" value="it" />
+            <property role="3TUv4t" value="false" />
+            <node concept="3uibUv" id="7dOrQazv8nP" role="1tU5fm">
+              <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7dOrQazv8nZ" role="1bW5cS">
+            <node concept="3clFbF" id="7dOrQazv8nY" role="3cqZAp">
+              <node concept="2OqwBi" id="7dOrQazv8nX" role="3clFbG">
+                <node concept="37vLTw" id="7dOrQazv8nW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7dOrQazv8nO" resolve="it" />
+                </node>
+                <node concept="liA8E" id="7dOrQazv8pa" role="2OqNvi">
+                  <ref role="37wK5l" node="7dOrQazv8oj" resolve="MedicijnSamenstelling_c0_r0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7dOrQazv8ol" role="1B3o_S" />
+      <node concept="3uibUv" id="7dOrQazv8ou" role="1tU5fm">
+        <ref role="3uigEE" to="kag7:~Observer" resolve="Observer" />
+        <node concept="3uibUv" id="7dOrQazv8pq" role="11_B2D">
+          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4pUypdCHwUw" role="jymVt" />
     <node concept="Wx3nA" id="4pUypdCHwTS" role="jymVt">
       <property role="TrG5h" value="D_CLASS" />
@@ -313,6 +529,76 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4pUypdCHwUz" role="jymVt" />
+    <node concept="3clFb_" id="7dOrQazv8oh" role="jymVt">
+      <property role="TrG5h" value="MedicijnSamenstelling_c0" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3Tm1VV" id="7dOrQazv8og" role="1B3o_S" />
+      <node concept="3clFbS" id="7dOrQazv8o$" role="3clF47">
+        <node concept="3cpWs6" id="7dOrQazv8oz" role="3cqZAp">
+          <node concept="2OqwBi" id="7dOrQazv8oy" role="3cqZAk">
+            <node concept="liA8E" id="7dOrQazv8ox" role="2OqNvi">
+              <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+              <node concept="Xjq3P" id="7dOrQazv8ow" role="37wK5m" />
+            </node>
+            <node concept="10M0yZ" id="7dOrQazv8pi" role="2Oq$k0">
+              <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+              <ref role="3cqZAo" node="7dOrQaztw2V" resolve="SAMENSTELLING_OBSERVED" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="7dOrQazv8pe" role="3clF45">
+        <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7dOrQazv8oj" role="jymVt">
+      <property role="TrG5h" value="MedicijnSamenstelling_c0_r0" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3Tm1VV" id="7dOrQazv8oi" role="1B3o_S" />
+      <node concept="3clFbS" id="7dOrQazv8oH" role="3clF47">
+        <node concept="3cpWs6" id="7dOrQazv8oG" role="3cqZAp">
+          <node concept="2OqwBi" id="7dOrQazv8oF" role="3cqZAk">
+            <node concept="liA8E" id="7dOrQazv8oE" role="2OqNvi">
+              <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+              <node concept="2OqwBi" id="7dOrQazv8oD" role="37wK5m">
+                <node concept="liA8E" id="7dOrQazv8oC" role="2OqNvi">
+                  <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+                  <node concept="2OqwBi" id="7dOrQazv8oB" role="37wK5m">
+                    <node concept="liA8E" id="7dOrQazv8oA" role="2OqNvi">
+                      <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+                      <node concept="Xjq3P" id="7dOrQazv8o_" role="37wK5m" />
+                    </node>
+                    <node concept="10M0yZ" id="7dOrQazv8pl" role="2Oq$k0">
+                      <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+                      <ref role="3cqZAo" node="4pUypdCJDO$" resolve="GENERIEK_OBSERVED" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="7dOrQazv8pk" role="2Oq$k0">
+                  <ref role="1PxDUh" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
+                  <ref role="3cqZAo" node="4pUypdCJ9Ck" resolve="GROEP_OBSERVED" />
+                </node>
+              </node>
+            </node>
+            <node concept="10M0yZ" id="7dOrQazv8pj" role="2Oq$k0">
+              <ref role="1PxDUh" node="4pUypdCHHcL" resolve="MedicijnGroep_Concept" />
+              <ref role="3cqZAo" node="4pUypdCPHC4" resolve="SAMENSTELLING_OBSERVED" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="7dOrQazv8pf" role="3clF45">
+        <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4pUypdCHwU$" role="jymVt" />
     <node concept="312cEu" id="4pUypdCHwTW" role="jymVt">
       <property role="TrG5h" value="ConceptUniverse" />
@@ -1414,6 +1700,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZv" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZw" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2e" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2f" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi34" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3$" role="37wK5m">
+                          <property role="Xl_RC" value="VKA" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2g" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oWpr_" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oWprA" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1435,6 +1741,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oVtYf" role="37wK5m">
                     <property role="Xl_RC" value="fenprocoumon" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhYZ" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ0" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1p" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1q" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2L" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3h" role="37wK5m">
+                          <property role="Xl_RC" value="VKA" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1r" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1462,6 +1788,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ5" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ6" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1z" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1$" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2P" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3l" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1_" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oXbDg" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oXbDh" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1483,6 +1829,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oVx$y" role="37wK5m">
                     <property role="Xl_RC" value="rivaroxaban" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZL" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZM" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2D" role="2ShVmc">
+                    <node concept="3uibUv" id="1idF2Jzdi2F" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                    <node concept="2ShNRf" id="1idF2JzwNgu" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2JzwNgv" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2JzwNgw" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1510,6 +1876,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZP" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZQ" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2G" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2H" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi3e" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3I" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2I" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oXo7D" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oXo7E" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1531,6 +1917,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oV_cx" role="37wK5m">
                     <property role="Xl_RC" value="edoxaban" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZn" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZo" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi21" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi22" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2Z" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3v" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi23" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1558,6 +1964,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZF" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZG" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2t" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2u" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi39" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3D" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2v" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oX$UE" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oX$UF" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1579,6 +2005,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oVCQc" role="37wK5m">
                     <property role="Xl_RC" value="carbasalaatcalcium" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ_" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZA" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2k" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2l" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi36" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3A" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2m" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1606,6 +2052,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZx" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZy" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2b" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2c" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi33" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3z" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2d" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oXLtt" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oXLtu" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1627,6 +2093,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oVGxz" role="37wK5m">
                     <property role="Xl_RC" value="clopidogrel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZf" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZg" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1M" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1N" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2U" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3q" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1O" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1654,6 +2140,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ9" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZa" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1G" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1H" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2S" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3o" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1I" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oXY3t" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oXY3u" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1675,6 +2181,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oVInR" role="37wK5m">
                     <property role="Xl_RC" value="ticagrelor" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZl" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZm" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1S" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1T" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2W" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3s" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1U" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1702,6 +2228,35 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZr" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZs" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi24" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi25" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi30" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3w" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="1idF2Jzdi26" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi31" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3x" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi27" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="2ShNRf" id="6AAC_8oYWug" role="37wK5m">
                 <node concept="1pGfFk" id="6AAC_8oYWuh" role="2ShVmc">
                   <property role="373rjd" value="true" />
@@ -1723,6 +2278,35 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oYUvH" role="37wK5m">
                     <property role="Xl_RC" value="duoplavin" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ1" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ2" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1s" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1t" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2M" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3i" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="1idF2Jzdi1u" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2N" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3j" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1v" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1774,7 +2358,7 @@
               <node concept="1pGfFk" id="6AAC_8oTvyv" role="2ShVmc">
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
-                <node concept="37vLTw" id="7dOrQazr7Am" role="37wK5m">
+                <node concept="37vLTw" id="1idF2Jzz$fF" role="37wK5m">
                   <ref role="3cqZAo" node="6AAC_8oTvym" resolve="id" />
                 </node>
               </node>
@@ -1801,18 +2385,35 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7dOrQazr7Az" role="3cqZAp">
-          <node concept="2OqwBi" id="7dOrQazr7Ay" role="3clFbG">
-            <node concept="liA8E" id="7dOrQazr7Ax" role="2OqNvi">
+        <node concept="3clFbF" id="7dOrQaztw3K" role="3cqZAp">
+          <node concept="2OqwBi" id="7dOrQaztw3J" role="3clFbG">
+            <node concept="liA8E" id="7dOrQaztw3I" role="2OqNvi">
               <ref role="37wK5l" to="kag7:~Setable.set(java.lang.Object,java.lang.Object)" resolve="set" />
-              <node concept="37vLTw" id="7dOrQazr7Aw" role="37wK5m">
+              <node concept="37vLTw" id="7dOrQaztw3H" role="37wK5m">
                 <ref role="3cqZAo" node="6AAC_8oTvys" resolve="o" />
               </node>
-              <node concept="37vLTw" id="7dOrQazr7A$" role="37wK5m">
+              <node concept="37vLTw" id="7dOrQaztw3L" role="37wK5m">
+                <ref role="3cqZAo" node="7dOrQaztw3A" resolve="samenstelling" />
+              </node>
+            </node>
+            <node concept="10M0yZ" id="7dOrQaztw4z" role="2Oq$k0">
+              <ref role="1PxDUh" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
+              <ref role="3cqZAo" node="7dOrQaztw2V" resolve="SAMENSTELLING_OBSERVED" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1idF2Jzz$g1" role="3cqZAp">
+          <node concept="2OqwBi" id="1idF2Jzz$g0" role="3clFbG">
+            <node concept="liA8E" id="1idF2Jzz$fZ" role="2OqNvi">
+              <ref role="37wK5l" to="kag7:~Setable.set(java.lang.Object,java.lang.Object)" resolve="set" />
+              <node concept="37vLTw" id="1idF2Jzz$fY" role="37wK5m">
+                <ref role="3cqZAo" node="6AAC_8oTvys" resolve="o" />
+              </node>
+              <node concept="37vLTw" id="1idF2Jzz$g2" role="37wK5m">
                 <ref role="3cqZAo" node="6AAC_8oTw6z" resolve="groep" />
               </node>
             </node>
-            <node concept="10M0yZ" id="7dOrQazr7AC" role="2Oq$k0">
+            <node concept="10M0yZ" id="1idF2Jzz$g9" role="2Oq$k0">
               <ref role="1PxDUh" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
               <ref role="3cqZAo" node="4pUypdCJ9Ck" resolve="GROEP_OBSERVED" />
             </node>
@@ -1832,6 +2433,12 @@
         <property role="TrG5h" value="generiek" />
         <node concept="3uibUv" id="6AAC_8oTw6y" role="1tU5fm">
           <ref role="3uigEE" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7dOrQaztw3A" role="3clF46">
+        <property role="TrG5h" value="samenstelling" />
+        <node concept="3uibUv" id="7dOrQaztw3B" role="1tU5fm">
+          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
         </node>
       </node>
       <node concept="37vLTG" id="6AAC_8oTw6z" role="3clF46">
@@ -1984,7 +2591,7 @@
         <node concept="3uibUv" id="4CAiFKVfyXo" role="3PaCim">
           <ref role="3uigEE" node="3qvXTOlaWk9" resolve="Patient_Concept" />
         </node>
-        <node concept="3uibUv" id="4CAiFKVhFOV" role="3PaCim">
+        <node concept="3uibUv" id="7Ri6vAeVT30" role="3PaCim">
           <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
         </node>
       </node>
@@ -1994,7 +2601,7 @@
         <node concept="3uibUv" id="4CAiFKVfyYf" role="11_B2D">
           <ref role="3uigEE" node="3qvXTOlaWk9" resolve="Patient_Concept" />
         </node>
-        <node concept="3uibUv" id="4CAiFKVhFP1" role="11_B2D">
+        <node concept="3uibUv" id="7Ri6vAeVT33" role="11_B2D">
           <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
         </node>
       </node>
@@ -3526,6 +4133,9 @@
                         <property role="3n5e7y" value="false" />
                         <ref role="1Y3XeK" to="82uw:~Function" resolve="Function" />
                         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <node concept="3uibUv" id="7Ri6vAeUPjt" role="2Ghqu4">
+                          <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+                        </node>
                         <node concept="3clFb_" id="2cLOtskPVsu" role="jymVt">
                           <property role="TrG5h" value="apply" />
                           <property role="1EzhhJ" value="false" />
@@ -3546,8 +4156,8 @@
                                     </node>
                                   </node>
                                   <node concept="10M0yZ" id="2cLOtskPVtc" role="2Oq$k0">
-                                    <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-                                    <ref role="3cqZAo" node="4pUypdCNSiP" resolve="SAMENSTELLING_OBSERVED" />
+                                    <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
+                                    <ref role="3cqZAo" node="7dOrQaztw2V" resolve="SAMENSTELLING_OBSERVED" />
                                   </node>
                                 </node>
                                 <node concept="3uibUv" id="2cLOtskPVta" role="1tU5fm">
@@ -3555,63 +4165,63 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="3clFbJ" id="7dOrQazr7Ab" role="3cqZAp">
+                            <node concept="3clFbJ" id="1idF2Jzz$fo" role="3cqZAp">
                               <property role="TyiWK" value="false" />
                               <property role="TyiWL" value="false" />
-                              <node concept="3eNFk2" id="7dOrQazr7Aa" role="3eNLev">
-                                <node concept="3y3z36" id="7dOrQazr7Ac" role="3eO9$A">
-                                  <node concept="37vLTw" id="7dOrQazr7Ap" role="3uHU7B">
+                              <node concept="3eNFk2" id="1idF2Jzz$fn" role="3eNLev">
+                                <node concept="3y3z36" id="1idF2Jzz$fp" role="3eO9$A">
+                                  <node concept="37vLTw" id="1idF2Jzz$fR" role="3uHU7B">
                                     <ref role="3cqZAo" node="2cLOtskPVsL" resolve="w" />
                                   </node>
-                                  <node concept="10Nm6u" id="7dOrQazr7AA" role="3uHU7w" />
+                                  <node concept="10Nm6u" id="1idF2Jzz$g6" role="3uHU7w" />
                                 </node>
-                                <node concept="3clFbS" id="7dOrQazr7Ad" role="3eOfB_">
-                                  <node concept="3cpWs6" id="7dOrQazr7Aj" role="3cqZAp">
-                                    <node concept="2YIFZM" id="7dOrQazr7Ai" role="3cqZAk">
+                                <node concept="3clFbS" id="1idF2Jzz$fq" role="3eOfB_">
+                                  <node concept="3cpWs6" id="1idF2Jzz$fC" role="3cqZAp">
+                                    <node concept="2YIFZM" id="1idF2Jzz$fB" role="3cqZAk">
                                       <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
                                       <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
-                                      <node concept="3uibUv" id="7dOrQazr7Ak" role="3PaCim">
+                                      <node concept="3uibUv" id="1idF2Jzz$fD" role="3PaCim">
                                         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                                       </node>
-                                      <node concept="37vLTw" id="7dOrQazr7Al" role="37wK5m">
+                                      <node concept="37vLTw" id="1idF2Jzz$fE" role="37wK5m">
                                         <ref role="3cqZAo" node="2cLOtskPVsL" resolve="w" />
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="9aQIb" id="7dOrQazr7Ah" role="9aQIa">
-                                <node concept="3clFbS" id="7dOrQazr7Ag" role="9aQI4">
-                                  <node concept="3cpWs6" id="7dOrQazr7Af" role="3cqZAp">
-                                    <node concept="2YIFZM" id="7dOrQazr7Ae" role="3cqZAk">
+                              <node concept="9aQIb" id="1idF2Jzz$fA" role="9aQIa">
+                                <node concept="3clFbS" id="1idF2Jzz$f_" role="9aQI4">
+                                  <node concept="3cpWs6" id="1idF2Jzz$f$" role="3cqZAp">
+                                    <node concept="2YIFZM" id="1idF2Jzz$fz" role="3cqZAk">
                                       <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
                                       <ref role="37wK5l" to="zrbp:~Set.of()" resolve="of" />
                                     </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="2ZW3vV" id="7dOrQazr7Ao" role="3clFbw">
-                                <node concept="37vLTw" id="7dOrQazr7An" role="2ZW6bz">
+                              <node concept="2ZW3vV" id="1idF2Jzz$fQ" role="3clFbw">
+                                <node concept="37vLTw" id="1idF2Jzz$fP" role="2ZW6bz">
                                   <ref role="3cqZAo" node="2cLOtskPVsL" resolve="w" />
                                 </node>
-                                <node concept="3uibUv" id="7dOrQazr7A_" role="2ZW6by">
+                                <node concept="3uibUv" id="1idF2Jzz$g4" role="2ZW6by">
                                   <ref role="3uigEE" to="zrbp:~ContainingCollection" resolve="ContainingCollection" />
                                 </node>
                               </node>
-                              <node concept="3clFbS" id="7dOrQazr7Av" role="3clFbx">
-                                <node concept="3cpWs6" id="7dOrQazr7Au" role="3cqZAp">
-                                  <node concept="2OqwBi" id="7dOrQazr7At" role="3cqZAk">
-                                    <node concept="1eOMI4" id="7dOrQazr7As" role="2Oq$k0">
-                                      <node concept="10QFUN" id="7dOrQazr7Ar" role="1eOMHV">
-                                        <node concept="37vLTw" id="7dOrQazr7Aq" role="10QFUP">
+                              <node concept="3clFbS" id="1idF2Jzz$fX" role="3clFbx">
+                                <node concept="3cpWs6" id="1idF2Jzz$fW" role="3cqZAp">
+                                  <node concept="2OqwBi" id="1idF2Jzz$fV" role="3cqZAk">
+                                    <node concept="1eOMI4" id="1idF2Jzz$fU" role="2Oq$k0">
+                                      <node concept="10QFUN" id="1idF2Jzz$fT" role="1eOMHV">
+                                        <node concept="37vLTw" id="1idF2Jzz$fS" role="10QFUP">
                                           <ref role="3cqZAo" node="2cLOtskPVsL" resolve="w" />
                                         </node>
-                                        <node concept="3uibUv" id="7dOrQazr7AD" role="10QFUM">
+                                        <node concept="3uibUv" id="1idF2Jzz$gb" role="10QFUM">
                                           <ref role="3uigEE" to="zrbp:~ContainingCollection" resolve="ContainingCollection" />
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="7dOrQazr7AB" role="2OqNvi">
+                                    <node concept="liA8E" id="1idF2Jzz$g8" role="2OqNvi">
                                       <ref role="37wK5l" to="zrbp:~Collection.toSet()" resolve="toSet" />
                                     </node>
                                   </node>
@@ -3623,7 +4233,7 @@
                             <property role="TrG5h" value="e" />
                             <property role="3TUv4t" value="false" />
                             <node concept="3uibUv" id="2cLOtskPVsI" role="1tU5fm">
-                              <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
+                              <ref role="3uigEE" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
                             </node>
                           </node>
                           <node concept="2AHcQZ" id="2cLOtskPVsX" role="2AJF6D">
@@ -3638,9 +4248,6 @@
                           </node>
                         </node>
                         <node concept="3Tm1VV" id="2cLOtskPVsY" role="1B3o_S" />
-                        <node concept="3uibUv" id="2cLOtskPVt1" role="2Ghqu4">
-                          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-                        </node>
                         <node concept="3uibUv" id="2cLOtskPVt2" role="2Ghqu4">
                           <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
                           <node concept="3uibUv" id="2cLOtskPVtf" role="11_B2D">
@@ -3653,12 +4260,166 @@
                 </node>
                 <node concept="2OqwBi" id="2cLOtskPVt6" role="2Oq$k0">
                   <node concept="liA8E" id="2cLOtskPVt5" role="2OqNvi">
-                    <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                    <node concept="Xjq3P" id="2cLOtskPVt4" role="37wK5m" />
+                    <ref role="37wK5l" to="zrbp:~Collection.toSet()" resolve="toSet" />
                   </node>
-                  <node concept="10M0yZ" id="2cLOtskPVtb" role="2Oq$k0">
-                    <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
-                    <ref role="3cqZAo" node="4pUypdCIbVe" resolve="MEDICIJNENGEBRUIK_OBSERVED" />
+                  <node concept="0kSF2" id="7Ri6vAeUPin" role="2Oq$k0">
+                    <node concept="3uibUv" id="7Ri6vAeUPio" role="0kSFW">
+                      <ref role="3uigEE" to="zrbp:~Collection" resolve="Collection" />
+                      <node concept="3uibUv" id="7Ri6vAeUPjJ" role="11_B2D">
+                        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="7Ri6vAeUPip" role="0kSFX">
+                      <node concept="liA8E" id="7Ri6vAeUPix" role="2OqNvi">
+                        <ref role="37wK5l" to="zrbp:~Collection.flatMap(java.util.function.Function)" resolve="flatMap" />
+                        <node concept="2ShNRf" id="7Ri6vAeUPiw" role="37wK5m">
+                          <node concept="YeOm9" id="7Ri6vAeUPiv" role="2ShVmc">
+                            <node concept="1Y3b0j" id="7Ri6vAeUPiu" role="YeSDq">
+                              <property role="IEkAT" value="false" />
+                              <property role="1sVAO0" value="false" />
+                              <property role="1EXbeo" value="false" />
+                              <property role="2bfB8j" value="true" />
+                              <property role="3n5e7y" value="false" />
+                              <property role="373rjd" value="true" />
+                              <property role="3AfOCB" value="false" />
+                              <ref role="1Y3XeK" to="82uw:~Function" resolve="Function" />
+                              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                              <node concept="3clFb_" id="7Ri6vAeUPit" role="jymVt">
+                                <property role="TrG5h" value="apply" />
+                                <property role="od$2w" value="false" />
+                                <property role="IEkAT" value="false" />
+                                <property role="DiZV1" value="false" />
+                                <property role="1EzhhJ" value="false" />
+                                <property role="2aFKle" value="false" />
+                                <node concept="3clFbS" id="7Ri6vAeUPis" role="3clF47">
+                                  <node concept="3cpWs8" id="7Ri6vAeUPj0" role="3cqZAp">
+                                    <node concept="3cpWsn" id="7Ri6vAeUPiZ" role="3cpWs9">
+                                      <property role="TrG5h" value="w" />
+                                      <property role="3TUv4t" value="false" />
+                                      <node concept="2OqwBi" id="7Ri6vAeUPiY" role="33vP2m">
+                                        <node concept="liA8E" id="7Ri6vAeUPiX" role="2OqNvi">
+                                          <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+                                          <node concept="37vLTw" id="7Ri6vAeUPiW" role="37wK5m">
+                                            <ref role="3cqZAo" node="7Ri6vAeUPiT" resolve="e" />
+                                          </node>
+                                        </node>
+                                        <node concept="10M0yZ" id="7Ri6vAeUPjE" role="2Oq$k0">
+                                          <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
+                                          <ref role="3cqZAo" node="4pUypdCJYcw" resolve="MEDICIJN_OBSERVED" />
+                                        </node>
+                                      </node>
+                                      <node concept="3uibUv" id="7Ri6vAeUPjC" role="1tU5fm">
+                                        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbJ" id="1idF2Jzz$fk" role="3cqZAp">
+                                    <property role="TyiWK" value="false" />
+                                    <property role="TyiWL" value="false" />
+                                    <node concept="3eNFk2" id="1idF2Jzz$fj" role="3eNLev">
+                                      <node concept="3y3z36" id="1idF2Jzz$fl" role="3eO9$A">
+                                        <node concept="37vLTw" id="1idF2Jzz$fG" role="3uHU7B">
+                                          <ref role="3cqZAo" node="7Ri6vAeUPiZ" resolve="w" />
+                                        </node>
+                                        <node concept="10Nm6u" id="1idF2Jzz$g5" role="3uHU7w" />
+                                      </node>
+                                      <node concept="3clFbS" id="1idF2Jzz$fm" role="3eOfB_">
+                                        <node concept="3cpWs6" id="1idF2Jzz$fs" role="3cqZAp">
+                                          <node concept="2YIFZM" id="1idF2Jzz$fr" role="3cqZAk">
+                                            <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                                            <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                                            <node concept="3uibUv" id="1idF2Jzz$ft" role="3PaCim">
+                                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                                            </node>
+                                            <node concept="37vLTw" id="1idF2Jzz$fu" role="37wK5m">
+                                              <ref role="3cqZAo" node="7Ri6vAeUPiZ" resolve="w" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="9aQIb" id="1idF2Jzz$fy" role="9aQIa">
+                                      <node concept="3clFbS" id="1idF2Jzz$fx" role="9aQI4">
+                                        <node concept="3cpWs6" id="1idF2Jzz$fw" role="3cqZAp">
+                                          <node concept="2YIFZM" id="1idF2Jzz$fv" role="3cqZAk">
+                                            <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                                            <ref role="37wK5l" to="zrbp:~Set.of()" resolve="of" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbS" id="1idF2Jzz$fM" role="3clFbx">
+                                      <node concept="3cpWs6" id="1idF2Jzz$fL" role="3cqZAp">
+                                        <node concept="2OqwBi" id="1idF2Jzz$fK" role="3cqZAk">
+                                          <node concept="1eOMI4" id="1idF2Jzz$fJ" role="2Oq$k0">
+                                            <node concept="10QFUN" id="1idF2Jzz$fI" role="1eOMHV">
+                                              <node concept="37vLTw" id="1idF2Jzz$fH" role="10QFUP">
+                                                <ref role="3cqZAo" node="7Ri6vAeUPiZ" resolve="w" />
+                                              </node>
+                                              <node concept="3uibUv" id="1idF2Jzz$ga" role="10QFUM">
+                                                <ref role="3uigEE" to="zrbp:~ContainingCollection" resolve="ContainingCollection" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="1idF2Jzz$g7" role="2OqNvi">
+                                            <ref role="37wK5l" to="zrbp:~Collection.toSet()" resolve="toSet" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2ZW3vV" id="1idF2Jzz$fO" role="3clFbw">
+                                      <node concept="37vLTw" id="1idF2Jzz$fN" role="2ZW6bz">
+                                        <ref role="3cqZAo" node="7Ri6vAeUPiZ" resolve="w" />
+                                      </node>
+                                      <node concept="3uibUv" id="1idF2Jzz$g3" role="2ZW6by">
+                                        <ref role="3uigEE" to="zrbp:~ContainingCollection" resolve="ContainingCollection" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTG" id="7Ri6vAeUPiT" role="3clF46">
+                                  <property role="TrG5h" value="e" />
+                                  <property role="3TUv4t" value="false" />
+                                  <node concept="3uibUv" id="7Ri6vAeUPiU" role="1tU5fm">
+                                    <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
+                                  </node>
+                                </node>
+                                <node concept="2AHcQZ" id="7Ri6vAeUPjo" role="2AJF6D">
+                                  <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                </node>
+                                <node concept="3Tm1VV" id="7Ri6vAeUPjq" role="1B3o_S" />
+                                <node concept="3uibUv" id="7Ri6vAeUPjB" role="3clF45">
+                                  <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+                                  <node concept="3uibUv" id="7Ri6vAeUPjL" role="11_B2D">
+                                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3Tm1VV" id="7Ri6vAeUPjp" role="1B3o_S" />
+                              <node concept="3uibUv" id="7Ri6vAeUPju" role="2Ghqu4">
+                                <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
+                              </node>
+                              <node concept="3uibUv" id="7Ri6vAeUPjv" role="2Ghqu4">
+                                <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
+                                <node concept="3uibUv" id="7Ri6vAeUPjK" role="11_B2D">
+                                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="7Ri6vAeUPj$" role="2Oq$k0">
+                        <node concept="liA8E" id="7Ri6vAeUPjz" role="2OqNvi">
+                          <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
+                          <node concept="Xjq3P" id="7Ri6vAeUPjy" role="37wK5m" />
+                        </node>
+                        <node concept="10M0yZ" id="7Ri6vAeUPjD" role="2Oq$k0">
+                          <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
+                          <ref role="3cqZAo" node="4pUypdCIbVe" resolve="MEDICIJNENGEBRUIK_OBSERVED" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3669,7 +4430,7 @@
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="4CAiFKVhFOZ" role="3clF45">
+      <node concept="3uibUv" id="7Ri6vAeVT32" role="3clF45">
         <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
       </node>
     </node>
@@ -5225,224 +5986,8 @@
         </node>
       </node>
     </node>
-    <node concept="Wx3nA" id="4pUypdCNSiP" role="jymVt">
-      <property role="TrG5h" value="SAMENSTELLING_OBSERVED" />
-      <property role="IEkAT" value="false" />
-      <property role="3TUv4t" value="true" />
-      <property role="2dlcS1" value="false" />
-      <property role="2dld4O" value="false" />
-      <node concept="2YIFZM" id="4pUypdCNSiO" role="33vP2m">
-        <ref role="1Pybhc" to="kag7:~Observed" resolve="Observed" />
-        <ref role="37wK5l" to="kag7:~Observed.of(java.lang.Object,java.lang.Object,java.util.function.Supplier,org.modelingvalue.dclare.SetableModifier...)" resolve="of" />
-        <node concept="3uibUv" id="4pUypdCNSiQ" role="3PaCim">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-        <node concept="Xl_RD" id="4pUypdCNSiS" role="37wK5m">
-          <property role="Xl_RC" value="=samenstelling" />
-        </node>
-        <node concept="2YIFZM" id="4CAiFKV99xS" role="37wK5m">
-          <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
-          <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
-        </node>
-        <node concept="10Nm6u" id="4pUypdCNSiU" role="37wK5m" />
-        <node concept="3uibUv" id="4CAiFKVaTQp" role="3PaCim">
-          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="4pUypdCNSiV" role="1B3o_S" />
-      <node concept="3uibUv" id="4pUypdCNSiW" role="1tU5fm">
-        <ref role="3uigEE" to="kag7:~Observed" resolve="Observed" />
-        <node concept="3uibUv" id="4pUypdCNSiX" role="11_B2D">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-        <node concept="3uibUv" id="4CAiFKVaTQr" role="11_B2D">
-          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="4pUypdCHN$u" role="jymVt" />
-    <node concept="Wx3nA" id="4CAiFKV7cdR" role="jymVt">
-      <property role="TrG5h" value="MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW" />
-      <property role="IEkAT" value="false" />
-      <property role="2dlcS1" value="false" />
-      <property role="2dld4O" value="false" />
-      <property role="3TUv4t" value="true" />
-      <node concept="2YIFZM" id="4CAiFKV7cdQ" role="33vP2m">
-        <ref role="1Pybhc" to="kag7:~Observed" resolve="Observed" />
-        <ref role="37wK5l" to="kag7:~Observed.of(java.lang.Object,java.lang.Object,org.modelingvalue.dclare.SetableModifier...)" resolve="of" />
-        <node concept="Xl_RD" id="4CAiFKV7cdS" role="37wK5m">
-          <property role="Xl_RC" value="MedicijnGebruikSamenstelling_r0" />
-        </node>
-        <node concept="10Nm6u" id="4CAiFKV7cdT" role="37wK5m" />
-        <node concept="3uibUv" id="4CAiFKV7cdU" role="3PaCim">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-        <node concept="3uibUv" id="4CAiFKV7cdV" role="3PaCim">
-          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="4CAiFKV7cer" role="1B3o_S" />
-      <node concept="3uibUv" id="4CAiFKV7cez" role="1tU5fm">
-        <ref role="3uigEE" to="kag7:~Observed" resolve="Observed" />
-        <node concept="3uibUv" id="4CAiFKV7ceK" role="11_B2D">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-        <node concept="3uibUv" id="4CAiFKV7ceL" role="11_B2D">
-          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="4pUypdCHN$v" role="jymVt" />
-    <node concept="Wx3nA" id="4CAiFKV7ce2" role="jymVt">
-      <property role="TrG5h" value="MEDICIJNGEBRUIKSAMENSTELLING_R0_OBSERVER" />
-      <property role="IEkAT" value="false" />
-      <property role="2dlcS1" value="false" />
-      <property role="2dld4O" value="false" />
-      <property role="3TUv4t" value="true" />
-      <node concept="2YIFZM" id="4CAiFKV7ce1" role="33vP2m">
-        <ref role="1Pybhc" to="kag7:~Observer" resolve="Observer" />
-        <ref role="37wK5l" to="kag7:~Observer.of(java.lang.Object,org.modelingvalue.dclare.Setable,java.util.function.Function)" resolve="of" />
-        <node concept="Xl_RD" id="4CAiFKV7ce3" role="37wK5m">
-          <property role="Xl_RC" value="MedicijnGebruikSamenstelling_r0" />
-        </node>
-        <node concept="10M0yZ" id="4CAiFKV7ce4" role="37wK5m">
-          <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-          <ref role="3cqZAo" node="4CAiFKV7cdR" resolve="MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW" />
-        </node>
-        <node concept="1bVj0M" id="4CAiFKV7ce5" role="37wK5m">
-          <property role="3yWfEV" value="false" />
-          <node concept="37vLTG" id="4CAiFKV7ce6" role="1bW2Oz">
-            <property role="TrG5h" value="it" />
-            <property role="3TUv4t" value="false" />
-            <node concept="3uibUv" id="4CAiFKV7ce7" role="1tU5fm">
-              <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="4CAiFKV7ceu" role="1bW5cS">
-            <node concept="3clFbF" id="4CAiFKV7ceC" role="3cqZAp">
-              <node concept="3clFbT" id="4CAiFKV7ceB" role="3clFbG">
-                <property role="3clFbU" value="true" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="4CAiFKV7cet" role="1B3o_S" />
-      <node concept="3uibUv" id="4CAiFKV7ce$" role="1tU5fm">
-        <ref role="3uigEE" to="kag7:~Observer" resolve="Observer" />
-        <node concept="3uibUv" id="4CAiFKV7ceN" role="11_B2D">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-      </node>
-    </node>
-    <node concept="Wx3nA" id="4CAiFKV8LJg" role="jymVt">
-      <property role="TrG5h" value="MEDICIJNGEBRUIKSAMENSTELLING_C0_R0_OBSERVER" />
-      <property role="IEkAT" value="false" />
-      <property role="2dlcS1" value="false" />
-      <property role="2dld4O" value="false" />
-      <property role="3TUv4t" value="true" />
-      <node concept="2YIFZM" id="4CAiFKV8LJf" role="33vP2m">
-        <ref role="1Pybhc" to="kag7:~Observer" resolve="Observer" />
-        <ref role="37wK5l" to="kag7:~Observer.of(java.lang.Object,org.modelingvalue.dclare.Setable,java.util.function.Predicate,java.util.function.Function)" resolve="of" />
-        <node concept="Xl_RD" id="4CAiFKV8LJh" role="37wK5m">
-          <property role="Xl_RC" value="MedicijnGebruikSamenstelling_c0_r0" />
-        </node>
-        <node concept="10M0yZ" id="4CAiFKV8LJi" role="37wK5m">
-          <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-          <ref role="3cqZAo" node="4pUypdCNSiP" resolve="SAMENSTELLING_OBSERVED" />
-        </node>
-        <node concept="2ShNRf" id="4CAiFKV8LJj" role="37wK5m">
-          <node concept="YeOm9" id="4CAiFKV8LJq" role="2ShVmc">
-            <node concept="1Y3b0j" id="4CAiFKV8LJp" role="YeSDq">
-              <property role="1sVAO0" value="false" />
-              <property role="1EXbeo" value="false" />
-              <property role="IEkAT" value="false" />
-              <property role="373rjd" value="true" />
-              <property role="3AfOCB" value="false" />
-              <property role="3n5e7y" value="false" />
-              <property role="2bfB8j" value="true" />
-              <ref role="1Y3XeK" to="82uw:~Predicate" resolve="Predicate" />
-              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-              <node concept="3clFb_" id="4CAiFKV8LJo" role="jymVt">
-                <property role="TrG5h" value="test" />
-                <property role="1EzhhJ" value="false" />
-                <property role="DiZV1" value="false" />
-                <property role="IEkAT" value="false" />
-                <property role="od$2w" value="false" />
-                <property role="2aFKle" value="false" />
-                <node concept="37vLTG" id="4CAiFKV8LJn" role="3clF46">
-                  <property role="TrG5h" value="a" />
-                  <property role="3TUv4t" value="false" />
-                  <node concept="3uibUv" id="4CAiFKV8LJr" role="1tU5fm">
-                    <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-                  </node>
-                </node>
-                <node concept="3clFbS" id="4CAiFKV8LJ_" role="3clF47">
-                  <node concept="3cpWs6" id="4CAiFKV8LJ$" role="3cqZAp">
-                    <node concept="3clFbC" id="4CAiFKV8LJz" role="3cqZAk">
-                      <node concept="2OqwBi" id="4CAiFKV8LJy" role="3uHU7B">
-                        <node concept="liA8E" id="4CAiFKV8LJx" role="2OqNvi">
-                          <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                          <node concept="37vLTw" id="4CAiFKV8LJw" role="37wK5m">
-                            <ref role="3cqZAo" node="4CAiFKV8LJn" resolve="a" />
-                          </node>
-                        </node>
-                        <node concept="10M0yZ" id="4CAiFKV8LJN" role="2Oq$k0">
-                          <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-                          <ref role="3cqZAo" node="4CAiFKV7cdR" resolve="MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW" />
-                        </node>
-                      </node>
-                      <node concept="10M0yZ" id="4CAiFKV8LJK" role="3uHU7w">
-                        <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
-                        <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2AHcQZ" id="4CAiFKV8LJA" role="2AJF6D">
-                  <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                </node>
-                <node concept="3Tm1VV" id="4CAiFKV8LJD" role="1B3o_S" />
-                <node concept="10P_77" id="4CAiFKV8LJL" role="3clF45" />
-              </node>
-              <node concept="3Tm1VV" id="4CAiFKV8LJC" role="1B3o_S" />
-              <node concept="3uibUv" id="4CAiFKV8LJE" role="2Ghqu4">
-                <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1bVj0M" id="4CAiFKV8LJk" role="37wK5m">
-          <property role="3yWfEV" value="false" />
-          <node concept="37vLTG" id="4CAiFKV8LJl" role="1bW2Oz">
-            <property role="TrG5h" value="it" />
-            <property role="3TUv4t" value="false" />
-            <node concept="3uibUv" id="4CAiFKV8LJm" role="1tU5fm">
-              <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="4CAiFKV8LJv" role="1bW5cS">
-            <node concept="3clFbF" id="4CAiFKV8LJu" role="3cqZAp">
-              <node concept="2OqwBi" id="4CAiFKV8LJt" role="3clFbG">
-                <node concept="37vLTw" id="4CAiFKV8LJs" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4CAiFKV8LJl" resolve="it" />
-                </node>
-                <node concept="liA8E" id="4CAiFKV8LJJ" role="2OqNvi">
-                  <ref role="37wK5l" node="4CAiFKV8zs7" resolve="MedicijnGebruikSamenstelling_c0_r0" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="4CAiFKV8LJB" role="1B3o_S" />
-      <node concept="3uibUv" id="4CAiFKV8LJF" role="1tU5fm">
-        <ref role="3uigEE" to="kag7:~Observer" resolve="Observer" />
-        <node concept="3uibUv" id="4CAiFKV8LJO" role="11_B2D">
-          <ref role="3uigEE" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="4pUypdCHN$w" role="jymVt" />
     <node concept="Wx3nA" id="4pUypdCHNzS" role="jymVt">
       <property role="TrG5h" value="D_CLASS" />
@@ -5510,85 +6055,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4pUypdCHN$z" role="jymVt" />
-    <node concept="3clFb_" id="4CAiFKV7cen" role="jymVt">
-      <property role="TrG5h" value="MedicijnGebruikSamenstelling_c0" />
-      <property role="1EzhhJ" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3Tm1VV" id="4CAiFKV7cem" role="1B3o_S" />
-      <node concept="3clFbS" id="4CAiFKV7ceD" role="3clF47">
-        <node concept="3cpWs6" id="4CAiFKV7ceF" role="3cqZAp">
-          <node concept="2OqwBi" id="4CAiFKV8zsa" role="3cqZAk">
-            <node concept="liA8E" id="4CAiFKV8zs9" role="2OqNvi">
-              <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-              <node concept="Xjq3P" id="4CAiFKV8zs8" role="37wK5m" />
-            </node>
-            <node concept="10M0yZ" id="4CAiFKV8zsg" role="2Oq$k0">
-              <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-              <ref role="3cqZAo" node="4pUypdCNSiP" resolve="SAMENSTELLING_OBSERVED" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="4CAiFKV8zsb" role="3clF45">
-        <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="4CAiFKV8zs7" role="jymVt">
-      <property role="TrG5h" value="MedicijnGebruikSamenstelling_c0_r0" />
-      <property role="1EzhhJ" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3Tm1VV" id="4CAiFKV8zs6" role="1B3o_S" />
-      <node concept="3uibUv" id="4CAiFKV8zsc" role="3clF45">
-        <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
-      </node>
-      <node concept="3clFbS" id="4CAiFKV8zsd" role="3clF47">
-        <node concept="3cpWs6" id="4CAiFKV8zse" role="3cqZAp">
-          <node concept="2OqwBi" id="4CAiFKVb_w2" role="3cqZAk">
-            <node concept="liA8E" id="4CAiFKVb_w1" role="2OqNvi">
-              <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-              <node concept="2OqwBi" id="4CAiFKVb_w0" role="37wK5m">
-                <node concept="liA8E" id="4CAiFKVb_vZ" role="2OqNvi">
-                  <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                  <node concept="2OqwBi" id="4CAiFKVb_vY" role="37wK5m">
-                    <node concept="liA8E" id="4CAiFKVb_vX" role="2OqNvi">
-                      <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                      <node concept="2OqwBi" id="4CAiFKVb_vW" role="37wK5m">
-                        <node concept="liA8E" id="4CAiFKVb_vV" role="2OqNvi">
-                          <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                          <node concept="Xjq3P" id="4CAiFKVb_vU" role="37wK5m" />
-                        </node>
-                        <node concept="10M0yZ" id="4CAiFKVb_w6" role="2Oq$k0">
-                          <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-                          <ref role="3cqZAo" node="4pUypdCJYcw" resolve="MEDICIJN_OBSERVED" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="10M0yZ" id="4CAiFKVb_w5" role="2Oq$k0">
-                      <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
-                      <ref role="3cqZAo" node="4pUypdCJDO$" resolve="GENERIEK_OBSERVED" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="10M0yZ" id="4CAiFKVb_w4" role="2Oq$k0">
-                  <ref role="1PxDUh" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
-                  <ref role="3cqZAo" node="4pUypdCJ9Ck" resolve="GROEP_OBSERVED" />
-                </node>
-              </node>
-            </node>
-            <node concept="10M0yZ" id="4CAiFKVb_w3" role="2Oq$k0">
-              <ref role="1PxDUh" node="4pUypdCHHcL" resolve="MedicijnGroep_Concept" />
-              <ref role="3cqZAo" node="4pUypdCPHC4" resolve="SAMENSTELLING_OBSERVED" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="4pUypdCHN$$" role="jymVt" />
     <node concept="312cEu" id="4pUypdCHNzW" role="jymVt">
       <property role="TrG5h" value="ConceptUniverse" />
@@ -6176,6 +6642,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZt" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZu" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi28" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi29" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi32" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3y" role="37wK5m">
+                          <property role="Xl_RC" value="VKA" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2a" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZiCD" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6188,6 +6674,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZn6g" role="37wK5m">
                     <property role="Xl_RC" value="fenprocoumon" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZz" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ$" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2h" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2i" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi35" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3_" role="37wK5m">
+                          <property role="Xl_RC" value="VKA" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2j" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6206,6 +6712,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZj" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZk" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1V" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1W" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2X" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3t" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1X" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZk3z" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6218,6 +6744,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZqZj" role="37wK5m">
                     <property role="Xl_RC" value="rivaroxaban" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZp" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZq" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1Y" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1Z" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2Y" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3u" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi20" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6236,6 +6782,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZh" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZi" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1P" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1Q" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2V" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3r" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1R" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZlyX" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6248,6 +6814,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZu8P" role="37wK5m">
                     <property role="Xl_RC" value="edoxaban" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZd" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZe" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1J" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1K" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2T" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3p" role="37wK5m">
+                          <property role="Xl_RC" value="DOAC" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1L" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6266,6 +6852,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZB" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZC" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2n" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2o" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi37" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3B" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2p" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZwyp" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6278,6 +6884,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZ$RL" role="37wK5m">
                     <property role="Xl_RC" value="carbasalaatcalcium" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZb" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZc" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1D" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1E" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2R" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3n" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1F" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6296,6 +6922,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZH" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZI" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2w" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2x" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi3a" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3E" role="37wK5m">
+                          <property role="Xl_RC" value="TAR" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2y" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZyen" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6308,6 +6954,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZF2M" role="37wK5m">
                     <property role="Xl_RC" value="clopidogrel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ7" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ8" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1A" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1B" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2Q" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3m" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1C" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6326,6 +6992,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZ3" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZ4" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi1w" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi1x" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi2O" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3k" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi1y" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZzYP" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6338,6 +7024,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZGOT" role="37wK5m">
                     <property role="Xl_RC" value="clopidogrel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZD" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZE" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2q" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2r" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi38" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3C" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2s" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6356,6 +7062,26 @@
                   </node>
                 </node>
               </node>
+              <node concept="2YIFZM" id="1idF2JzdhZJ" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZK" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2z" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2$" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi3b" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3F" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2_" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="1rXfSq" id="6AAC_8oZKwT" role="37wK5m">
               <ref role="37wK5l" node="6AAC_8oZ6iL" resolve="of" />
@@ -6368,6 +7094,26 @@
                   <ref role="37wK5l" node="4pUypdCH$ZU" resolve="GeneriekMedicijn_Concept" />
                   <node concept="Xl_RD" id="6AAC_8oZMpg" role="37wK5m">
                     <property role="Xl_RC" value="ticagrelor" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="1idF2JzdhZN" role="37wK5m">
+                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
+                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
+                <node concept="2ShNRf" id="1idF2JzdhZO" role="37wK5m">
+                  <node concept="3g6Rrh" id="1idF2Jzdi2A" role="2ShVmc">
+                    <node concept="2ShNRf" id="1idF2Jzdi2B" role="3g7hyw">
+                      <node concept="1pGfFk" id="1idF2Jzdi3c" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
+                        <node concept="Xl_RD" id="1idF2Jzdi3G" role="37wK5m">
+                          <property role="Xl_RC" value="TAR-P2Y12-remmers" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="1idF2Jzdi2C" role="3g7fb8">
+                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6437,6 +7183,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7dOrQaztw3F" role="3cqZAp">
+          <node concept="2OqwBi" id="7dOrQaztw3E" role="3clFbG">
+            <node concept="liA8E" id="7dOrQaztw3D" role="2OqNvi">
+              <ref role="37wK5l" to="kag7:~Setable.set(java.lang.Object,java.lang.Object)" resolve="set" />
+              <node concept="37vLTw" id="7dOrQaztw3C" role="37wK5m">
+                <ref role="3cqZAo" node="6AAC_8oZ6iQ" resolve="o" />
+              </node>
+              <node concept="37vLTw" id="7dOrQaztw3G" role="37wK5m">
+                <ref role="3cqZAo" node="7dOrQaztw3$" resolve="samenstelling" />
+              </node>
+            </node>
+            <node concept="10M0yZ" id="7dOrQaztw4y" role="2Oq$k0">
+              <ref role="1PxDUh" node="7m_jiAXV4f7" resolve="SpecifiekMedicijn_Concept" />
+              <ref role="3cqZAo" node="7dOrQaztw2V" resolve="SAMENSTELLING_OBSERVED" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="6AAC_8oZ6iO" role="3cqZAp">
           <node concept="37vLTw" id="6AAC_8oZ6iN" role="3cqZAk">
             <ref role="3cqZAo" node="6AAC_8oZ6iQ" resolve="o" />
@@ -6451,6 +7214,12 @@
         <property role="TrG5h" value="generiek" />
         <node concept="3uibUv" id="6AAC_8oZ6QT" role="1tU5fm">
           <ref role="3uigEE" node="4pUypdCH$ZI" resolve="GeneriekMedicijn_Concept" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7dOrQaztw3$" role="3clF46">
+        <property role="TrG5h" value="samenstelling" />
+        <node concept="3uibUv" id="7dOrQaztw3_" role="1tU5fm">
+          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
         </node>
       </node>
     </node>
@@ -7004,26 +7773,6 @@
                   <property role="1adDun" value="1L" />
                 </node>
               </node>
-              <node concept="2YIFZM" id="5_D06SZ1EIl" role="37wK5m">
-                <ref role="1Pybhc" to="zrbp:~Set" resolve="Set" />
-                <ref role="37wK5l" to="zrbp:~Set.of(java.lang.Object...)" resolve="of" />
-                <node concept="2ShNRf" id="5_D06SZ1EIm" role="37wK5m">
-                  <node concept="3g6Rrh" id="5_D06SZ1EIn" role="2ShVmc">
-                    <node concept="3uibUv" id="5_D06SZ1EIo" role="3g7fb8">
-                      <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                    </node>
-                    <node concept="2ShNRf" id="5_D06SZ2ln6" role="3g7hyw">
-                      <node concept="1pGfFk" id="5_D06SZ2lnc" role="2ShVmc">
-                        <property role="373rjd" value="true" />
-                        <ref role="37wK5l" node="7BEvwB3I7fg" resolve="EnkelvoudigeMedicijnGroep_Concept" />
-                        <node concept="Xl_RD" id="5_D06SZ2lng" role="37wK5m">
-                          <property role="Xl_RC" value="TAR" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -7124,23 +7873,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5_D06SZ1C9t" role="3cqZAp">
-          <node concept="2OqwBi" id="5_D06SZ1C9s" role="3clFbG">
-            <node concept="liA8E" id="5_D06SZ1C9r" role="2OqNvi">
-              <ref role="37wK5l" to="kag7:~Setable.set(java.lang.Object,java.lang.Object)" resolve="set" />
-              <node concept="37vLTw" id="5_D06SZ1C9q" role="37wK5m">
-                <ref role="3cqZAo" node="5_D06SZ1uVl" resolve="o" />
-              </node>
-              <node concept="37vLTw" id="5_D06SZ1C9u" role="37wK5m">
-                <ref role="3cqZAo" node="5_D06SZ1C9j" resolve="samenstelling" />
-              </node>
-            </node>
-            <node concept="10M0yZ" id="5_D06SZ1C9P" role="2Oq$k0">
-              <ref role="1PxDUh" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
-              <ref role="3cqZAo" node="4pUypdCNSiP" resolve="SAMENSTELLING_OBSERVED" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="5_D06SZ1uVj" role="3cqZAp">
           <node concept="37vLTw" id="5_D06SZ1uVi" role="3cqZAk">
             <ref role="3cqZAo" node="5_D06SZ1uVl" resolve="o" />
@@ -7167,12 +7899,6 @@
         <property role="TrG5h" value="inamePerDag" />
         <node concept="3uibUv" id="5_D06SZ1C9i" role="1tU5fm">
           <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5_D06SZ1C9j" role="3clF46">
-        <property role="TrG5h" value="samenstelling" />
-        <node concept="3uibUv" id="5_D06SZ1C9k" role="1tU5fm">
-          <ref role="3uigEE" to="zrbp:~Set" resolve="Set" />
         </node>
       </node>
     </node>

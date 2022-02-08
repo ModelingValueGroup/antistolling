@@ -7,10 +7,6 @@ import org.modelingvalue.dclare.Observed;
 import java.util.function.Supplier;
 import org.modelingvalue.dclare.Setable;
 import java.math.BigInteger;
-import org.modelingvalue.collections.Set;
-import org.modelingvalue.dclare.Observer;
-import java.util.function.Function;
-import java.util.function.Predicate;
 import org.modelingvalue.dclare.MutableClass;
 import org.modelingvalue.cds.runtime.CDSClass;
 import org.modelingvalue.cds.runtime.CDSUniverse;
@@ -25,25 +21,8 @@ public class MedicijnGebruik_Concept extends CDSObject {
   });
   public static final Observed<MedicijnGebruik_Concept, Medicijn_Concept> MEDICIJN_OBSERVED = Observed.<MedicijnGebruik_Concept,Medicijn_Concept>of("=medicijn", null, null);
   public static final Observed<MedicijnGebruik_Concept, BigInteger> INAMEPERDAG_OBSERVED = Observed.<MedicijnGebruik_Concept,BigInteger>of("=inamePerDag", null, null);
-  public static final Observed<MedicijnGebruik_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<MedicijnGebruik_Concept,Set>of("=samenstelling", Set.of(), null);
 
-  public static final Observed<MedicijnGebruik_Concept, Boolean> MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW = Observed.<MedicijnGebruik_Concept,Boolean>of("MedicijnGebruikSamenstelling_r0", null);
 
-  public static final Observer<MedicijnGebruik_Concept> MEDICIJNGEBRUIKSAMENSTELLING_R0_OBSERVER = Observer.of("MedicijnGebruikSamenstelling_r0", MedicijnGebruik_Concept.MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW, new Function<MedicijnGebruik_Concept, Boolean>() {
-    public Boolean apply(MedicijnGebruik_Concept it) {
-      return true;
-    }
-  });
-  public static final Observer<MedicijnGebruik_Concept> MEDICIJNGEBRUIKSAMENSTELLING_C0_R0_OBSERVER = Observer.of("MedicijnGebruikSamenstelling_c0_r0", MedicijnGebruik_Concept.SAMENSTELLING_OBSERVED, new Predicate<MedicijnGebruik_Concept>() {
-    @Override
-    public boolean test(MedicijnGebruik_Concept a) {
-      return MedicijnGebruik_Concept.MEDICIJNGEBRUIKSAMENSTELLING_R0_ROW.get(a) == Boolean.TRUE;
-    }
-  }, new Function<MedicijnGebruik_Concept, Set>() {
-    public Set apply(MedicijnGebruik_Concept it) {
-      return it.MedicijnGebruikSamenstelling_c0_r0();
-    }
-  });
 
   private static final MutableClass D_CLASS = CDSClass.of(MedicijnGebruik_Concept.class);
 
@@ -56,12 +35,6 @@ public class MedicijnGebruik_Concept extends CDSObject {
     return D_CLASS;
   }
 
-  public Set MedicijnGebruikSamenstelling_c0() {
-    return MedicijnGebruik_Concept.SAMENSTELLING_OBSERVED.get(this);
-  }
-  public Set MedicijnGebruikSamenstelling_c0_r0() {
-    return MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(GeneriekMedicijn_Concept.GROEP_OBSERVED.get(Medicijn_Concept.GENERIEK_OBSERVED.get(MedicijnGebruik_Concept.MEDICIJN_OBSERVED.get(this))));
-  }
 
   public static class ConceptUniverse extends MedicijnGebruik_Concept implements CDSUniverse {
     private static final MutableClass D_CLASS = CDSClass.of(ConceptUniverse.class);

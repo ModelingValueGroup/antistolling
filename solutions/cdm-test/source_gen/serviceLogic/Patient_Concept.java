@@ -159,10 +159,22 @@ public class Patient_Concept extends CDSObject {
   }
 
   public Set PatientMedicijnGebruikPad_c0() {
-    return as_xl4sqf_a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
+    return as_xl4sqf_a0a0a53(as_xl4sqf_a0a0a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(MedicijnGebruik_Concept e) {
-        Object w = MedicijnGebruik_Concept.SAMENSTELLING_OBSERVED.get(e);
+        Object w = MedicijnGebruik_Concept.MEDICIJN_OBSERVED.get(e);
+        if (w instanceof ContainingCollection) {
+          return ((ContainingCollection) w).toSet();
+        } else if (w != null) {
+          return Set.<Object>of(w);
+        } else {
+          return Set.of();
+        }
+      }
+    }), Collection.class).toSet().flatMap(new Function<Medicijn_Concept, Set<Object>>() {
+      @Override
+      public Set<Object> apply(Medicijn_Concept e) {
+        Object w = Medicijn_Concept.SAMENSTELLING_OBSERVED.get(e);
         if (w instanceof ContainingCollection) {
           return ((ContainingCollection) w).toSet();
         } else if (w != null) {
@@ -232,6 +244,9 @@ public class Patient_Concept extends CDSObject {
     }
   }
   private static <T> T as_xl4sqf_a0a0a53(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
+  private static <T> T as_xl4sqf_a0a0a0a0a53(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

@@ -6,19 +6,17 @@ import org.modelingvalue.cds.runtime.CDSInstanceTable;
 import org.modelingvalue.collections.Collection;
 import org.modelingvalue.cds.runtime.CDSObject;
 import java.math.BigInteger;
-import org.modelingvalue.collections.Set;
 
 public class MedicijnGbruiken_ObjectTable implements CDSInstanceTable {
   @Override
   public Collection<? extends CDSObject> getInstances() {
-    return Collection.of(of("Piet carbasalaatcalcium", new Patient_Concept("Piet"), new GeneriekMedicijn_Concept("carbasalaatcalcium"), BigInteger.valueOf(1L), Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR")})));
+    return Collection.of(of("Piet carbasalaatcalcium", new Patient_Concept("Piet"), new GeneriekMedicijn_Concept("carbasalaatcalcium"), BigInteger.valueOf(1L)));
   }
-  private CDSObject of(String id, Patient_Concept patient, Medicijn_Concept medicijn, BigInteger inamePerDag, Set samenstelling) {
+  private CDSObject of(String id, Patient_Concept patient, Medicijn_Concept medicijn, BigInteger inamePerDag) {
     MedicijnGebruik_Concept o = new MedicijnGebruik_Concept(id);
     MedicijnGebruik_Concept.PATIENT_OBSERVED.set(o, patient);
     MedicijnGebruik_Concept.MEDICIJN_OBSERVED.set(o, medicijn);
     MedicijnGebruik_Concept.INAMEPERDAG_OBSERVED.set(o, inamePerDag);
-    MedicijnGebruik_Concept.SAMENSTELLING_OBSERVED.set(o, samenstelling);
     return o;
   }
 }
