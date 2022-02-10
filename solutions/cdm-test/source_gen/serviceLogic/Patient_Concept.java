@@ -12,7 +12,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import org.modelingvalue.dclare.MutableClass;
 import org.modelingvalue.cds.runtime.CDSClass;
-import org.modelingvalue.collections.ContainingCollection;
+import runtime.CDMRuntimeUtil;
 import org.modelingvalue.collections.Collection;
 import cdm.lang.java.BaseDispatcher__cdm_lang;
 import org.modelingvalue.cds.runtime.CDSUniverse;
@@ -162,26 +162,12 @@ public class Patient_Concept extends CDSObject {
     return as_xl4sqf_a0a0a53(as_xl4sqf_a0a0a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(MedicijnGebruik_Concept e) {
-        Object w = MedicijnGebruik_Concept.MEDICIJN_OBSERVED.get(e);
-        if (w instanceof ContainingCollection) {
-          return ((ContainingCollection) w).toSet();
-        } else if (w != null) {
-          return Set.<Object>of(w);
-        } else {
-          return Set.of();
-        }
+        return CDMRuntimeUtil.toSet(MedicijnGebruik_Concept.MEDICIJN_OBSERVED.get(e));
       }
     }), Collection.class).toSet().flatMap(new Function<Medicijn_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(Medicijn_Concept e) {
-        Object w = Medicijn_Concept.SAMENSTELLING_OBSERVED.get(e);
-        if (w instanceof ContainingCollection) {
-          return ((ContainingCollection) w).toSet();
-        } else if (w != null) {
-          return Set.<Object>of(w);
-        } else {
-          return Set.of();
-        }
+        return CDMRuntimeUtil.toSet(Medicijn_Concept.SAMENSTELLING_OBSERVED.get(e));
       }
     }), Collection.class).toSet();
   }

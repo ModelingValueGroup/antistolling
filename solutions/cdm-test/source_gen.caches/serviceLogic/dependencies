@@ -169,12 +169,12 @@
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSClass" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSUniverse" />
     <classNode dependClassName="org.modelingvalue.collections.Collection" />
-    <classNode dependClassName="org.modelingvalue.collections.ContainingCollection" />
     <classNode dependClassName="org.modelingvalue.collections.Set" />
     <classNode dependClassName="org.modelingvalue.dclare.MutableClass" />
     <classNode dependClassName="org.modelingvalue.dclare.Observed" />
     <classNode dependClassName="org.modelingvalue.dclare.Observer" />
     <classNode dependClassName="org.modelingvalue.dclare.Setable" />
+    <classNode dependClassName="runtime.CDMRuntimeUtil" />
     <classNode dependClassName="serviceLogic.AntistollingsPad_Concept" />
     <classNode dependClassName="serviceLogic.EnkelvoudigeMedicijnGroep_Concept" />
     <classNode dependClassName="serviceLogic.MedicijnGebruik_Concept" />
