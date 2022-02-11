@@ -26,12 +26,32 @@ public class Medicijn_Concept extends CDSObject {
   });
   public static final Observed<Medicijn_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<Medicijn_Concept,Set>of("=samenstelling", Set.of(), null);
 
+  public static final Observed<Medicijn_Concept, Medicijn_Concept> MEDICIJNGROEP_C0_COLUMN = Observed.<Medicijn_Concept,Medicijn_Concept>of("MedicijnGroep_c0", null);
+  public static final Observed<Medicijn_Concept, Boolean> MEDICIJNGROEP_R0_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnGroep_r0", null);
   public static final Observed<Medicijn_Concept, Set> MEDICIJNSAMENSTELLING_C0_COLUMN = Observed.<Medicijn_Concept,Set>of("MedicijnSamenstelling_c0", null);
   public static final Observed<Medicijn_Concept, Boolean> MEDICIJNSAMENSTELLING_R0_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnSamenstelling_r0", null);
   public static final Observed<Medicijn_Concept, Boolean> MEDICIJNSAMENSTELLING_R1_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnSamenstelling_r1", null);
-  public static final Observed<Medicijn_Concept, Medicijn_Concept> MEDICIJNGROEP_C0_COLUMN = Observed.<Medicijn_Concept,Medicijn_Concept>of("MedicijnGroep_c0", null);
-  public static final Observed<Medicijn_Concept, Boolean> MEDICIJNGROEP_R0_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnGroep_r0", null);
 
+  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_C0_OBSERVER = Observer.of("MedicijnGroep_c0", Medicijn_Concept.MEDICIJNGROEP_C0_COLUMN, new Function<Medicijn_Concept, Medicijn_Concept>() {
+    public Medicijn_Concept apply(Medicijn_Concept it) {
+      return it.MedicijnGroep_c0();
+    }
+  });
+  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_R0_OBSERVER = Observer.of("MedicijnGroep_r0", Medicijn_Concept.MEDICIJNGROEP_R0_ROW, new Function<Medicijn_Concept, Boolean>() {
+    public Boolean apply(Medicijn_Concept it) {
+      return true && it.MedicijnGroep_c0_r0() == Boolean.TRUE;
+    }
+  });
+  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_C1_R0_OBSERVER = Observer.of("MedicijnGroep_c1_r0", Medicijn_Concept.GROEP_OBSERVED, new Predicate<Medicijn_Concept>() {
+    @Override
+    public boolean test(Medicijn_Concept a) {
+      return Medicijn_Concept.MEDICIJNGROEP_R0_ROW.get(a) == Boolean.TRUE;
+    }
+  }, new Function<Medicijn_Concept, MedicijnGroep_Concept>() {
+    public MedicijnGroep_Concept apply(Medicijn_Concept it) {
+      return it.MedicijnGroep_c1_r0();
+    }
+  });
   public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_C0_OBSERVER = Observer.of("MedicijnSamenstelling_c0", Medicijn_Concept.MEDICIJNSAMENSTELLING_C0_COLUMN, new Function<Medicijn_Concept, Set>() {
     public Set apply(Medicijn_Concept it) {
       return it.MedicijnSamenstelling_c0();
@@ -67,26 +87,6 @@ public class Medicijn_Concept extends CDSObject {
       return it.MedicijnSamenstelling_c1_r1();
     }
   });
-  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_C0_OBSERVER = Observer.of("MedicijnGroep_c0", Medicijn_Concept.MEDICIJNGROEP_C0_COLUMN, new Function<Medicijn_Concept, Medicijn_Concept>() {
-    public Medicijn_Concept apply(Medicijn_Concept it) {
-      return it.MedicijnGroep_c0();
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_R0_OBSERVER = Observer.of("MedicijnGroep_r0", Medicijn_Concept.MEDICIJNGROEP_R0_ROW, new Function<Medicijn_Concept, Boolean>() {
-    public Boolean apply(Medicijn_Concept it) {
-      return true && it.MedicijnGroep_c0_r0() == Boolean.TRUE;
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNGROEP_C1_R0_OBSERVER = Observer.of("MedicijnGroep_c1_r0", Medicijn_Concept.GROEP_OBSERVED, new Predicate<Medicijn_Concept>() {
-    @Override
-    public boolean test(Medicijn_Concept a) {
-      return Medicijn_Concept.MEDICIJNGROEP_R0_ROW.get(a) == Boolean.TRUE;
-    }
-  }, new Function<Medicijn_Concept, MedicijnGroep_Concept>() {
-    public MedicijnGroep_Concept apply(Medicijn_Concept it) {
-      return it.MedicijnGroep_c1_r0();
-    }
-  });
 
   private static final MutableClass D_CLASS = CDSClass.of(Medicijn_Concept.class);
 
@@ -99,6 +99,18 @@ public class Medicijn_Concept extends CDSObject {
     return D_CLASS;
   }
 
+  public Medicijn_Concept MedicijnGroep_c0() {
+    return Medicijn_Concept.GENERIEK_OBSERVED.get(this);
+  }
+  public MedicijnGroep_Concept MedicijnGroep_c1() {
+    return Medicijn_Concept.GROEP_OBSERVED.get(this);
+  }
+  public Boolean MedicijnGroep_c0_r0() {
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Medicijn_Concept.MEDICIJNGROEP_C0_COLUMN.get(this), "ongelijk", (Object) null)));
+  }
+  public MedicijnGroep_Concept MedicijnGroep_c1_r0() {
+    return Medicijn_Concept.GROEP_OBSERVED.get(Medicijn_Concept.GENERIEK_OBSERVED.get(this));
+  }
   public Set MedicijnSamenstelling_c0() {
     return MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(Medicijn_Concept.GROEP_OBSERVED.get(this));
   }
@@ -116,18 +128,6 @@ public class Medicijn_Concept extends CDSObject {
   }
   public Set MedicijnSamenstelling_c1_r1() {
     return MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(Medicijn_Concept.GROEP_OBSERVED.get(this));
-  }
-  public Medicijn_Concept MedicijnGroep_c0() {
-    return Medicijn_Concept.GENERIEK_OBSERVED.get(this);
-  }
-  public MedicijnGroep_Concept MedicijnGroep_c1() {
-    return Medicijn_Concept.GROEP_OBSERVED.get(this);
-  }
-  public Boolean MedicijnGroep_c0_r0() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Medicijn_Concept.MEDICIJNGROEP_C0_COLUMN.get(this), "ongelijk", (Object) null)));
-  }
-  public MedicijnGroep_Concept MedicijnGroep_c1_r0() {
-    return Medicijn_Concept.GROEP_OBSERVED.get(Medicijn_Concept.GENERIEK_OBSERVED.get(this));
   }
 
   public static class ConceptUniverse extends Medicijn_Concept implements CDSUniverse {

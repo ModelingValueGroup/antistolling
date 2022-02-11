@@ -153,13 +153,13 @@
     <node concept="1eKvlY" id="4pUypdCJ9Cf" role="1eKvlx">
       <property role="TrG5h" value="groep" />
       <ref role="1eKdgd" node="4pUypdCJN2y" resolve="medicijnen" />
-      <node concept="2ZMt1D" id="6i$vJy6q7sk" role="2YxCKH">
-        <property role="TrG5h" value="MedicijnSamenstelling" />
-        <ref role="2ZMt1Q" node="6i$vJy6pVcY" resolve="MedicijnSamenstelling" />
-      </node>
       <node concept="2ZMt1D" id="79eYlakUzZz" role="2YxCKH">
         <property role="TrG5h" value="MedicijnGroep" />
         <ref role="2ZMt1Q" node="4CAiFKV6Iay" resolve="MedicijnGroep" />
+      </node>
+      <node concept="2ZMt1D" id="6i$vJy6q7sk" role="2YxCKH">
+        <property role="TrG5h" value="MedicijnSamenstelling" />
+        <ref role="2ZMt1Q" node="6i$vJy6pVcY" resolve="MedicijnSamenstelling" />
       </node>
       <node concept="18$Bil" id="4pUypdCJdQ7" role="3egi_F">
         <ref role="18$Bim" node="4pUypdCHHcK" resolve="MedicijnGroep" />
@@ -1982,7 +1982,7 @@
     <property role="3GE5qa" value="kennis" />
     <property role="TrG5h" value="MedicijnSamenstelling" />
     <ref role="3fwaAx" node="4pUypdCHwTP" resolve="Medicijn" />
-    <ref role="17L70Z" node="6AAC_8oZyd$" resolve="grepid" />
+    <ref role="17L70Z" node="6AAC_8oVcfq" resolve="carbasalaatcalcium" />
     <node concept="1eNGTd" id="6i$vJy6pVcZ" role="1eNGTP">
       <property role="TrG5h" value="?.groep.samenstelling" />
       <node concept="3fC3Ad" id="6i$vJy6DgFC" role="3fw9hm">
@@ -1991,9 +1991,9 @@
           <ref role="3fC3Aa" node="4pUypdCJ9Cf" resolve="groep" />
         </node>
       </node>
-      <node concept="3uZZn6" id="6i$vJy8nj8u" role="3uzts9">
-        <ref role="3zXCHX" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
-        <ref role="3uZZnp" node="7BEvwB3JSUv" resolve="samenstelling" />
+      <node concept="3uZZn6" id="6i$vJy8sM9$" role="3uzts9">
+        <ref role="3zXCHX" node="7BEvwB3ISAR" resolve="TAR" />
+        <ref role="3uZZnp" node="7BEvwB3ITgl" resolve="samenstelling" />
       </node>
     </node>
     <node concept="1eNGTd" id="6i$vJy6pVd0" role="1eNGTP">
