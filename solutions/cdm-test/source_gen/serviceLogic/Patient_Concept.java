@@ -175,43 +175,43 @@ public class Patient_Concept extends CDSObject {
     return Patient_Concept.ANTISTOLLINGSPAD_OBSERVED.get(this);
   }
   public Boolean PatientMedicijnGebruikPad_c0_r0() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("VKA")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("VKA")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r0() {
     return new AntistollingsPad_Concept("VKA");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r1() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("DOAC")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("DOAC")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r1() {
     return new AntistollingsPad_Concept("DOAC");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r2() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r2() {
     return new AntistollingsPad_Concept("TAR");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r3() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r3() {
     return new AntistollingsPad_Concept("TAR-P2Y12-remmers");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r4() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r4() {
     return new AntistollingsPad_Concept("DAPT");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r5() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("DOAC"), new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("DOAC"), new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r5() {
     return new AntistollingsPad_Concept("TripleTherapie");
   }
   public Boolean PatientMedicijnGebruikPad_c0_r6() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new EnkelvoudigeMedicijnGroep_Concept("VKA"), new EnkelvoudigeMedicijnGroep_Concept("TAR"), new EnkelvoudigeMedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
+    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Patient_Concept.PATIENTMEDICIJNGEBRUIKPAD_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{new MedicijnGroep_Concept("VKA"), new MedicijnGroep_Concept("TAR"), new MedicijnGroep_Concept("TAR-P2Y12-remmers")}))));
   }
   public AntistollingsPad_Concept PatientMedicijnGebruikPad_c1_r6() {
     return new AntistollingsPad_Concept("TripleTherapie");

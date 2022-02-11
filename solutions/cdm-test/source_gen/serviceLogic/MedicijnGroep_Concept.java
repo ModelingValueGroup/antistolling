@@ -16,7 +16,7 @@ public class MedicijnGroep_Concept extends CDSObject {
   public static final Observed<MedicijnGroep_Concept, Set> MEDICIJNEN_OBSERVED = Observed.<MedicijnGroep_Concept,Set>of("=medicijnen", Set.of(), new Supplier<Setable<?, ?>>() {
     @Override
     public Setable<?, ?> get() {
-      return GeneriekMedicijn_Concept.GROEP_OBSERVED;
+      return Medicijn_Concept.GROEP_OBSERVED;
     }
   });
   public static final Observed<MedicijnGroep_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<MedicijnGroep_Concept,Set>of("=samenstelling", Set.of(), null);

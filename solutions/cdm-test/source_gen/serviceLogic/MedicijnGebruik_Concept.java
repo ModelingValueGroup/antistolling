@@ -20,7 +20,7 @@ public class MedicijnGebruik_Concept extends CDSObject {
     }
   });
   public static final Observed<MedicijnGebruik_Concept, Medicijn_Concept> MEDICIJN_OBSERVED = Observed.<MedicijnGebruik_Concept,Medicijn_Concept>of("=medicijn", null, null);
-  public static final Observed<MedicijnGebruik_Concept, BigInteger> INAMEPERDAG_OBSERVED = Observed.<MedicijnGebruik_Concept,BigInteger>of("=inamePerDag", null, null);
+  public static final Observed<MedicijnGebruik_Concept, BigInteger> AANTALPERDAG_OBSERVED = Observed.<MedicijnGebruik_Concept,BigInteger>of("=aantalPerDag", null, null);
 
 
 

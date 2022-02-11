@@ -37,57 +37,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="8QVjM" id="4CAiFKV8zs1">
-    <property role="TrG5h" value="MedicijnSamenstelling_Medicijn_uitvoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
-    <node concept="8QVjJ" id="4CAiFKV8zs4" role="8QVjI">
-      <property role="TrG5h" value="samenstelling" />
-      <property role="3$7aot" value="groep" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
-      <ref role="8QVjx" to="h4z:7dOrQaztw0G" resolve="samenstelling" />
-    </node>
-  </node>
-  <node concept="8QVjo" id="4CAiFKV8BaG">
-    <property role="TrG5h" value="MedicijnSamenstelling_unitTest" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="8QVjl" node="4CAiFKV8zs1" resolve="GroepGebruik_MedicijnGebruik_uitvoer" />
-    <ref role="98QxM" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
-    <ref role="8QVjn" node="4CAiFKV8BaI" resolve="MedicijnSamenstelling_Medicijn_invoer" />
-  </node>
-  <node concept="8QVjM" id="4CAiFKV8BaI">
-    <property role="TrG5h" value="MedicijnSamenstelling_Medicijn_invoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
-    <node concept="8QVjJ" id="4CAiFKV8TXB" role="8QVjI">
-      <property role="TrG5h" value="generiek" />
-      <property role="3$7aot" value="generiek" />
-      <ref role="9cvQy" node="4CAiFKV8TX_" resolve="GroepGebruik_GeneriekMedicijn_invoer" />
-      <ref role="8QVjx" to="h4z:4pUypdCJDOv" resolve="generiek" />
-    </node>
-  </node>
-  <node concept="8QVjM" id="4CAiFKV8TX_">
-    <property role="TrG5h" value="MedicijnSamenstelling_GeneriekMedicijn_invoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCH$ZH" resolve="GeneriekMedicijn" />
-    <node concept="8QVjJ" id="4CAiFKV93Ox" role="8QVjI">
-      <property role="TrG5h" value="groep" />
-      <property role="3$7aot" value="groep" />
-      <ref role="9cvQy" node="4CAiFKV93Ov" resolve="GroepGebruik_MedicijnGroep_invoer" />
-      <ref role="8QVjx" to="h4z:4pUypdCJ9Cf" resolve="groep" />
-    </node>
-  </node>
-  <node concept="8QVjM" id="4CAiFKV93Ov">
-    <property role="TrG5h" value="MedicijnSamenstelling_MedicijnGroep_invoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
-    <node concept="8QVjJ" id="4CAiFKVbFRd" role="8QVjI">
-      <property role="TrG5h" value="samenstelling" />
-      <property role="3$7aot" value="samenstelling" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
-      <ref role="8QVjx" to="h4z:4pUypdCPHBW" resolve="samenstelling" />
-    </node>
-  </node>
   <node concept="8QVjM" id="4CAiFKVhdH0">
     <property role="TrG5h" value="PatientMedicijnGebruikPad_Patient_uitvoer" />
     <property role="3GE5qa" value="kennis" />
@@ -122,33 +71,6 @@
       <ref role="8QVjx" to="h4z:4pUypdCIbV9" resolve="medicijnenGebruik" />
     </node>
   </node>
-  <node concept="8QVjM" id="2yLR4lMX0XW">
-    <property role="TrG5h" value="EnkelvoudigeMedicijnGroepSamenstelling_MedicijnGroep_uitvoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
-    <node concept="8QVjJ" id="2yLR4lMX0XY" role="8QVjI">
-      <property role="TrG5h" value="samenstelling" />
-      <property role="3$7aot" value="samenstelling" />
-      <ref role="8QVjx" to="h4z:4pUypdCPHBW" resolve="samenstelling" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
-    </node>
-  </node>
-  <node concept="8QVjM" id="7m_jiAY51kv">
-    <property role="TrG5h" value="GeneriekMedicijnGeneriek_Medicijn_uitvoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
-    <node concept="8QVjJ" id="7m_jiAY51ky" role="8QVjI">
-      <property role="TrG5h" value="generiek" />
-      <property role="3$7aot" value="generiek" />
-      <ref role="8QVjx" to="h4z:4pUypdCJDOv" resolve="generiek" />
-      <ref role="9cvQy" node="7m_jiAY51kw" resolve="GeneriekMedicijnGeneriek_GeneriekMedicijn_uitvoer" />
-    </node>
-  </node>
-  <node concept="8QVjM" id="7m_jiAY51kw">
-    <property role="TrG5h" value="GeneriekMedicijnGeneriek_GeneriekMedicijn_uitvoer" />
-    <property role="3GE5qa" value="kennis" />
-    <ref role="9cvQE" to="h4z:4pUypdCH$ZH" resolve="GeneriekMedicijn" />
-  </node>
   <node concept="8QVjM" id="7dOrQazyLI9">
     <property role="TrG5h" value="PatientMedicijnGebruikPad_MedicijnGebruik_invoer" />
     <property role="3GE5qa" value="kennis" />
@@ -169,6 +91,91 @@
       <property role="3$7aot" value="samenstelling" />
       <ref role="8QVjx" to="h4z:7dOrQaztw0G" resolve="samenstelling" />
       <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="79eYlakHhnn">
+    <property role="TrG5h" value="MedicijnGroep_Medicijn_uitvoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+    <node concept="8QVjJ" id="79eYlakHhnq" role="8QVjI">
+      <property role="TrG5h" value="groep" />
+      <property role="3$7aot" value="groep" />
+      <ref role="9cvQy" node="79eYlakHhno" resolve="MedicijnGroep_MedicijnGroep_uitvoer" />
+      <ref role="8QVjx" to="h4z:4pUypdCJ9Cf" resolve="groep" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="79eYlakHhno">
+    <property role="TrG5h" value="MedicijnGroep_MedicijnGroep_uitvoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
+  </node>
+  <node concept="8QVjo" id="79eYlakHkXE">
+    <property role="TrG5h" value="MedicijnGroep_unitTest" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="98QxM" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+    <ref role="8QVjn" node="79eYlakHkXF" resolve="MedicijnGroep_Medicijn_invoer" />
+    <ref role="8QVjl" node="79eYlakHhnn" resolve="MedicijnGroep_Medicijn_uitvoer" />
+  </node>
+  <node concept="8QVjM" id="79eYlakHkXF">
+    <property role="TrG5h" value="MedicijnGroep_Medicijn_invoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+    <node concept="8QVjJ" id="79eYlakUzZ$" role="8QVjI">
+      <property role="TrG5h" value="groep" />
+      <property role="3$7aot" value="groep" />
+      <ref role="9cvQy" node="79eYlakUzZy" resolve="MedicijnGroep_MedicijnGroep_invoer" />
+      <ref role="8QVjx" to="h4z:4pUypdCJ9Cf" resolve="groep" />
+    </node>
+    <node concept="8QVjJ" id="79eYlakHkXH" role="8QVjI">
+      <property role="TrG5h" value="generiek" />
+      <property role="3$7aot" value="generiek" />
+      <ref role="9cvQy" node="79eYlakHkXF" resolve="MedicijnGroep_Medicijn_invoer" />
+      <ref role="8QVjx" to="h4z:4pUypdCJDOv" resolve="generiek" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="79eYlakUzZy">
+    <property role="TrG5h" value="MedicijnGroep_MedicijnGroep_invoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
+  </node>
+  <node concept="8QVjM" id="6i$vJy6q1fR">
+    <property role="TrG5h" value="MedicijnSamenstelling_Medicijn_uitvoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+    <node concept="8QVjJ" id="6i$vJy6q1fT" role="8QVjI">
+      <property role="TrG5h" value="samenstelling" />
+      <property role="3$7aot" value="samenstelling" />
+      <ref role="8QVjx" to="h4z:7dOrQaztw0G" resolve="samenstelling" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+    </node>
+  </node>
+  <node concept="8QVjo" id="6i$vJy6q7sh">
+    <property role="TrG5h" value="MedicijnSamenstelling_unitTest" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="8QVjn" node="6i$vJy6q7sj" resolve="MedicijnSamenstelling_Medicijn_invoer" />
+    <ref role="8QVjl" node="6i$vJy6q1fR" resolve="MedicijnSamenstelling_Medicijn_uitvoer" />
+    <ref role="98QxM" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+  </node>
+  <node concept="8QVjM" id="6i$vJy6q7si">
+    <property role="TrG5h" value="MedicijnSamenstelling_MedicijnGroep_invoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
+    <node concept="8QVjJ" id="6i$vJy6qjgL" role="8QVjI">
+      <property role="TrG5h" value="samenstelling" />
+      <property role="3$7aot" value="samenstelling" />
+      <ref role="8QVjx" to="h4z:4pUypdCPHBW" resolve="samenstelling" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="6i$vJy6q7sj">
+    <property role="TrG5h" value="MedicijnSamenstelling_Medicijn_invoer" />
+    <property role="3GE5qa" value="kennis" />
+    <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
+    <node concept="8QVjJ" id="6i$vJy6q7sl" role="8QVjI">
+      <property role="TrG5h" value="groep" />
+      <property role="3$7aot" value="groep" />
+      <ref role="8QVjx" to="h4z:4pUypdCJ9Cf" resolve="groep" />
+      <ref role="9cvQy" node="6i$vJy6q7si" resolve="MedicijnSamenstelling_MedicijnGroep_invoer" />
     </node>
   </node>
 </model>
