@@ -153,13 +153,13 @@
     <node concept="1eKvlY" id="4pUypdCJ9Cf" role="1eKvlx">
       <property role="TrG5h" value="groep" />
       <ref role="1eKdgd" node="4pUypdCJN2y" resolve="medicijnen" />
-      <node concept="2ZMt1D" id="79eYlakUzZz" role="2YxCKH">
-        <property role="TrG5h" value="MedicijnGroep" />
-        <ref role="2ZMt1Q" node="4CAiFKV6Iay" resolve="MedicijnGroep" />
-      </node>
       <node concept="2ZMt1D" id="6i$vJy6q7sk" role="2YxCKH">
         <property role="TrG5h" value="MedicijnSamenstelling" />
         <ref role="2ZMt1Q" node="6i$vJy6pVcY" resolve="MedicijnSamenstelling" />
+      </node>
+      <node concept="2ZMt1D" id="79eYlakUzZz" role="2YxCKH">
+        <property role="TrG5h" value="MedicijnGroep" />
+        <ref role="2ZMt1Q" node="4CAiFKV6Iay" resolve="MedicijnGroep" />
       </node>
       <node concept="18$Bil" id="4pUypdCJdQ7" role="3egi_F">
         <ref role="18$Bim" node="4pUypdCHHcK" resolve="MedicijnGroep" />
@@ -1243,11 +1243,11 @@
         <property role="TrG5h" value="samenstelling" />
         <ref role="2EzfPh" node="7dOrQaztw0G" resolve="samenstelling" />
         <node concept="3f$x08" id="6i$vJy6s8m$" role="2Ezeth">
-          <node concept="2bQEkN" id="6i$vJy6RJr_" role="3f$x0n">
-            <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
-          </node>
           <node concept="2bQEkN" id="6i$vJy6RJr$" role="3f$x0n">
             <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
+          </node>
+          <node concept="2bQEkN" id="6i$vJy6RJr_" role="3f$x0n">
+            <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
           </node>
         </node>
         <node concept="3uZZn6" id="6i$vJy7T_3s" role="3uZZn2">
@@ -1282,11 +1282,11 @@
         <property role="TrG5h" value="samenstelling" />
         <ref role="2EzfPh" node="7dOrQaztw0G" resolve="samenstelling" />
         <node concept="3f$x08" id="6i$vJy6s8mB" role="2Ezeth">
-          <node concept="2bQEkN" id="6i$vJy6RJrQ" role="3f$x0n">
-            <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
-          </node>
           <node concept="2bQEkN" id="6i$vJy6RJrP" role="3f$x0n">
             <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
+          </node>
+          <node concept="2bQEkN" id="6i$vJy6RJrQ" role="3f$x0n">
+            <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
           </node>
         </node>
         <node concept="3uZZn6" id="6i$vJy7T_3M" role="3uZZn2">
