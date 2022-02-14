@@ -159,7 +159,7 @@ public class Patient_Concept extends CDSObject {
   }
 
   public Set PatientMedicijnGebruikPad_c0() {
-    return as_xl4sqf_a0a0a53(as_xl4sqf_a0a0a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
+    return as_xl4sqf_a0a0a53(as_xl4sqf_a0a0a0a0a53(as_xl4sqf_a0a0a0a0a0a0a53(Patient_Concept.MEDICIJNENGEBRUIK_OBSERVED.get(this).flatMap(new Function<MedicijnGebruik_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(MedicijnGebruik_Concept e) {
         return CDMRuntimeUtil.toSet(MedicijnGebruik_Concept.MEDICIJN_OBSERVED.get(e));
@@ -167,7 +167,12 @@ public class Patient_Concept extends CDSObject {
     }), Collection.class).toSet().flatMap(new Function<Medicijn_Concept, Set<Object>>() {
       @Override
       public Set<Object> apply(Medicijn_Concept e) {
-        return CDMRuntimeUtil.toSet(Medicijn_Concept.SAMENSTELLING_OBSERVED.get(e));
+        return CDMRuntimeUtil.toSet(Medicijn_Concept.GROEP_OBSERVED.get(e));
+      }
+    }), Collection.class).toSet().flatMap(new Function<MedicijnGroep_Concept, Set<Object>>() {
+      @Override
+      public Set<Object> apply(MedicijnGroep_Concept e) {
+        return CDMRuntimeUtil.toSet(MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(e));
       }
     }), Collection.class).toSet();
   }
@@ -233,6 +238,9 @@ public class Patient_Concept extends CDSObject {
     return (type.isInstance(o) ? (T) o : null);
   }
   private static <T> T as_xl4sqf_a0a0a0a0a53(Object o, Class<T> type) {
+    return (type.isInstance(o) ? (T) o : null);
+  }
+  private static <T> T as_xl4sqf_a0a0a0a0a0a0a53(Object o, Class<T> type) {
     return (type.isInstance(o) ? (T) o : null);
   }
 }

@@ -10,7 +10,7 @@ import org.modelingvalue.collections.Set;
 public class Patienten_ObjectTable implements CDSInstanceTable {
   @Override
   public Collection<? extends CDSObject> getInstances() {
-    return Collection.of(of("Piet", Set.of(new Object[]{new MedicijnGebruik_Concept("Piet carbasalaatcalcium")}), new AntistollingsPad_Concept("TAR")));
+    return Collection.of(of("Piet", Set.of(new Object[]{new MedicijnGebruik_Concept("MedPiet1"), new MedicijnGebruik_Concept("MedPiet2")}), new AntistollingsPad_Concept("DAPT")), of("Jan", Set.of(new Object[]{new MedicijnGebruik_Concept("MedJan1"), new MedicijnGebruik_Concept("MedJan2")}), new AntistollingsPad_Concept("TripleTherapie")), of("Klaas", Set.of(new Object[]{new MedicijnGebruik_Concept("MedKlaas1"), new MedicijnGebruik_Concept("MedKlaas2"), new MedicijnGebruik_Concept("MedKlass3")}), new AntistollingsPad_Concept("TripleTherapie")));
   }
   private CDSObject of(String id, Set medicijnenGebruik, AntistollingsPad_Concept antistollingsPad) {
     Patient_Concept o = new Patient_Concept(id);

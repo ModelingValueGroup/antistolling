@@ -10,7 +10,7 @@ import java.math.BigInteger;
 public class MedicijnGebruiken_ObjectTable implements CDSInstanceTable {
   @Override
   public Collection<? extends CDSObject> getInstances() {
-    return Collection.of(of("Piet carbasalaatcalcium", new Patient_Concept("Piet"), new Medicijn_Concept("carbasalaatcalcium"), BigInteger.valueOf(1L)));
+    return Collection.of(of("MedPiet1", new Patient_Concept("Piet"), new Medicijn_Concept("aspirine"), BigInteger.valueOf(1L)), of("MedPiet2", new Patient_Concept("Piet"), new Medicijn_Concept("clopidogrel"), BigInteger.valueOf(2L)), of("MedJan1", new Patient_Concept("Jan"), new Medicijn_Concept("asasantin"), BigInteger.valueOf(3L)), of("MedJan2", new Patient_Concept("Jan"), new Medicijn_Concept("dabigatran"), BigInteger.valueOf(10L)), of("MedKlaas1", new Patient_Concept("Klaas"), new Medicijn_Concept("clopidogrel"), BigInteger.valueOf(1L)), of("MedKlaas2", new Patient_Concept("Klaas"), new Medicijn_Concept("acetylsalicylzuur"), BigInteger.valueOf(2L)), of("MedKlass3", new Patient_Concept("Klaas"), new Medicijn_Concept("dabigatran"), BigInteger.valueOf(4L)));
   }
   private CDSObject of(String id, Patient_Concept patient, Medicijn_Concept medicijn, BigInteger aantalPerDag) {
     MedicijnGebruik_Concept o = new MedicijnGebruik_Concept(id);

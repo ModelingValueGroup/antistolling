@@ -56,14 +56,11 @@
   <dependency className="serviceLogic.MedicijnGroep_Concept">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.util.function.Supplier" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSClass" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSUniverse" />
     <classNode dependClassName="org.modelingvalue.collections.Set" />
     <classNode dependClassName="org.modelingvalue.dclare.MutableClass" />
     <classNode dependClassName="org.modelingvalue.dclare.Observed" />
-    <classNode dependClassName="org.modelingvalue.dclare.Setable" />
-    <classNode dependClassName="serviceLogic.Medicijn_Concept" />
     <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSObject" />
   </dependency>
   <dependency className="serviceLogic.MedicijnGroepen_ObjectTable">
@@ -74,7 +71,6 @@
     <classNode dependClassName="org.modelingvalue.collections.Collection" />
     <classNode dependClassName="org.modelingvalue.collections.Set" />
     <classNode dependClassName="serviceLogic.MedicijnGroep_Concept" />
-    <classNode dependClassName="serviceLogic.Medicijn_Concept" />
     <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSInstanceTable" />
   </dependency>
   <dependency className="serviceLogic.Medicijn_Concept">
@@ -84,24 +80,19 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.function.Function" />
     <classNode dependClassName="java.util.function.Predicate" />
-    <classNode dependClassName="java.util.function.Supplier" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSClass" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSUniverse" />
-    <classNode dependClassName="org.modelingvalue.collections.Set" />
     <classNode dependClassName="org.modelingvalue.dclare.MutableClass" />
     <classNode dependClassName="org.modelingvalue.dclare.Observed" />
     <classNode dependClassName="org.modelingvalue.dclare.Observer" />
-    <classNode dependClassName="org.modelingvalue.dclare.Setable" />
     <classNode dependClassName="serviceLogic.MedicijnGroep_Concept" />
     <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSObject" />
   </dependency>
   <dependency className="serviceLogic.Medicijnen_ObjectTable">
-    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.modelingvalue.cds.runtime.CDSObject" />
     <classNode dependClassName="org.modelingvalue.collections.Collection" />
-    <classNode dependClassName="org.modelingvalue.collections.Set" />
     <classNode dependClassName="serviceLogic.MedicijnGroep_Concept" />
     <classNode dependClassName="serviceLogic.Medicijn_Concept" />
     <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSInstanceTable" />

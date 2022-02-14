@@ -5,20 +5,12 @@ package serviceLogic;
 import org.modelingvalue.cds.runtime.CDSObject;
 import org.modelingvalue.dclare.Observed;
 import org.modelingvalue.collections.Set;
-import java.util.function.Supplier;
-import org.modelingvalue.dclare.Setable;
 import org.modelingvalue.dclare.MutableClass;
 import org.modelingvalue.cds.runtime.CDSClass;
 import org.modelingvalue.cds.runtime.CDSUniverse;
 
 public class MedicijnGroep_Concept extends CDSObject {
 
-  public static final Observed<MedicijnGroep_Concept, Set> MEDICIJNEN_OBSERVED = Observed.<MedicijnGroep_Concept,Set>of("=medicijnen", Set.of(), new Supplier<Setable<?, ?>>() {
-    @Override
-    public Setable<?, ?> get() {
-      return Medicijn_Concept.GROEP_OBSERVED;
-    }
-  });
   public static final Observed<MedicijnGroep_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<MedicijnGroep_Concept,Set>of("=samenstelling", Set.of(), null);
 
 

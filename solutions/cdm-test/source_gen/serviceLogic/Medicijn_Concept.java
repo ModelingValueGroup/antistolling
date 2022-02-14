@@ -4,9 +4,6 @@ package serviceLogic;
 
 import org.modelingvalue.cds.runtime.CDSObject;
 import org.modelingvalue.dclare.Observed;
-import java.util.function.Supplier;
-import org.modelingvalue.dclare.Setable;
-import org.modelingvalue.collections.Set;
 import org.modelingvalue.dclare.Observer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -18,19 +15,10 @@ import org.modelingvalue.cds.runtime.CDSUniverse;
 public class Medicijn_Concept extends CDSObject {
 
   public static final Observed<Medicijn_Concept, Medicijn_Concept> GENERIEK_OBSERVED = Observed.<Medicijn_Concept,Medicijn_Concept>of("=generiek", null, null);
-  public static final Observed<Medicijn_Concept, MedicijnGroep_Concept> GROEP_OBSERVED = Observed.<Medicijn_Concept,MedicijnGroep_Concept>of("=groep", null, new Supplier<Setable<?, ?>>() {
-    @Override
-    public Setable<?, ?> get() {
-      return MedicijnGroep_Concept.MEDICIJNEN_OBSERVED;
-    }
-  });
-  public static final Observed<Medicijn_Concept, Set> SAMENSTELLING_OBSERVED = Observed.<Medicijn_Concept,Set>of("=samenstelling", Set.of(), null);
+  public static final Observed<Medicijn_Concept, MedicijnGroep_Concept> GROEP_OBSERVED = Observed.<Medicijn_Concept,MedicijnGroep_Concept>of("=groep", null, null);
 
   public static final Observed<Medicijn_Concept, Medicijn_Concept> MEDICIJNGROEP_C0_COLUMN = Observed.<Medicijn_Concept,Medicijn_Concept>of("MedicijnGroep_c0", null);
   public static final Observed<Medicijn_Concept, Boolean> MEDICIJNGROEP_R0_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnGroep_r0", null);
-  public static final Observed<Medicijn_Concept, Set> MEDICIJNSAMENSTELLING_C0_COLUMN = Observed.<Medicijn_Concept,Set>of("MedicijnSamenstelling_c0", null);
-  public static final Observed<Medicijn_Concept, Boolean> MEDICIJNSAMENSTELLING_R0_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnSamenstelling_r0", null);
-  public static final Observed<Medicijn_Concept, Boolean> MEDICIJNSAMENSTELLING_R1_ROW = Observed.<Medicijn_Concept,Boolean>of("MedicijnSamenstelling_r1", null);
 
   public static final Observer<Medicijn_Concept> MEDICIJNGROEP_C0_OBSERVER = Observer.of("MedicijnGroep_c0", Medicijn_Concept.MEDICIJNGROEP_C0_COLUMN, new Function<Medicijn_Concept, Medicijn_Concept>() {
     public Medicijn_Concept apply(Medicijn_Concept it) {
@@ -50,41 +38,6 @@ public class Medicijn_Concept extends CDSObject {
   }, new Function<Medicijn_Concept, MedicijnGroep_Concept>() {
     public MedicijnGroep_Concept apply(Medicijn_Concept it) {
       return it.MedicijnGroep_c1_r0();
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_C0_OBSERVER = Observer.of("MedicijnSamenstelling_c0", Medicijn_Concept.MEDICIJNSAMENSTELLING_C0_COLUMN, new Function<Medicijn_Concept, Set>() {
-    public Set apply(Medicijn_Concept it) {
-      return it.MedicijnSamenstelling_c0();
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_R0_OBSERVER = Observer.of("MedicijnSamenstelling_r0", Medicijn_Concept.MEDICIJNSAMENSTELLING_R0_ROW, new Function<Medicijn_Concept, Boolean>() {
-    public Boolean apply(Medicijn_Concept it) {
-      return true && it.MedicijnSamenstelling_c0_r0() == Boolean.TRUE;
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_R1_OBSERVER = Observer.of("MedicijnSamenstelling_r1", Medicijn_Concept.MEDICIJNSAMENSTELLING_R1_ROW, new Function<Medicijn_Concept, Boolean>() {
-    public Boolean apply(Medicijn_Concept it) {
-      return true && it.MedicijnSamenstelling_c0_r1() == Boolean.TRUE;
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_C1_R0_OBSERVER = Observer.of("MedicijnSamenstelling_c1_r0", Medicijn_Concept.SAMENSTELLING_OBSERVED, new Predicate<Medicijn_Concept>() {
-    @Override
-    public boolean test(Medicijn_Concept a) {
-      return Medicijn_Concept.MEDICIJNSAMENSTELLING_R0_ROW.get(a) == Boolean.TRUE;
-    }
-  }, new Function<Medicijn_Concept, Set>() {
-    public Set apply(Medicijn_Concept it) {
-      return it.MedicijnSamenstelling_c1_r0();
-    }
-  });
-  public static final Observer<Medicijn_Concept> MEDICIJNSAMENSTELLING_C1_R1_OBSERVER = Observer.of("MedicijnSamenstelling_c1_r1", Medicijn_Concept.SAMENSTELLING_OBSERVED, new Predicate<Medicijn_Concept>() {
-    @Override
-    public boolean test(Medicijn_Concept a) {
-      return Medicijn_Concept.MEDICIJNSAMENSTELLING_R1_ROW.get(a) == Boolean.TRUE;
-    }
-  }, new Function<Medicijn_Concept, Set>() {
-    public Set apply(Medicijn_Concept it) {
-      return it.MedicijnSamenstelling_c1_r1();
     }
   });
 
@@ -110,24 +63,6 @@ public class Medicijn_Concept extends CDSObject {
   }
   public MedicijnGroep_Concept MedicijnGroep_c1_r0() {
     return Medicijn_Concept.GROEP_OBSERVED.get(Medicijn_Concept.GENERIEK_OBSERVED.get(this));
-  }
-  public Set MedicijnSamenstelling_c0() {
-    return MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(Medicijn_Concept.GROEP_OBSERVED.get(this));
-  }
-  public Set MedicijnSamenstelling_c1() {
-    return Medicijn_Concept.SAMENSTELLING_OBSERVED.get(this);
-  }
-  public Boolean MedicijnSamenstelling_c0_r0() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Medicijn_Concept.MEDICIJNSAMENSTELLING_C0_COLUMN.get(this), "gelijk", (Object) Set.of(new Object[]{}))));
-  }
-  public Set MedicijnSamenstelling_c1_r0() {
-    return Set.of(new Object[]{Medicijn_Concept.GROEP_OBSERVED.get(this)});
-  }
-  public Boolean MedicijnSamenstelling_c0_r1() {
-    return ((Boolean) (BaseDispatcher__cdm_lang.INSTANCE.dispatch(Medicijn_Concept.MEDICIJNSAMENSTELLING_C0_COLUMN.get(this), "ongelijk", (Object) Set.of(new Object[]{}))));
-  }
-  public Set MedicijnSamenstelling_c1_r1() {
-    return MedicijnGroep_Concept.SAMENSTELLING_OBSERVED.get(Medicijn_Concept.GROEP_OBSERVED.get(this));
   }
 
   public static class ConceptUniverse extends Medicijn_Concept implements CDSUniverse {
