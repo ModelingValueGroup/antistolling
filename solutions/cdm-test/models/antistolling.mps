@@ -5,6 +5,7 @@
     <use id="2b379ad1-c243-479c-be1a-0c81bd5ce136" name="cdm.lang" version="6" />
   </languages>
   <imports>
+    <import index="pe65" ref="r:9f410ad3-8f5f-461b-98ee-7257dd5af462(serviceLogic)" />
     <import index="58bx" ref="r:4a1209c4-c885-4c56-9c3d-054c2c3812b3(cdm.base)" implicit="true" />
   </imports>
   <registry>
@@ -65,6 +66,7 @@
         <child id="3523973870520786673" name="eigenschappen" index="1eKvlx" />
       </concept>
       <concept id="3523973870520985045" name="cdm.lang.structure.CalculatieTabel" flags="ng" index="1eNGT5">
+        <reference id="6814292496899984083" name="focusObject" index="17L70Z" />
         <reference id="5384265730004379782" name="concept" index="3fwaAx" />
         <child id="3523973870520985061" name="kolommen" index="1eNGTP" />
         <child id="3523973870520985064" name="regels" index="1eNGTS" />
@@ -256,16 +258,45 @@
     <property role="TrG5h" value="PatientMedicijnGebruikPad" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="3fwaAx" node="3qvXTOlaWfN" resolve="Patient" />
+    <ref role="17L70Z" node="7m_jiAY7iPg" resolve="Piet" />
     <node concept="1eNGTd" id="4CAiFKVfyWU" role="1eNGTP">
       <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling" />
       <node concept="yiS3G" id="5s2V72gyFSJ" role="3fw9hm">
         <ref role="yijfS" node="4pUypdCPHBW" resolve="samenstelling" />
+        <node concept="3uZZn6" id="7lZHjrrk51t" role="WL0qH">
+          <ref role="3uZZnp" node="7BEvwB3ITgl" resolve="samenstelling" />
+          <ref role="3zXCHX" node="7BEvwB3ISAR" resolve="TAR" />
+        </node>
+        <node concept="3uZZn6" id="7lZHjrrk51u" role="WL0qH">
+          <ref role="3uZZnp" node="7BEvwB3JSUv" resolve="samenstelling" />
+          <ref role="3zXCHX" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
+        </node>
         <node concept="yiS3G" id="5s2V72gyFSG" role="3fC3Ac">
           <ref role="yijfS" node="4pUypdCJ9Cf" resolve="groep" />
+          <node concept="3uZZn6" id="7lZHjrrk51v" role="WL0qH">
+            <ref role="3uZZnp" node="6AAC_8oVjdX" resolve="groep" />
+            <ref role="3zXCHX" node="6AAC_8oVjdU" resolve="clopidogrel" />
+          </node>
+          <node concept="3uZZn6" id="7lZHjrrk51w" role="WL0qH">
+            <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
+            <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
+          </node>
           <node concept="yiS3G" id="5s2V72gyFSH" role="3fC3Ac">
             <ref role="yijfS" node="4pUypdCJYcp" resolve="medicijn" />
+            <node concept="3uZZn6" id="7lZHjrrk51y" role="WL0qH">
+              <ref role="3uZZnp" node="3dsNtSgVIXv" resolve="medicijn" />
+              <ref role="3zXCHX" node="3dsNtSgVIXs" resolve="MedPiet2" />
+            </node>
+            <node concept="3uZZn6" id="7lZHjrrk51x" role="WL0qH">
+              <ref role="3uZZnp" node="5_D06SZ1C9L" resolve="medicijn" />
+              <ref role="3zXCHX" node="5_D06SZ1uVw" resolve="MedPiet1" />
+            </node>
             <node concept="3fC3Ad" id="5s2V72gyFSI" role="3fC3Ac">
               <ref role="3fC3Aa" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
+              <node concept="3uZZn6" id="7lZHjrrk51r" role="WL0qH">
+                <ref role="3uZZnp" node="5_D06SYa3iq" resolve="medicijnenGebruik" />
+                <ref role="3zXCHX" node="7m_jiAY7iPg" resolve="Piet" />
+              </node>
             </node>
           </node>
         </node>
@@ -276,6 +307,10 @@
       <property role="1eNGTW" value="true" />
       <node concept="3fC3Ad" id="4CAiFKVhdGY" role="3fw9hm">
         <ref role="3fC3Aa" node="4pUypdCIy2Z" resolve="antistollingsPad" />
+        <node concept="3uZZn6" id="7lZHjrrk51s" role="WL0qH">
+          <ref role="3uZZnp" node="4CAiFKVklMp" resolve="=.antistollingsPad" />
+          <ref role="3zXCHX" node="7m_jiAY7iPg" resolve="Piet" />
+        </node>
       </node>
     </node>
     <node concept="1eNGT8" id="4CAiFKVupEK" role="1eNGTS">
