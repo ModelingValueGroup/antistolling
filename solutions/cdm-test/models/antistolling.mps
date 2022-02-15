@@ -263,13 +263,13 @@
       <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling" />
       <node concept="yiS3G" id="5s2V72gyFSJ" role="3fw9hm">
         <ref role="yijfS" node="4pUypdCPHBW" resolve="samenstelling" />
-        <node concept="3uZZn6" id="7lZHjrrk51t" role="WL0qH">
-          <ref role="3uZZnp" node="7BEvwB3ITgl" resolve="samenstelling" />
-          <ref role="3zXCHX" node="7BEvwB3ISAR" resolve="TAR" />
-        </node>
         <node concept="3uZZn6" id="7lZHjrrk51u" role="WL0qH">
           <ref role="3uZZnp" node="7BEvwB3JSUv" resolve="samenstelling" />
           <ref role="3zXCHX" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
+        </node>
+        <node concept="3uZZn6" id="7lZHjrrk51t" role="WL0qH">
+          <ref role="3uZZnp" node="7BEvwB3ITgl" resolve="samenstelling" />
+          <ref role="3zXCHX" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
         <node concept="yiS3G" id="5s2V72gyFSG" role="3fC3Ac">
           <ref role="yijfS" node="4pUypdCJ9Cf" resolve="groep" />
@@ -283,13 +283,13 @@
           </node>
           <node concept="yiS3G" id="5s2V72gyFSH" role="3fC3Ac">
             <ref role="yijfS" node="4pUypdCJYcp" resolve="medicijn" />
-            <node concept="3uZZn6" id="7lZHjrrk51y" role="WL0qH">
-              <ref role="3uZZnp" node="3dsNtSgVIXv" resolve="medicijn" />
-              <ref role="3zXCHX" node="3dsNtSgVIXs" resolve="MedPiet2" />
-            </node>
             <node concept="3uZZn6" id="7lZHjrrk51x" role="WL0qH">
               <ref role="3uZZnp" node="5_D06SZ1C9L" resolve="medicijn" />
               <ref role="3zXCHX" node="5_D06SZ1uVw" resolve="MedPiet1" />
+            </node>
+            <node concept="3uZZn6" id="7lZHjrrk51y" role="WL0qH">
+              <ref role="3uZZnp" node="3dsNtSgVIXv" resolve="medicijn" />
+              <ref role="3zXCHX" node="3dsNtSgVIXs" resolve="MedPiet2" />
             </node>
             <node concept="3fC3Ad" id="5s2V72gyFSI" role="3fC3Ac">
               <ref role="3fC3Aa" node="4pUypdCIbV9" resolve="medicijnenGebruik" />

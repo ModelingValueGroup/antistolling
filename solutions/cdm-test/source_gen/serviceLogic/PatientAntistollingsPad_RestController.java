@@ -11,8 +11,8 @@ import org.modelingvalue.cds.runtime.CDSStoreAndFactory;
 
 @RestController
 public class PatientAntistollingsPad_RestController extends CDSRestController {
-  @RequestMapping(value = "/PatientMedicijnGebruikPad_unitTest")
-  public String PatientMedicijnGebruikPad_unitTest_EntryPoint(@RequestBody String json, HttpSession session) {
+  @RequestMapping(value = "/PatientMedicijnGebruikPad_TransactieType")
+  public String PatientMedicijnGebruikPad_TransactieType_EntryPoint(@RequestBody String json, HttpSession session) {
     return genericEntryPoint(json, session);
   }
 
