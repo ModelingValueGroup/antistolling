@@ -94,6 +94,46 @@
     <classNode dependClassName="serviceLogic.Patient_Concept" />
     <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSInstanceTable" />
   </dependency>
+  <dependency className="serviceLogic.MedicijnGebruikPad_Application">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.springframework.boot.SpringApplication" />
+    <classNode dependClassName="org.springframework.boot.autoconfigure.SpringBootApplication" />
+    <classNode dependClassName="org.springframework.context.annotation.ComponentScan" />
+  </dependency>
+  <dependency className="serviceLogic.MedicijnGebruikPad_RestController">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.servlet.http.HttpSession" />
+    <classNode dependClassName="org.modelingvalue.cds.runtime.CDSStoreAndFactory" />
+    <classNode dependClassName="org.springframework.web.bind.annotation.RequestBody" />
+    <classNode dependClassName="org.springframework.web.bind.annotation.RequestMapping" />
+    <classNode dependClassName="org.springframework.web.bind.annotation.RestController" />
+    <classNode dependClassName="serviceLogic.MedicijnGebruikPad_StoreAndFactory" />
+    <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSRestController" />
+  </dependency>
+  <dependency className="serviceLogic.MedicijnGebruikPad_StoreAndFactory">
+    <classNode dependClassName="cdm.lang.java.BaseDispatcher__cdm_lang" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.modelingvalue.collections.Collection" />
+    <classNode dependClassName="serviceLogic.AntistollingsPad_Concept" />
+    <classNode dependClassName="serviceLogic.AntistollingsPaden_ObjectTable" />
+    <classNode dependClassName="serviceLogic.EnkelvoudigeMedicijnGroep_Concept" />
+    <classNode dependClassName="serviceLogic.EnkelvoudigeMedicijnGroepen_ObjectTable" />
+    <classNode dependClassName="serviceLogic.GeneriekMedicijn_Concept" />
+    <classNode dependClassName="serviceLogic.GeneriekeMedicijnen_ObjectTable" />
+    <classNode dependClassName="serviceLogic.MedicijnGbruiken_ObjectTable" />
+    <classNode dependClassName="serviceLogic.MedicijnGebruik_Concept" />
+    <classNode dependClassName="serviceLogic.MedicijnGroep_Concept" />
+    <classNode dependClassName="serviceLogic.Medicijn_Concept" />
+    <classNode dependClassName="serviceLogic.MeervoudigeMedicijnGroep_Concept" />
+    <classNode dependClassName="serviceLogic.MeervoudigeMedicijnGroepen_ObjectTable" />
+    <classNode dependClassName="serviceLogic.Patient_Concept" />
+    <classNode dependClassName="serviceLogic.Patienten_ObjectTable" />
+    <classNode dependClassName="serviceLogic.SpecifiekMedicijn_Concept" />
+    <classNode dependClassName="serviceLogic.SpecifiekeMedicijnen_ObjectTable" />
+    <classNode extendsClassName="org.modelingvalue.cds.runtime.CDSStoreAndFactory" />
+  </dependency>
   <dependency className="serviceLogic.MedicijnGebruik_Concept">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />

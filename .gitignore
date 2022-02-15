@@ -1,1 +1,13 @@
-/solutions/cdm-test/source_gen.caches/logic/dependencies
+# MPS
+
+*_gen
+*_gen.caches
+*.class
+
+workspace.xml
+junitvmwatcher*.properties
+build.properties
+junit*.properties
+
+TEST-*.txt
+TEST-*.xml
