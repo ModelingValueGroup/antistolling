@@ -263,23 +263,23 @@
       <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling" />
       <node concept="yiS3G" id="5s2V72gyFSJ" role="3fw9hm">
         <ref role="yijfS" node="4pUypdCPHBW" resolve="samenstelling" />
-        <node concept="3uZZn6" id="7lZHjrrk51u" role="WL0qH">
-          <ref role="3uZZnp" node="7BEvwB3JSUv" resolve="samenstelling" />
-          <ref role="3zXCHX" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
-        </node>
         <node concept="3uZZn6" id="7lZHjrrk51t" role="WL0qH">
           <ref role="3uZZnp" node="7BEvwB3ITgl" resolve="samenstelling" />
           <ref role="3zXCHX" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
+        <node concept="3uZZn6" id="7lZHjrrk51u" role="WL0qH">
+          <ref role="3uZZnp" node="7BEvwB3JSUv" resolve="samenstelling" />
+          <ref role="3zXCHX" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
+        </node>
         <node concept="yiS3G" id="5s2V72gyFSG" role="3fC3Ac">
           <ref role="yijfS" node="4pUypdCJ9Cf" resolve="groep" />
-          <node concept="3uZZn6" id="7lZHjrrk51v" role="WL0qH">
-            <ref role="3uZZnp" node="6AAC_8oVjdX" resolve="groep" />
-            <ref role="3zXCHX" node="6AAC_8oVjdU" resolve="clopidogrel" />
-          </node>
           <node concept="3uZZn6" id="7lZHjrrk51w" role="WL0qH">
             <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
             <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
+          </node>
+          <node concept="3uZZn6" id="7lZHjrrk51v" role="WL0qH">
+            <ref role="3uZZnp" node="6AAC_8oVjdX" resolve="groep" />
+            <ref role="3zXCHX" node="6AAC_8oVjdU" resolve="clopidogrel" />
           </node>
           <node concept="yiS3G" id="5s2V72gyFSH" role="3fC3Ac">
             <ref role="yijfS" node="4pUypdCJYcp" resolve="medicijn" />

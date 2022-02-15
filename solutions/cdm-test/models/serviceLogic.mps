@@ -6077,14 +6077,14 @@
                   <node concept="2YIFZM" id="7lZHjrsbOcH" role="10QFUP">
                     <ref role="1Pybhc" to="zrbp:~Collection" resolve="Collection" />
                     <ref role="37wK5l" to="zrbp:~Collection.of(java.lang.Object...)" resolve="of" />
-                    <node concept="3VsKOn" id="7lZHjrsbOcR" role="37wK5m">
-                      <ref role="3VsUkX" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
-                    </node>
                     <node concept="3VsKOn" id="7lZHjrsbOcP" role="37wK5m">
                       <ref role="3VsUkX" node="3qvXTOlaWk9" resolve="Patient_Concept" />
                     </node>
                     <node concept="3VsKOn" id="7lZHjrsbOcQ" role="37wK5m">
                       <ref role="3VsUkX" node="4pUypdCHNzQ" resolve="MedicijnGebruik_Concept" />
+                    </node>
+                    <node concept="3VsKOn" id="7lZHjrsbOcR" role="37wK5m">
+                      <ref role="3VsUkX" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
                     </node>
                     <node concept="3VsKOn" id="7lZHjrsbOcS" role="37wK5m">
                       <ref role="3VsUkX" node="4pUypdCHHcL" resolve="MedicijnGroep_Concept" />
@@ -6141,14 +6141,14 @@
                     <node concept="3VsKOn" id="7lZHjrsbOcD" role="37wK5m">
                       <ref role="3VsUkX" node="6AAC_8oTvyg" resolve="Medicijnen_ObjectTable" />
                     </node>
-                    <node concept="3VsKOn" id="7lZHjrsbOcC" role="37wK5m">
-                      <ref role="3VsUkX" node="4CAiFKVfDAw" resolve="AntistollingsPaden_ObjectTable" />
+                    <node concept="3VsKOn" id="7lZHjrsbOcF" role="37wK5m">
+                      <ref role="3VsUkX" node="7m_jiAY7iOT" resolve="Patienten_ObjectTable" />
                     </node>
                     <node concept="3VsKOn" id="7lZHjrsbOcE" role="37wK5m">
                       <ref role="3VsUkX" node="7gCvk7d1_RR" resolve="MedicijnGroepen_ObjectTable" />
                     </node>
-                    <node concept="3VsKOn" id="7lZHjrsbOcF" role="37wK5m">
-                      <ref role="3VsUkX" node="7m_jiAY7iOT" resolve="Patienten_ObjectTable" />
+                    <node concept="3VsKOn" id="7lZHjrsbOcC" role="37wK5m">
+                      <ref role="3VsUkX" node="4CAiFKVfDAw" resolve="AntistollingsPaden_ObjectTable" />
                     </node>
                     <node concept="3VsKOn" id="7lZHjrsbOcG" role="37wK5m">
                       <ref role="3VsUkX" node="5_D06SZ1uV9" resolve="MedicijnGebruiken_ObjectTable" />
