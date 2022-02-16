@@ -142,14 +142,6 @@
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="9cvQE" to="h4z:4pUypdCHHcK" resolve="MedicijnGroep" />
   </node>
-  <node concept="269stn" id="7lZHjrsbOci">
-    <property role="TrG5h" value="PatientAntistollingsPad" />
-    <property role="3GE5qa" value="services" />
-    <ref role="2928mI" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <node concept="269tJh" id="7lZHjrsbOcj" role="269tJe">
-      <ref role="269tI7" node="7lZHjrsLtMn" resolve="PatientMedicijnGebruikPad_TransactieType" />
-    </node>
-  </node>
   <node concept="8QVjo" id="7lZHjrsLtMm">
     <property role="TrG5h" value="MedicijnGroep_TransactieType" />
     <property role="3GE5qa" value="definitie.afleidingen" />
@@ -163,6 +155,14 @@
     <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
     <ref role="8QVjl" node="7lZHjrsbbK3" resolve="PatientMedicijnGebruikPad_Patient_uitvoer" />
     <ref role="8QVjn" node="7lZHjrsbbK4" resolve="PatientMedicijnGebruikPad_Patient_invoer" />
+  </node>
+  <node concept="269stn" id="3TMzDGXrZii">
+    <property role="TrG5h" value="PAtientAntistollingsPadService" />
+    <property role="3GE5qa" value="services" />
+    <ref role="2928mI" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="269tJh" id="3TMzDGXrZij" role="269tJe">
+      <ref role="269tI7" node="7lZHjrsLtMn" resolve="PatientMedicijnGebruikPad_TransactieType" />
+    </node>
   </node>
 </model>
 

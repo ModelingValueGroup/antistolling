@@ -57,6 +57,7 @@
         <child id="3914463568149816803" name="generalisaties" index="n_t83" />
       </concept>
       <concept id="3523973870520786670" name="cdm.lang.structure.Eigenschap" flags="ng" index="1eKvlY">
+        <property id="3523973870520860576" name="compositie" index="1eKdgK" />
         <reference id="3523973870520860573" name="inverse" index="1eKdgd" />
         <child id="4295925548386401698" name="doelTabellen" index="2YxCK$" />
         <child id="4295925548386401707" name="bronTabellen" index="2YxCKH" />
@@ -110,6 +111,7 @@
     <property role="3GE5qa" value="definitie.concepten" />
     <node concept="1eKvlY" id="4pUypdCIbV9" role="1eKvlx">
       <property role="TrG5h" value="medicijnenGebruik" />
+      <property role="1eKdgK" value="true" />
       <ref role="1eKdgd" node="4pUypdCIpex" resolve="patient" />
       <node concept="18$Bil" id="4pUypdCIm1a" role="3egi_F">
         <ref role="18$Bim" to="58bx:4ESKiu4Wz0U" resolve="Set" />
@@ -273,13 +275,13 @@
         </node>
         <node concept="yiS3G" id="5s2V72gyFSG" role="3fC3Ac">
           <ref role="yijfS" node="4pUypdCJ9Cf" resolve="groep" />
-          <node concept="3uZZn6" id="7lZHjrrk51w" role="WL0qH">
-            <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
-            <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
-          </node>
           <node concept="3uZZn6" id="7lZHjrrk51v" role="WL0qH">
             <ref role="3uZZnp" node="6AAC_8oVjdX" resolve="groep" />
             <ref role="3zXCHX" node="6AAC_8oVjdU" resolve="clopidogrel" />
+          </node>
+          <node concept="3uZZn6" id="7lZHjrrk51w" role="WL0qH">
+            <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
+            <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
           </node>
           <node concept="yiS3G" id="5s2V72gyFSH" role="3fC3Ac">
             <ref role="yijfS" node="4pUypdCJYcp" resolve="medicijn" />
