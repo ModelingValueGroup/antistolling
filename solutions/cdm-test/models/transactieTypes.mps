@@ -79,7 +79,7 @@
     <node concept="8QVjJ" id="7lZHjrsbbKf" role="8QVjI">
       <property role="TrG5h" value="antistollingsPad" />
       <property role="3$7aot" value="antistollingsPad" />
-      <ref role="9cvQy" node="7lZHjrsbbK9" resolve="PatientMedicijnGebruikPad_AntistollingsPad_uitvoer" />
+      <ref role="9cvQy" node="7lZHjrsbbK9" resolve="PatientAntistollingsPad_AntistollingsPad_uitvoer" />
       <ref role="8QVjx" to="h4z:4pUypdCIy2Z" resolve="antistollingsPad" />
     </node>
   </node>
@@ -110,7 +110,7 @@
     <property role="3GE5qa" value="services" />
     <ref role="2928mI" to="h4z:3qvXTOlaWfN" resolve="Patient" />
     <node concept="269tJh" id="3TMzDGXrZij" role="269tJe">
-      <ref role="269tI7" node="7lZHjrsLtMn" resolve="PatientMedicijnGebruikPad_TransactieType" />
+      <ref role="269tI7" node="7lZHjrsLtMn" resolve="PatientAntistollingsPad_TransactieType" />
     </node>
   </node>
   <node concept="8QVjM" id="7lZHjrsbbK6">
@@ -120,7 +120,7 @@
     <node concept="8QVjJ" id="7lZHjrsbbKd" role="8QVjI">
       <property role="TrG5h" value="groep" />
       <property role="3$7aot" value="groep" />
-      <ref role="9cvQy" node="7lZHjrsbbK7" resolve="PatientMedicijnGebruikPad_MedicijnGroep_invoer" />
+      <ref role="9cvQy" node="7lZHjrsbbK7" resolve="PatientAntistollingsPad_MedicijnGroep_invoer" />
       <ref role="8QVjx" to="h4z:4pUypdCJ9Cf" resolve="groep" />
     </node>
   </node>
@@ -139,8 +139,8 @@
     <property role="TrG5h" value="PatientAntistollingsPad_TransactieType" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <ref role="8QVjl" node="7lZHjrsbbK3" resolve="PatientMedicijnGebruikPad_Patient_uitvoer" />
-    <ref role="8QVjn" node="7lZHjrsbbK4" resolve="PatientMedicijnGebruikPad_Patient_invoer" />
+    <ref role="8QVjl" node="7lZHjrsbbK3" resolve="PatientAntistollingsPad_Patient_uitvoer" />
+    <ref role="8QVjn" node="7lZHjrsbbK4" resolve="PatientAntistollingsPad_Patient_invoer" />
   </node>
   <node concept="8QVjM" id="7lZHjrsbbK7">
     <property role="TrG5h" value="PatientAntistollingsPad_MedicijnGroep_invoer" />
