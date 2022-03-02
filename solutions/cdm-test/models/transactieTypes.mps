@@ -153,50 +153,131 @@
       <ref role="8QVjx" to="h4z:4pUypdCPHBW" resolve="samenstelling" />
     </node>
   </node>
-  <node concept="8QVjM" id="3TMzDGXIgcw">
-    <property role="TrG5h" value="MedicijnenVanPatient_Patient_uitvoer" />
-    <property role="3GE5qa" value="definitie.afleidingen" />
-    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <node concept="8QVjJ" id="3TMzDGXIgcy" role="8QVjI">
-      <property role="TrG5h" value="medicijnen" />
-      <property role="3$7aot" value="medicijnen" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
-      <ref role="8QVjx" to="h4z:3TMzDGXBxdg" resolve="medicijnen" />
-    </node>
-  </node>
-  <node concept="8QVjo" id="3TMzDGXITRo">
-    <property role="TrG5h" value="MedicijnenVanPatient_TransactieType" />
-    <property role="3GE5qa" value="definitie.afleidingen" />
-    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <ref role="8QVjn" node="3TMzDGXITRp" resolve="MedicijnenVanPatient_Patient_invoer" />
-    <ref role="8QVjl" node="3TMzDGXIgcw" resolve="MedicijnenVanPatient_Patient_uitvoer" />
-  </node>
-  <node concept="8QVjM" id="3TMzDGXITRp">
+  <node concept="8QVjM" id="2LdHxMw9RPi">
     <property role="TrG5h" value="MedicijnenVanPatient_Patient_invoer" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <node concept="8QVjJ" id="3TMzDGXITRr" role="8QVjI">
+    <node concept="8QVjJ" id="2LdHxMw9RPk" role="8QVjI">
       <property role="TrG5h" value="medicijnenGebruik" />
       <property role="3$7aot" value="medicijnenGebruik" />
       <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
       <ref role="8QVjx" to="h4z:4pUypdCIbV9" resolve="medicijnenGebruik" />
     </node>
   </node>
-  <node concept="8QVjM" id="3TMzDGXJDH_">
+  <node concept="8QVjM" id="2LdHxMwag_c">
     <property role="TrG5h" value="MedicijnenVanPatient_Medicijn_invoer" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="9cvQE" to="h4z:4pUypdCHwTP" resolve="Medicijn" />
   </node>
-  <node concept="8QVjM" id="3TMzDGXJDHA">
+  <node concept="8QVjM" id="2LdHxMwag_d">
     <property role="TrG5h" value="MedicijnenVanPatient_MedicijnGebruik_invoer" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="9cvQE" to="h4z:4pUypdCHNzP" resolve="MedicijnGebruik" />
-    <node concept="8QVjJ" id="3TMzDGXJDHB" role="8QVjI">
+    <node concept="8QVjJ" id="2LdHxMwag_i" role="8QVjI">
       <property role="TrG5h" value="medicijn" />
       <property role="3$7aot" value="medicijn" />
-      <ref role="9cvQy" node="3TMzDGXJDH_" resolve="MedicijnenVanPatient_Medicijn_invoer" />
+      <ref role="9cvQy" node="2LdHxMwag_c" resolve="MedicijnenVanPatient_Medicijn_invoer" />
       <ref role="8QVjx" to="h4z:4pUypdCJYcp" resolve="medicijn" />
     </node>
+  </node>
+  <node concept="8QVjM" id="2LdHxMw9_2n">
+    <property role="TrG5h" value="MedicijnenVanPatient_Patient_uitvoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="8QVjJ" id="2LdHxMw9_2p" role="8QVjI">
+      <property role="TrG5h" value="medicijnen" />
+      <property role="3$7aot" value="medicijnen" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+      <ref role="8QVjx" to="h4z:3TMzDGXBxdg" resolve="medicijnen" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="7Gwe5pBaATo">
+    <property role="TrG5h" value="LeeftijdVACsScrore_Patient_uitvoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="8QVjJ" id="7Gwe5pBsqrT" role="8QVjI">
+      <property role="TrG5h" value="leeftijdVACsScore" />
+      <property role="3$7aot" value="leeftijdVACsScore" />
+      <ref role="8QVjx" to="h4z:7Gwe5pBkEI5" resolve="leeftijdVACsScore" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
+    </node>
+  </node>
+  <node concept="8QVjo" id="7Gwe5pBbHv0">
+    <property role="TrG5h" value="LeeftijdVACsScrore_TransactieType" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="8QVjn" node="7Gwe5pBbHv1" resolve="VACsScrore_Patient_invoer" />
+    <ref role="8QVjl" node="7Gwe5pBaATo" resolve="VACsScrore_Patient_uitvoer" />
+    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+  </node>
+  <node concept="8QVjM" id="7Gwe5pBbHv1">
+    <property role="TrG5h" value="LeeftijdVACsScrore_Patient_invoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="8QVjJ" id="7Gwe5pBbHv3" role="8QVjI">
+      <property role="TrG5h" value="leeftijd" />
+      <property role="3$7aot" value="leeftijd" />
+      <ref role="8QVjx" to="h4z:7Gwe5pB4syT" resolve="leeftijd" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
+    </node>
+  </node>
+  <node concept="8QVjo" id="2q5AM_xLAdj">
+    <property role="TrG5h" value="MedicijnenVanPatient_TransactieType" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <ref role="8QVjn" node="2LdHxMw9RPi" resolve="MedicijnenVanPatient_Patient_invoer" />
+    <ref role="8QVjl" node="2LdHxMw9_2n" resolve="MedicijnenVanPatient_Patient_uitvoer" />
+  </node>
+  <node concept="8QVjM" id="4sYVMsKUdpx">
+    <property role="TrG5h" value="VACsScore_Patient_uitvoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="8QVjJ" id="4sYVMsKUdpz" role="8QVjI">
+      <property role="TrG5h" value="VACsScore" />
+      <property role="3$7aot" value="VACsScore" />
+      <ref role="8QVjx" to="h4z:7Gwe5pB7lPr" resolve="VACsScore" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="4sYVMsLfyEl">
+    <property role="TrG5h" value="VACsScore_VACsIndicator_invoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:7Gwe5pB3yPG" resolve="VACsIndicator" />
+    <node concept="8QVjJ" id="4sYVMsLfyEq" role="8QVjI">
+      <property role="TrG5h" value="VACsScore" />
+      <property role="3$7aot" value="VACsScore" />
+      <ref role="8QVjx" to="h4z:7Gwe5pB3LW3" resolve="VACsScore" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
+    </node>
+  </node>
+  <node concept="8QVjM" id="7Gwe5pBxEel">
+    <property role="TrG5h" value="VACsScore_Patient_invoer" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <node concept="8QVjJ" id="4sYVMsLf5nv" role="8QVjI">
+      <property role="TrG5h" value="voorgeschiedenis" />
+      <property role="3$7aot" value="voorgeschiedenis" />
+      <ref role="8QVjx" to="h4z:7Gwe5pB6OE4" resolve="voorgeschiedenis" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+    </node>
+    <node concept="8QVjJ" id="4sYVMsLEoEC" role="8QVjI">
+      <property role="TrG5h" value="aandoeningen" />
+      <property role="3$7aot" value="aandoeningen" />
+      <ref role="8QVjx" to="h4z:7Gwe5pB6ODH" resolve="aandoeningen" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8l" resolve="SetView" />
+    </node>
+    <node concept="8QVjJ" id="7Gwe5pBxEen" role="8QVjI">
+      <property role="TrG5h" value="leeftijdVACsScore" />
+      <property role="3$7aot" value="leeftijdVACsScore" />
+      <ref role="8QVjx" to="h4z:7Gwe5pBkEI5" resolve="leeftijdVACsScore" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
+    </node>
+  </node>
+  <node concept="8QVjo" id="4sYVMsKUdpw">
+    <property role="TrG5h" value="VACsScore_TransactieType" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="8QVjl" node="4sYVMsKUdpx" resolve="VACsScore_Patient_uitvoer" />
+    <ref role="8QVjn" node="7Gwe5pBxEel" resolve="VACsScore_Patient_invoer" />
+    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
   </node>
 </model>
 
