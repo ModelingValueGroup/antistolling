@@ -209,6 +209,13 @@
       <ref role="8QVjx" to="h4z:av6lb7KPMA" resolve="bmi" />
     </node>
   </node>
+  <node concept="8QVjo" id="7NmucCOXAYy">
+    <property role="TrG5h" value="Bepaal_BMI_TransactieType" />
+    <property role="3GE5qa" value="definitie.afleidingen" />
+    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
+    <ref role="8QVjl" node="7NmucCOXAYz" resolve="Bepaal_BMI_Patient_uitvoer" />
+    <ref role="8QVjn" node="av6lb7N9XD" resolve="Bepaal_BMI_Patient_invoer" />
+  </node>
   <node concept="8QVjM" id="av6lb7N9XD">
     <property role="TrG5h" value="Bepaal_BMI_Patient_invoer" />
     <property role="3GE5qa" value="definitie.afleidingen" />
@@ -216,8 +223,8 @@
     <node concept="8QVjJ" id="7NmucCPcInL" role="8QVjI">
       <property role="TrG5h" value="lengte" />
       <property role="3$7aot" value="lengte" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8o" resolve="GeheelGetalView" />
       <ref role="8QVjx" to="h4z:av6lb7Fz33" resolve="lengte" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8q" resolve="DecimaalGetalView" />
     </node>
     <node concept="8QVjJ" id="7NmucCP6h0j" role="8QVjI">
       <property role="TrG5h" value="gewicht" />
@@ -225,13 +232,6 @@
       <ref role="9cvQy" to="58bx:2o1ZtGYeb8q" resolve="DecimaalGetalView" />
       <ref role="8QVjx" to="h4z:av6lb7Hj5I" resolve="gewicht" />
     </node>
-  </node>
-  <node concept="8QVjo" id="7NmucCOXAYy">
-    <property role="TrG5h" value="Bepaal_BMI_TransactieType" />
-    <property role="3GE5qa" value="definitie.afleidingen" />
-    <ref role="98QxM" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <ref role="8QVjl" node="7NmucCOXAYz" resolve="Bepaal_BMI_Patient_uitvoer" />
-    <ref role="8QVjn" node="av6lb7N9XD" resolve="Bepaal_BMI_Patient_invoer" />
   </node>
 </model>
 
