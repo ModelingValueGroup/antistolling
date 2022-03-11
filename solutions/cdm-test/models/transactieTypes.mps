@@ -220,17 +220,17 @@
     <property role="TrG5h" value="Bepaal_BMI_Patient_invoer" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="9cvQE" to="h4z:3qvXTOlaWfN" resolve="Patient" />
-    <node concept="8QVjJ" id="7NmucCPcInL" role="8QVjI">
-      <property role="TrG5h" value="lengte" />
-      <property role="3$7aot" value="lengte" />
-      <ref role="8QVjx" to="h4z:av6lb7Fz33" resolve="lengte" />
-      <ref role="9cvQy" to="58bx:2o1ZtGYeb8q" resolve="DecimaalGetalView" />
-    </node>
     <node concept="8QVjJ" id="7NmucCP6h0j" role="8QVjI">
       <property role="TrG5h" value="gewicht" />
       <property role="3$7aot" value="gewicht" />
       <ref role="9cvQy" to="58bx:2o1ZtGYeb8q" resolve="DecimaalGetalView" />
       <ref role="8QVjx" to="h4z:av6lb7Hj5I" resolve="gewicht" />
+    </node>
+    <node concept="8QVjJ" id="2w$WGbg1NBN" role="8QVjI">
+      <property role="TrG5h" value="lengte" />
+      <property role="3$7aot" value="lengte" />
+      <ref role="8QVjx" to="h4z:av6lb7Fz33" resolve="lengte" />
+      <ref role="9cvQy" to="58bx:2o1ZtGYeb8q" resolve="DecimaalGetalView" />
     </node>
   </node>
 </model>
