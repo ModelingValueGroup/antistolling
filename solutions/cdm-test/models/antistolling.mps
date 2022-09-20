@@ -17,11 +17,8 @@
       </concept>
     </language>
     <language id="2b379ad1-c243-479c-be1a-0c81bd5ce136" name="cdm.lang">
-      <concept id="4009392106065763473" name="cdm.lang.structure.Entrypoint" flags="ng" index="20UyhL" />
       <concept id="1331353977788050484" name="cdm.lang.structure.Service" flags="ng" index="269stn">
-        <reference id="1579444964123989373" name="rootConcept" index="2928mI" />
-        <child id="4009392106065808663" name="entryPoints" index="20UJnR" />
-        <child id="4856150046176901336" name="enumerations" index="2HeBD$" />
+        <child id="6527790569516625829" name="scopes" index="2EIr5a" />
       </concept>
       <concept id="2387291966582922513" name="cdm.lang.structure.ObjectIdLiteral" flags="ng" index="asc1O">
         <property id="2387291966582922514" name="id" index="asc1R" />
@@ -53,6 +50,10 @@
       <concept id="8621213489612476068" name="cdm.lang.structure.Object" flags="ng" index="2EzfPp">
         <reference id="8621213489612476078" name="concept" index="2EzfPj" />
         <child id="8621213489612476073" name="eigenschapWaarden" index="2EzfPk" />
+      </concept>
+      <concept id="6527790569516534818" name="cdm.lang.structure.Scope" flags="ng" index="2EIHbd">
+        <reference id="1579444964123989373" name="rootConcept" index="2928mI" />
+        <child id="4856150046176901336" name="enumerations" index="2HeBD$" />
       </concept>
       <concept id="8621213489606450764" name="cdm.lang.structure.FunctieAanroep" flags="ng" index="2FqeQL">
         <reference id="8621213489606450765" name="functie" index="2FqeQK" />
@@ -2617,24 +2618,43 @@
   <node concept="269stn" id="7dLFpwhCayL">
     <property role="3GE5qa" value="testGevallen" />
     <property role="TrG5h" value="Test" />
-    <ref role="2928mI" node="3qvXTOlaWfN" resolve="Patient" />
-    <node concept="20UyhL" id="7dLFpwhDOzu" role="20UJnR">
+    <node concept="2EIHbd" id="5EnnIZKNaBu" role="2EIr5a">
       <property role="TrG5h" value="ingang" />
+      <ref role="2928mI" node="3qvXTOlaWfN" resolve="Patient" />
+      <node concept="2HeBU9" id="5EnnIZKNeiE" role="2HeBD$">
+        <ref role="2HeBUa" node="6AAC_8oTvyf" resolve="Medicijnen" />
+      </node>
+      <node concept="2HeBU9" id="5EnnIZKNeiF" role="2HeBD$">
+        <ref role="2HeBUa" node="7Gwe5pB5HsK" resolve="Aandoeningen" />
+      </node>
+      <node concept="2HeBU9" id="5EnnIZKNeiG" role="2HeBD$">
+        <ref role="2HeBUa" node="4CAiFKVfDAv" resolve="AntistollingsPaden" />
+      </node>
+      <node concept="2HeBU9" id="5EnnIZKNeiH" role="2HeBD$">
+        <ref role="2HeBUa" node="7Gwe5pB3ZpY" resolve="Geslachten" />
+      </node>
+      <node concept="2HeBU9" id="5EnnIZKNeiI" role="2HeBD$">
+        <ref role="2HeBUa" node="7BEvwB3ISAv" resolve="MedicijnGroepen" />
+      </node>
     </node>
-    <node concept="2HeBU9" id="3p6WeQXfpxH" role="2HeBD$">
-      <ref role="2HeBUa" node="6AAC_8oTvyf" resolve="Medicijnen" />
-    </node>
-    <node concept="2HeBU9" id="3p6WeQXfpJQ" role="2HeBD$">
-      <ref role="2HeBUa" node="7Gwe5pB5HsK" resolve="Aandoeningen" />
-    </node>
-    <node concept="2HeBU9" id="3p6WeQXfqc7" role="2HeBD$">
-      <ref role="2HeBUa" node="4CAiFKVfDAv" resolve="AntistollingsPaden" />
-    </node>
-    <node concept="2HeBU9" id="3p6WeQXfqzG" role="2HeBD$">
-      <ref role="2HeBUa" node="7Gwe5pB3ZpY" resolve="Geslachten" />
-    </node>
-    <node concept="2HeBU9" id="2TJWv4ERfTD" role="2HeBD$">
-      <ref role="2HeBUa" node="7BEvwB3ISAv" resolve="MedicijnGroepen" />
+    <node concept="2EIHbd" id="18m23GhoBVS" role="2EIr5a">
+      <property role="TrG5h" value="uitgang" />
+      <ref role="2928mI" node="3qvXTOlaWfN" resolve="Patient" />
+      <node concept="2HeBU9" id="18m23GhoCCw" role="2HeBD$">
+        <ref role="2HeBUa" node="7Gwe5pB5HsK" resolve="Aandoeningen" />
+      </node>
+      <node concept="2HeBU9" id="18m23GhoCHn" role="2HeBD$">
+        <ref role="2HeBUa" node="4CAiFKVfDAv" resolve="AntistollingsPaden" />
+      </node>
+      <node concept="2HeBU9" id="18m23GhoCMf" role="2HeBD$">
+        <ref role="2HeBUa" node="7Gwe5pB3ZpY" resolve="Geslachten" />
+      </node>
+      <node concept="2HeBU9" id="18m23GhoCR8" role="2HeBD$">
+        <ref role="2HeBUa" node="7BEvwB3ISAv" resolve="MedicijnGroepen" />
+      </node>
+      <node concept="2HeBU9" id="18m23GhoCn4" role="2HeBD$">
+        <ref role="2HeBUa" node="6AAC_8oTvyf" resolve="Medicijnen" />
+      </node>
     </node>
   </node>
 </model>
