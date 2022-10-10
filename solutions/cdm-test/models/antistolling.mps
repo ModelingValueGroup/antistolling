@@ -85,7 +85,6 @@
         <child id="3523973870520786673" name="eigenschappen" index="1eKvlx" />
       </concept>
       <concept id="3523973870520985045" name="cdm.lang.structure.CalculatieTabel" flags="ng" index="1eNGT5">
-        <reference id="6814292496899984083" name="focusObject" index="17L70Z" />
         <reference id="5384265730004379782" name="concept" index="3fwaAx" />
         <child id="3523973870520985061" name="kolommen" index="1eNGTP" />
         <child id="3523973870520985064" name="regels" index="1eNGTS" />
@@ -122,6 +121,9 @@
       <concept id="3087211677438447471" name="cdm.lang.structure.OorzaakRef" flags="ng" index="3uZZn6">
         <reference id="3087211677438447472" name="oorzaak" index="3uZZnp" />
         <reference id="7252060905860691333" name="object" index="3zXCHX" />
+      </concept>
+      <concept id="5622673552036726658" name="cdm.lang.structure.ContainedObject" flags="ng" index="1z9rxc">
+        <child id="5622673552036726659" name="object" index="1z9rxd" />
       </concept>
       <concept id="52254979080051273" name="cdm.lang.structure.LeegLiteral" flags="ng" index="1DtBZD" />
       <concept id="4457850311331277277" name="cdm.lang.structure.Aanroep" flags="ng" index="1L7DVw">
@@ -283,47 +285,18 @@
     <property role="TrG5h" value="PatientMedicijnGebruikPad" />
     <property role="3GE5qa" value="definitie.afleidingen" />
     <ref role="3fwaAx" node="3qvXTOlaWfN" resolve="Patient" />
-    <ref role="17L70Z" node="5s2V72h68Jf" resolve="Jan" />
     <node concept="1eNGTd" id="4CAiFKVfyWU" role="1eNGTP">
       <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
       <node concept="2FqeQL" id="2qjJV_9G2Jh" role="3fw9hm">
         <ref role="2FqeQK" to="58bx:2q5AM_y3Hwv" resolve="toSet" />
         <node concept="yiS3G" id="2qjJV_9G2J6" role="3fC3Ac">
           <ref role="yijfS" node="4pUypdCPHBW" resolve="samenstelling" />
-          <node concept="3uZZn6" id="6KdYgWU75U6" role="WL0qH">
-            <ref role="3zXCHX" node="7gCvk7d1_OO" resolve="DAPT" />
-            <ref role="3uZZnp" node="7gCvk7d1_OR" resolve="samenstelling" />
-          </node>
-          <node concept="3uZZn6" id="6KdYgWU75U7" role="WL0qH">
-            <ref role="3zXCHX" node="7BEvwB3JPhs" resolve="DOAC" />
-            <ref role="3uZZnp" node="7BEvwB3JPhv" resolve="samenstelling" />
-          </node>
           <node concept="yiS3G" id="2qjJV_9G2J9" role="3fC3Ac">
             <ref role="yijfS" node="4pUypdCJ9Cf" resolve="groep" />
-            <node concept="3uZZn6" id="6KdYgWU75U8" role="WL0qH">
-              <ref role="3zXCHX" node="6AAC_8oYK$Z" resolve="asasantin" />
-              <ref role="3uZZnp" node="6AAC_8oYK_2" resolve="groep" />
-            </node>
-            <node concept="3uZZn6" id="6KdYgWU75U9" role="WL0qH">
-              <ref role="3zXCHX" node="6AAC_8oV1Y1" resolve="dabigatran" />
-              <ref role="3uZZnp" node="6AAC_8oV1Y4" resolve="groep" />
-            </node>
             <node concept="yiS3G" id="2qjJV_9G2Jc" role="3fC3Ac">
               <ref role="yijfS" node="4pUypdCJYcp" resolve="medicijn" />
-              <node concept="3uZZn6" id="6KdYgWU75Ua" role="WL0qH">
-                <ref role="3zXCHX" node="5s2V72h6jjU" resolve="MedJan1" />
-                <ref role="3uZZnp" node="5s2V72h6jjX" resolve="medicijn" />
-              </node>
-              <node concept="3uZZn6" id="6KdYgWU75Ub" role="WL0qH">
-                <ref role="3zXCHX" node="2Oa9GxmoOND" resolve="MedJan2" />
-                <ref role="3uZZnp" node="2Oa9GxmoONG" resolve="medicijn" />
-              </node>
               <node concept="3fC3Ad" id="2qjJV_9G2Jf" role="3fC3Ac">
                 <ref role="3fC3Aa" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
-                <node concept="3uZZn6" id="6KdYgWU75Uc" role="WL0qH">
-                  <ref role="3zXCHX" node="5s2V72h68Jf" resolve="Jan" />
-                  <ref role="3uZZnp" node="5s2V72h68Jh" resolve="medicijnenGebruik" />
-                </node>
               </node>
             </node>
           </node>
@@ -335,10 +308,6 @@
       <property role="1eNGTW" value="true" />
       <node concept="3fC3Ad" id="4CAiFKVhdGY" role="3fw9hm">
         <ref role="3fC3Aa" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-        <node concept="3uZZn6" id="6KdYgWU75Ud" role="WL0qH">
-          <ref role="3zXCHX" node="5s2V72h68Jf" resolve="Jan" />
-          <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
-        </node>
       </node>
     </node>
     <node concept="1eNGT8" id="4CAiFKVupEK" role="1eNGTS">
@@ -1051,7 +1020,7 @@
           <ref role="3zXCHX" node="6AAC_8oZ6j1" resolve="sintrom mitis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfI" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfr" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1080,7 +1049,7 @@
           <ref role="3zXCHX" node="6AAC_8oZiCu" resolve="marcoumar" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfM" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfp" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1109,7 +1078,7 @@
           <ref role="3zXCHX" node="6AAC_8oZjli" resolve="pradaxa" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfO" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfm" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1138,7 +1107,7 @@
           <ref role="3zXCHX" node="6AAC_8oZk3e" resolve="xarelto" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfG" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfo" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1167,7 +1136,7 @@
           <ref role="3zXCHX" node="6AAC_8oZkMi" resolve="eliquis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfF" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfu" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1196,7 +1165,7 @@
           <ref role="3zXCHX" node="6AAC_8oZlyu" resolve="lixiana" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfJ" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfs" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1225,7 +1194,7 @@
           <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfN" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfn" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1254,7 +1223,7 @@
           <ref role="3zXCHX" node="6AAC_8oZwxK" resolve="ascal" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfP" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mft" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1283,7 +1252,7 @@
           <ref role="3zXCHX" node="6AAC_8oZxn6" resolve="persantin" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfH" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfv" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1312,7 +1281,7 @@
           <ref role="3zXCHX" node="6AAC_8oZyd$" resolve="grepid" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfK" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfx" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1341,7 +1310,7 @@
           <ref role="3zXCHX" node="6AAC_8oZz5a" resolve="plavix" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfR" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfq" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1370,7 +1339,7 @@
           <ref role="3zXCHX" node="6AAC_8oZzXS" resolve="iscover" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfL" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfy" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1399,7 +1368,7 @@
           <ref role="3zXCHX" node="6AAC_8oZHIk" resolve="efient" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfQ" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfw" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1428,368 +1397,8 @@
           <ref role="3zXCHX" node="6AAC_8oZKvM" resolve="brilique" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfE" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD9mfl" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2EzfPc" id="7m_jiAY7iOS">
-    <property role="TrG5h" value="Patienten" />
-    <property role="3GE5qa" value="testGevallen" />
-    <ref role="2EzfPb" node="3qvXTOlaWfN" resolve="Patient" />
-    <node concept="2EzfPp" id="7m_jiAY7iPg" role="2EzfP9">
-      <property role="TrG5h" value="Piet" />
-      <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
-      <node concept="2EzfPm" id="7m_jiAY7iPf" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="7m_jiAY7iPe" role="2Ezeth">
-          <property role="asc1R" value="Piet" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5_D06SYa3iq" role="2EzfPk">
-        <property role="TrG5h" value="medicijnenGebruik" />
-        <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
-        <node concept="3f$x08" id="5_D06SYa3gR" role="2Ezeth">
-          <node concept="2bQEkN" id="5_D06SZ1HT_" role="3f$x0k">
-            <ref role="2bQEkM" node="5_D06SZ1uVw" resolve="MedPiet1" />
-          </node>
-          <node concept="2bQEkN" id="3dsNtSgVZBO" role="3f$x0k">
-            <ref role="2bQEkM" node="3dsNtSgVIXs" resolve="MedPiet2" />
-          </node>
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5_D06SYa3ir" role="2EzfPk">
-        <property role="TrG5h" value="antistollingsPad" />
-        <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-        <node concept="3uZZn6" id="2qjJV_9G2K2" role="WL0qH">
-          <ref role="3zXCHX" node="7m_jiAY7iPg" resolve="Piet" />
-          <ref role="3uZZnp" node="4CAiFKVklMp" resolve="=.antistollingsPad" />
-        </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfC" role="2Ezeth">
-          <ref role="2bQEkM" node="4CAiFKViiic" resolve="DAPT" />
-        </node>
-      </node>
-    </node>
-    <node concept="2Ezeut" id="7m_jiAY7iPo" role="2EzfOj">
-      <ref role="2Ezeus" to="58bx:39mK9B0Vi1$" resolve="id" />
-    </node>
-    <node concept="2Ezeut" id="5_D06SYa3is" role="2EzfOj">
-      <ref role="2Ezeus" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
-    </node>
-    <node concept="2Ezeut" id="5_D06SYa3it" role="2EzfOj">
-      <ref role="2Ezeus" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-    </node>
-    <node concept="2EzfPp" id="5s2V72h68Jf" role="2EzfP9">
-      <property role="TrG5h" value="Jan" />
-      <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
-      <node concept="2EzfPm" id="5s2V72h68Jg" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72h68JE" role="2Ezeth">
-          <property role="asc1R" value="Jan" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h68Jh" role="2EzfPk">
-        <property role="TrG5h" value="medicijnenGebruik" />
-        <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
-        <node concept="3f$x08" id="5s2V72h68J$" role="2Ezeth">
-          <node concept="2bQEkN" id="5s2V72h6yoc" role="3f$x0k">
-            <ref role="2bQEkM" node="5s2V72h6jjU" resolve="MedJan1" />
-          </node>
-          <node concept="2bQEkN" id="2Oa9Gxmpdd5" role="3f$x0k">
-            <ref role="2bQEkM" node="2Oa9GxmoOND" resolve="MedJan2" />
-          </node>
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h68Ji" role="2EzfPk">
-        <property role="TrG5h" value="antistollingsPad" />
-        <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-        <node concept="3uZZn6" id="2qjJV_9G2K0" role="WL0qH">
-          <ref role="3zXCHX" node="5s2V72h68Jf" resolve="Jan" />
-          <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
-        </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfD" role="2Ezeth">
-          <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="5s2V72h6HnB" role="2EzfP9">
-      <property role="TrG5h" value="Klaas" />
-      <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
-      <node concept="2EzfPm" id="5s2V72h6HnC" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72h6Hob" role="2Ezeth">
-          <property role="asc1R" value="Klaas" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6HnD" role="2EzfPk">
-        <property role="TrG5h" value="medicijnenGebruik" />
-        <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
-        <node concept="3f$x08" id="5s2V72h6Ho5" role="2Ezeth">
-          <node concept="2bQEkN" id="5s2V72h82YG" role="3f$x0k">
-            <ref role="2bQEkM" node="5s2V72h6YWP" resolve="MedKlaas1" />
-          </node>
-          <node concept="2bQEkN" id="5s2V72h87SJ" role="3f$x0k">
-            <ref role="2bQEkM" node="5s2V72h7i96" resolve="MedKlaas2" />
-          </node>
-          <node concept="2bQEkN" id="5s2V72haUI7" role="3f$x0k">
-            <ref role="2bQEkM" node="5s2V72haARz" resolve="MedKlass3" />
-          </node>
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6HnE" role="2EzfPk">
-        <property role="TrG5h" value="antistollingsPad" />
-        <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-        <node concept="3uZZn6" id="2qjJV_9G2JY" role="WL0qH">
-          <ref role="3zXCHX" node="5s2V72h6HnB" resolve="Klaas" />
-          <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
-        </node>
-        <node concept="2bQEkN" id="7TjiQgD5jfB" role="2Ezeth">
-          <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2EzfPc" id="5_D06SZ1uV8">
-    <property role="3GE5qa" value="testGevallen" />
-    <property role="TrG5h" value="MedicijnGebruiken" />
-    <ref role="2EzfPb" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-    <node concept="2EzfPp" id="5_D06SZ1uVw" role="2EzfP9">
-      <property role="TrG5h" value="MedPiet1" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="5_D06SZ1uVv" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5_D06SZ1uVu" role="2Ezeth">
-          <property role="asc1R" value="MedPiet1" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5_D06SZ1C9K" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="5_D06SZ1C97" role="2Ezeth">
-          <ref role="2bQEkM" node="7m_jiAY7iPg" resolve="Piet" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5_D06SZ1C9L" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="5_D06SZ1C99" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oZmjM" resolve="aspirine" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="7gCvk7cX9NR" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="7gCvk7cXTXq" role="2Ezeth">
-          <property role="2XkdlQ" value="1" />
-        </node>
-      </node>
-    </node>
-    <node concept="2Ezeut" id="5_D06SZ1uVC" role="2EzfOj">
-      <ref role="2Ezeus" to="58bx:39mK9B0Vi1$" resolve="id" />
-    </node>
-    <node concept="2Ezeut" id="5_D06SZ1C9G" role="2EzfOj">
-      <ref role="2Ezeus" node="4pUypdCIpex" resolve="patient" />
-    </node>
-    <node concept="2Ezeut" id="5_D06SZ1C9H" role="2EzfOj">
-      <ref role="2Ezeus" node="4pUypdCJYcp" resolve="medicijn" />
-    </node>
-    <node concept="2Ezeut" id="7gCvk7cX9NQ" role="2EzfOj">
-      <ref role="2Ezeus" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-    </node>
-    <node concept="2EzfPp" id="3dsNtSgVIXs" role="2EzfP9">
-      <property role="TrG5h" value="MedPiet2" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="3dsNtSgVIXt" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="3dsNtSgVIXS" role="2Ezeth">
-          <property role="asc1R" value="MedPiet2" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="3dsNtSgVIXu" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="3dsNtSgVIXO" role="2Ezeth">
-          <ref role="2bQEkM" node="7m_jiAY7iPg" resolve="Piet" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="3dsNtSgVIXv" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="3dsNtSgVIXN" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oVjdU" resolve="clopidogrel" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="3dsNtSgVIXw" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="3dsNtSgVIXM" role="2Ezeth">
-          <property role="2XkdlQ" value="2" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="5s2V72h6jjU" role="2EzfP9">
-      <property role="TrG5h" value="MedJan1" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="5s2V72h6jjV" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72h6jkv" role="2Ezeth">
-          <property role="asc1R" value="MedJan1" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6jjW" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="5s2V72h6jkq" role="2Ezeth">
-          <ref role="2bQEkM" node="5s2V72h68Jf" resolve="Jan" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6jjX" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="5s2V72h6jkp" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oYK$Z" resolve="asasantin" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6jjY" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="5s2V72h6jkr" role="2Ezeth">
-          <property role="2XkdlQ" value="3" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="2Oa9GxmoOND" role="2EzfP9">
-      <property role="TrG5h" value="MedJan2" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="2Oa9GxmoONE" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="2Oa9GxmoOOU" role="2Ezeth">
-          <property role="asc1R" value="MedJan2" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="2Oa9GxmoONF" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="2Oa9GxmoOOO" role="2Ezeth">
-          <ref role="2bQEkM" node="5s2V72h68Jf" resolve="Jan" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="2Oa9GxmoONG" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="2Oa9GxmoOOP" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oV1Y1" resolve="dabigatran" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="2Oa9GxmoONH" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="2Oa9Gxmp95$" role="2Ezeth">
-          <property role="2XkdlQ" value="10" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="5s2V72h6YWP" role="2EzfP9">
-      <property role="TrG5h" value="MedKlaas1" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="5s2V72h6YWQ" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72h6YXz" role="2Ezeth">
-          <property role="asc1R" value="MedKlaas1" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6YWR" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="5s2V72h6YXt" role="2Ezeth">
-          <ref role="2bQEkM" node="5s2V72h6HnB" resolve="Klaas" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6YWS" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="5s2V72h6YXu" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oVjdU" resolve="clopidogrel" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h6YWT" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="5s2V72h6YXv" role="2Ezeth">
-          <property role="2XkdlQ" value="1" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="5s2V72h7i96" role="2EzfP9">
-      <property role="TrG5h" value="MedKlaas2" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="5s2V72h7i97" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72h7i9X" role="2Ezeth">
-          <property role="asc1R" value="MedKlaas2" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h7i98" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="5s2V72h7i9S" role="2Ezeth">
-          <ref role="2bQEkM" node="5s2V72h6HnB" resolve="Klaas" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h7i99" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="5s2V72h7i9T" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oUVdq" resolve="acetylsalicylzuur" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72h7i9a" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="5s2V72h7i9R" role="2Ezeth">
-          <property role="2XkdlQ" value="2" />
-        </node>
-      </node>
-    </node>
-    <node concept="2EzfPp" id="5s2V72haARz" role="2EzfP9">
-      <property role="TrG5h" value="MedKlass3" />
-      <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
-      <node concept="2EzfPm" id="5s2V72haAR$" role="2EzfPk">
-        <property role="TrG5h" value="id" />
-        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
-        <node concept="asc1O" id="5s2V72haASz" role="2Ezeth">
-          <property role="asc1R" value="MedKlass3" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72haAR_" role="2EzfPk">
-        <property role="TrG5h" value="patient" />
-        <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
-        <node concept="2bQEkN" id="5s2V72haASt" role="2Ezeth">
-          <ref role="2bQEkM" node="5s2V72h6HnB" resolve="Klaas" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72haARA" role="2EzfPk">
-        <property role="TrG5h" value="medicijn" />
-        <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-        <node concept="2bQEkN" id="5s2V72haASv" role="2Ezeth">
-          <ref role="2bQEkM" node="6AAC_8oV1Y1" resolve="dabigatran" />
-        </node>
-      </node>
-      <node concept="2EzfPm" id="5s2V72haARB" role="2EzfPk">
-        <property role="TrG5h" value="aantalPerDag" />
-        <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
-        <node concept="2XkdlR" id="5s2V72haASu" role="2Ezeth">
-          <property role="2XkdlQ" value="4" />
         </node>
       </node>
     </node>
@@ -1826,6 +1435,331 @@
       </node>
       <node concept="2HeBU9" id="7TjiQgD5SsW" role="2HeBD$">
         <ref role="2HeBUa" node="4CAiFKVfDAv" resolve="AntistollingsPaden" />
+      </node>
+    </node>
+  </node>
+  <node concept="2EzfPp" id="7TjiQgD6u9C">
+    <property role="3GE5qa" value="testGevallen" />
+    <property role="TrG5h" value="Piet" />
+    <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
+    <node concept="2EzfPm" id="7TjiQgD6ubA" role="2EzfPk">
+      <property role="TrG5h" value="id" />
+      <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+      <node concept="asc1O" id="7TjiQgD6udg" role="2Ezeth">
+        <property role="asc1R" value="Piet" />
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD6ubB" role="2EzfPk">
+      <property role="TrG5h" value="medicijnenGebruik" />
+      <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
+      <node concept="3f$x08" id="7TjiQgD6ubD" role="2Ezeth">
+        <node concept="1z9rxc" id="7TjiQgD7dyx" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7dyy" role="1z9rxd">
+            <property role="TrG5h" value="1" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7dyz" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7dyC" role="2Ezeth">
+                <property role="asc1R" value="1" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7dy$" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7dyD" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD6u9C" resolve="Piet" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7dy_" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD9mfh" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oUVdq" resolve="acetylsalicylzuur" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7dyA" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7dyB" role="2Ezeth">
+                <property role="2XkdlQ" value="1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1z9rxc" id="7TjiQgD7gwd" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7gwe" role="1z9rxd">
+            <property role="TrG5h" value="2" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7gwf" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7gwk" role="2Ezeth">
+                <property role="asc1R" value="2" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7gwg" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7gwl" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD6u9C" resolve="Piet" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7gwh" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD7hps" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oVjdU" resolve="clopidogrel" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7gwi" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7gwj" role="2Ezeth">
+                <property role="2XkdlQ" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD6ubC" role="2EzfPk">
+      <property role="TrG5h" value="antistollingsPad" />
+      <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
+      <node concept="3uZZn6" id="7TjiQgD9mfj" role="WL0qH">
+        <ref role="3zXCHX" node="7TjiQgD6u9C" resolve="Piet" />
+        <ref role="3uZZnp" node="4CAiFKVklMp" resolve="=.antistollingsPad" />
+      </node>
+      <node concept="2bQEkN" id="7TjiQgD7c3E" role="2Ezeth">
+        <ref role="2bQEkM" node="4CAiFKViiic" resolve="DAPT" />
+      </node>
+    </node>
+  </node>
+  <node concept="2EzfPp" id="7TjiQgD79GA">
+    <property role="3GE5qa" value="testGevallen" />
+    <property role="TrG5h" value="Jan" />
+    <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
+    <node concept="2EzfPm" id="7TjiQgD79GB" role="2EzfPk">
+      <property role="TrG5h" value="id" />
+      <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+      <node concept="asc1O" id="7TjiQgD79GC" role="2Ezeth">
+        <property role="asc1R" value="Jan" />
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD7bKE" role="2EzfPk">
+      <property role="TrG5h" value="medicijnenGebruik" />
+      <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
+      <node concept="3f$x08" id="7TjiQgD7bKG" role="2Ezeth">
+        <node concept="1z9rxc" id="7TjiQgD7cWe" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7cWf" role="1z9rxd">
+            <property role="TrG5h" value="1" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7cWg" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7cWl" role="2Ezeth">
+                <property role="asc1R" value="1" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7cWh" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7cWm" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD79GA" resolve="Jan" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7cWi" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD9mfb" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oYK$Z" resolve="asasantin" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7cWj" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7cWk" role="2Ezeth">
+                <property role="2XkdlQ" value="3" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1z9rxc" id="7TjiQgD7hGu" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7hGv" role="1z9rxd">
+            <property role="TrG5h" value="2" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7hGw" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7hG_" role="2Ezeth">
+                <property role="asc1R" value="2" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7hGx" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7hGA" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD79GA" resolve="Jan" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7hGy" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD7jNj" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oV1Y1" resolve="dabigatran" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7hGz" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7hG$" role="2Ezeth">
+                <property role="2XkdlQ" value="10" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD7bKF" role="2EzfPk">
+      <property role="TrG5h" value="antistollingsPad" />
+      <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
+      <node concept="3uZZn6" id="7TjiQgD9mfd" role="WL0qH">
+        <ref role="3zXCHX" node="7TjiQgD79GA" resolve="Jan" />
+        <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
+      </node>
+      <node concept="2bQEkN" id="7TjiQgD7cmw" role="2Ezeth">
+        <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
+      </node>
+    </node>
+  </node>
+  <node concept="2EzfPp" id="7TjiQgD7aik">
+    <property role="3GE5qa" value="testGevallen" />
+    <property role="TrG5h" value="Klaas" />
+    <ref role="2EzfPj" node="3qvXTOlaWfN" resolve="Patient" />
+    <node concept="2EzfPm" id="7TjiQgD7ail" role="2EzfPk">
+      <property role="TrG5h" value="id" />
+      <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+      <node concept="asc1O" id="7TjiQgD7aim" role="2Ezeth">
+        <property role="asc1R" value="Klaas" />
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD7btE" role="2EzfPk">
+      <property role="TrG5h" value="medicijnenGebruik" />
+      <ref role="2EzfPh" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
+      <node concept="3f$x08" id="7TjiQgD7btG" role="2Ezeth">
+        <node concept="1z9rxc" id="7TjiQgD7eIs" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7eIt" role="1z9rxd">
+            <property role="TrG5h" value="1" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7eIu" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7eIz" role="2Ezeth">
+                <property role="asc1R" value="1" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7eIv" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7eI$" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD7aik" resolve="Klaas" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7eIw" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD7kY_" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oVjdU" resolve="clopidogrel" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7eIx" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7eIy" role="2Ezeth">
+                <property role="2XkdlQ" value="1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1z9rxc" id="7TjiQgD7i0h" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7i0i" role="1z9rxd">
+            <property role="TrG5h" value="2" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7i0j" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7i0o" role="2Ezeth">
+                <property role="asc1R" value="2" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7i0k" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7i0p" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD7aik" resolve="Klaas" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7i0l" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD7mJz" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oUVdq" resolve="acetylsalicylzuur" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7i0m" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7i0n" role="2Ezeth">
+                <property role="2XkdlQ" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1z9rxc" id="7TjiQgD7iTQ" role="3f$x0k">
+          <node concept="2EzfPp" id="7TjiQgD7iTR" role="1z9rxd">
+            <property role="TrG5h" value="3" />
+            <ref role="2EzfPj" node="4pUypdCHNzP" resolve="MedicijnGebruik" />
+            <node concept="2EzfPm" id="7TjiQgD7iTS" role="2EzfPk">
+              <property role="TrG5h" value="id" />
+              <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+              <node concept="asc1O" id="7TjiQgD7iTX" role="2Ezeth">
+                <property role="asc1R" value="3" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7iTT" role="2EzfPk">
+              <property role="TrG5h" value="patient" />
+              <ref role="2EzfPh" node="4pUypdCIpex" resolve="patient" />
+              <node concept="2bQEkN" id="7TjiQgD7iTY" role="2Ezeth">
+                <ref role="2bQEkM" node="7TjiQgD7aik" resolve="Klaas" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7iTU" role="2EzfPk">
+              <property role="TrG5h" value="medicijn" />
+              <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
+              <node concept="2bQEkN" id="7TjiQgD7msH" role="2Ezeth">
+                <ref role="2bQEkM" node="6AAC_8oV1Y1" resolve="dabigatran" />
+              </node>
+            </node>
+            <node concept="2EzfPm" id="7TjiQgD7iTV" role="2EzfPk">
+              <property role="TrG5h" value="aantalPerDag" />
+              <ref role="2EzfPh" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+              <node concept="2XkdlR" id="7TjiQgD7iTW" role="2Ezeth">
+                <property role="2XkdlQ" value="4" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2EzfPm" id="7TjiQgD7btF" role="2EzfPk">
+      <property role="TrG5h" value="antistollingsPad" />
+      <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
+      <node concept="3uZZn6" id="7TjiQgD7mJ_" role="WL0qH">
+        <ref role="3zXCHX" node="7TjiQgD7aik" resolve="Klaas" />
+        <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
+      </node>
+      <node concept="2bQEkN" id="7TjiQgD7cDm" role="2Ezeth">
+        <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
       </node>
     </node>
   </node>
