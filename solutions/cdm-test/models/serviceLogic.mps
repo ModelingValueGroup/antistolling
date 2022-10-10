@@ -43,6 +43,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -415,22 +419,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh8Z" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJJ" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snMW" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snMX" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNx" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeA" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeB" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jf3" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNy" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNz" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jf4" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jf5" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbD" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snN$" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jf6" role="2OqNvi">
                       <ref role="37wK5l" node="79eYlakHot6" resolve="MedicijnGroep_c0_r0" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snMY" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeC" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -726,7 +730,7 @@
                     <node concept="2OqwBi" id="79eYlakHot9" role="37wK5m">
                       <node concept="liA8E" id="79eYlakHot8" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNL" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfA" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="79eYlakHotn" role="2Oq$k0">
                         <ref role="1PxDUh" node="4pUypdCHwTQ" resolve="Medicijn_Concept" />
@@ -1979,6 +1983,10 @@
             </node>
           </node>
         </node>
+        <node concept="Rm8GO" id="7TjiQgD5jeY" role="37wK5m">
+          <ref role="Rm8GQ" to="kag7:~SetableModifier.containment" resolve="containment" />
+          <ref role="1Px2BO" to="kag7:~SetableModifier" resolve="SetableModifier" />
+        </node>
       </node>
       <node concept="3Tm1VV" id="4pUypdCIbVk" role="1B3o_S" />
       <node concept="3uibUv" id="4pUypdCIbVl" role="1tU5fm">
@@ -2357,22 +2365,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9D" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJV" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snN8" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snN9" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snN_" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeG" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeH" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jfr" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNA" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNB" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jfs" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jft" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbP" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNC" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfu" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVv5VR" resolve="PatientMedicijnGebruikPad_c0_r0" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snNa" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeI" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2415,22 +2423,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9r" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hK3" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snMT" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snMU" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNt" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeP" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeQ" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jf7" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNu" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNv" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jf8" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jf9" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbJ" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNw" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfa" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVqT27" resolve="PatientMedicijnGebruikPad_c0_r1" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snMV" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeR" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2473,22 +2481,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh96" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJF" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snNb" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snNc" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snND" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeM" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeN" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jff" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNE" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNF" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jfg" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jfh" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbH" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNG" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfi" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVrgng" resolve="PatientMedicijnGebruikPad_c0_r2" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snNd" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeO" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2531,22 +2539,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9k" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJR" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snN2" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snN3" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNH" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeV" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeW" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jeZ" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNI" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNJ" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jf0" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jf1" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbF" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNK" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jf2" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVrD1e" resolve="PatientMedicijnGebruikPad_c0_r3" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snN4" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeX" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2589,22 +2597,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9d" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJN" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snMZ" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snN0" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNh" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeD" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeE" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jfb" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNi" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNj" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jfc" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jfd" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbN" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNk" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfe" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVs2ky" resolve="PatientMedicijnGebruikPad_c0_r4" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snN1" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeF" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2647,22 +2655,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9y" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hK7" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snNe" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snNf" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNl" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeJ" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeK" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jfj" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNm" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNn" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jfk" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jfl" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbL" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNo" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfm" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVssAR" resolve="PatientMedicijnGebruikPad_c0_r5" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snNg" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeL" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -2705,22 +2713,22 @@
           <property role="3yWfEV" value="false" />
           <node concept="3clFbS" id="478YK7Ivh9K" role="1bW5cS">
             <node concept="3clFbF" id="7LPul$73hJZ" role="3cqZAp">
-              <node concept="1Wc70l" id="4lpw2$2snN5" role="3clFbG">
-                <node concept="3clFbC" id="4lpw2$2snN6" role="3uHU7w">
-                  <node concept="10M0yZ" id="4lpw2$2snNp" role="3uHU7w">
+              <node concept="1Wc70l" id="7TjiQgD5jeS" role="3clFbG">
+                <node concept="3clFbC" id="7TjiQgD5jeT" role="3uHU7w">
+                  <node concept="10M0yZ" id="7TjiQgD5jfn" role="3uHU7w">
                     <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                     <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
                   </node>
-                  <node concept="2OqwBi" id="4lpw2$2snNq" role="3uHU7B">
-                    <node concept="37vLTw" id="4lpw2$2snNr" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7TjiQgD5jfo" role="3uHU7B">
+                    <node concept="37vLTw" id="7TjiQgD5jfp" role="2Oq$k0">
                       <ref role="3cqZAo" node="478YK7IvhbR" resolve="it" />
                     </node>
-                    <node concept="liA8E" id="4lpw2$2snNs" role="2OqNvi">
+                    <node concept="liA8E" id="7TjiQgD5jfq" role="2OqNvi">
                       <ref role="37wK5l" node="4CAiFKVw50w" resolve="PatientMedicijnGebruikPad_c0_r6" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="4lpw2$2snN7" role="3uHU7B">
+                <node concept="3clFbT" id="7TjiQgD5jeU" role="3uHU7B">
                   <property role="3clFbU" value="true" />
                 </node>
               </node>
@@ -4153,7 +4161,7 @@
                     <node concept="2OqwBi" id="4CAiFKVv5VU" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVv5VT" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNO" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfx" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVv5W8" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4250,7 +4258,7 @@
                     <node concept="2OqwBi" id="4CAiFKVqT2a" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVqT29" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNP" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfz" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVqT2o" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4347,7 +4355,7 @@
                     <node concept="2OqwBi" id="4CAiFKVrgnj" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVrgni" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNN" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfy" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVrgnx" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4444,7 +4452,7 @@
                     <node concept="2OqwBi" id="4CAiFKVrD1h" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVrD1g" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNR" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfv" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVrD1v" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4541,7 +4549,7 @@
                     <node concept="2OqwBi" id="4CAiFKVs2k_" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVs2k$" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNM" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jfw" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVs2kN" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4647,7 +4655,7 @@
                     <node concept="2OqwBi" id="4CAiFKVssAU" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVssAT" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNS" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jf_" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVssB8" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />
@@ -4761,7 +4769,7 @@
                     <node concept="2OqwBi" id="4CAiFKVw50J" role="37wK5m">
                       <node concept="liA8E" id="4CAiFKVw50I" role="2OqNvi">
                         <ref role="37wK5l" to="kag7:~Getable.get(java.lang.Object)" resolve="get" />
-                        <node concept="Xjq3P" id="4lpw2$2snNQ" role="37wK5m" />
+                        <node concept="Xjq3P" id="7TjiQgD5jf$" role="37wK5m" />
                       </node>
                       <node concept="10M0yZ" id="4CAiFKVw50S" role="2Oq$k0">
                         <ref role="1PxDUh" node="3qvXTOlaWk9" resolve="Patient_Concept" />

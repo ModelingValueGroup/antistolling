@@ -18,6 +18,9 @@
       </concept>
     </language>
     <language id="2b379ad1-c243-479c-be1a-0c81bd5ce136" name="cdm.lang">
+      <concept id="1331353977788050484" name="cdm.lang.structure.Service" flags="ng" index="269stn">
+        <child id="6527790569516625829" name="scopes" index="2EIr5a" />
+      </concept>
       <concept id="2387291966582922513" name="cdm.lang.structure.ObjectIdLiteral" flags="ng" index="asc1O">
         <property id="2387291966582922514" name="id" index="asc1R" />
       </concept>
@@ -43,8 +46,17 @@
         <reference id="8621213489612476078" name="concept" index="2EzfPj" />
         <child id="8621213489612476073" name="eigenschapWaarden" index="2EzfPk" />
       </concept>
+      <concept id="6527790569516534818" name="cdm.lang.structure.Scope" flags="ng" index="2EIHbd">
+        <reference id="1579444964123989373" name="rootConcept" index="2928mI" />
+        <child id="4856150046176901336" name="enumerations" index="2HeBD$" />
+        <child id="3032518906822545404" name="input" index="3tLugs" />
+        <child id="3032518906822545408" name="output" index="3tLvJw" />
+      </concept>
       <concept id="8621213489606450764" name="cdm.lang.structure.FunctieAanroep" flags="ng" index="2FqeQL">
         <reference id="8621213489606450765" name="functie" index="2FqeQK" />
+      </concept>
+      <concept id="4856150046176902197" name="cdm.lang.structure.ObjectenTabelReference" flags="ng" index="2HeBU9">
+        <reference id="4856150046176902198" name="objectenTabel" index="2HeBUa" />
       </concept>
       <concept id="4917050092754307702" name="cdm.lang.structure.GeheelGetalLiteral" flags="ng" index="2XkdlR">
         <property id="4917050092754307703" name="waarde" index="2XkdlQ" />
@@ -96,6 +108,13 @@
       <concept id="5384265730003489071" name="cdm.lang.structure.SetLiteral" flags="ng" index="3f$x08" />
       <concept id="5384265730002319530" name="cdm.lang.structure.EigenschapAanroep" flags="ng" index="3fC3Ad">
         <reference id="5384265730002319533" name="eigenschap" index="3fC3Aa" />
+      </concept>
+      <concept id="3032518906822545770" name="cdm.lang.structure.EigenschapView" flags="ng" index="3tLvEa">
+        <reference id="3032518906822545805" name="eigenschap" index="3tLvDH" />
+        <child id="3032518906822545803" name="view" index="3tLvDF" />
+      </concept>
+      <concept id="3032518906822466437" name="cdm.lang.structure.ConceptView" flags="ng" index="3tQF1_">
+        <child id="3032518906822545771" name="eigenschapViews" index="3tLvEb" />
       </concept>
       <concept id="3087211677447604838" name="cdm.lang.structure.OorzaakGevolg" flags="ng" index="3up33f">
         <child id="6225478397814985011" name="oorzaken" index="WL0qH" />
@@ -1032,7 +1051,7 @@
           <ref role="3zXCHX" node="6AAC_8oZ6j1" resolve="sintrom mitis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc6" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfI" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1061,7 +1080,7 @@
           <ref role="3zXCHX" node="6AAC_8oZiCu" resolve="marcoumar" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc3" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfM" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1090,7 +1109,7 @@
           <ref role="3zXCHX" node="6AAC_8oZjli" resolve="pradaxa" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc5" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfO" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1119,7 +1138,7 @@
           <ref role="3zXCHX" node="6AAC_8oZk3e" resolve="xarelto" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc1" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfG" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1148,7 +1167,7 @@
           <ref role="3zXCHX" node="6AAC_8oZkMi" resolve="eliquis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybV" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfF" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1177,7 +1196,7 @@
           <ref role="3zXCHX" node="6AAC_8oZlyu" resolve="lixiana" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc0" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfJ" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1206,7 +1225,7 @@
           <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc2" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfN" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1235,7 +1254,7 @@
           <ref role="3zXCHX" node="6AAC_8oZwxK" resolve="ascal" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc7" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfP" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1264,7 +1283,7 @@
           <ref role="3zXCHX" node="6AAC_8oZxn6" resolve="persantin" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybU" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfH" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1293,7 +1312,7 @@
           <ref role="3zXCHX" node="6AAC_8oZyd$" resolve="grepid" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybX" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfK" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1322,7 +1341,7 @@
           <ref role="3zXCHX" node="6AAC_8oZz5a" resolve="plavix" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybZ" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfR" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1351,7 +1370,7 @@
           <ref role="3zXCHX" node="6AAC_8oZzXS" resolve="iscover" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1yc4" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfL" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1380,7 +1399,7 @@
           <ref role="3zXCHX" node="6AAC_8oZHIk" resolve="efient" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybY" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfQ" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1409,7 +1428,7 @@
           <ref role="3zXCHX" node="6AAC_8oZKvM" resolve="brilique" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybW" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfE" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1448,7 +1467,7 @@
           <ref role="3zXCHX" node="7m_jiAY7iPg" resolve="Piet" />
           <ref role="3uZZnp" node="4CAiFKVklMp" resolve="=.antistollingsPad" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybR" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfC" role="2Ezeth">
           <ref role="2bQEkM" node="4CAiFKViiic" resolve="DAPT" />
         </node>
       </node>
@@ -1491,7 +1510,7 @@
           <ref role="3zXCHX" node="5s2V72h68Jf" resolve="Jan" />
           <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybS" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfD" role="2Ezeth">
           <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
         </node>
       </node>
@@ -1528,7 +1547,7 @@
           <ref role="3zXCHX" node="5s2V72h6HnB" resolve="Klaas" />
           <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
         </node>
-        <node concept="2bQEkN" id="kXbxKc1ybT" role="2Ezeth">
+        <node concept="2bQEkN" id="7TjiQgD5jfB" role="2Ezeth">
           <ref role="2bQEkM" node="4CAiFKVj3GL" resolve="TripleTherapie" />
         </node>
       </node>
@@ -1772,6 +1791,41 @@
         <node concept="2XkdlR" id="5s2V72haASu" role="2Ezeth">
           <property role="2XkdlQ" value="4" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="269stn" id="7TjiQgD5Ssz">
+    <property role="TrG5h" value="AntiStollingService" />
+    <property role="3GE5qa" value="services" />
+    <node concept="2EIHbd" id="7TjiQgD5Ss$" role="2EIr5a">
+      <property role="TrG5h" value="AntiStolling" />
+      <ref role="2928mI" node="3qvXTOlaWfN" resolve="Patient" />
+      <node concept="3tQF1_" id="7TjiQgD5Ss_" role="3tLugs">
+        <node concept="3tLvEa" id="7TjiQgD5SsE" role="3tLvEb">
+          <ref role="3tLvDH" node="4pUypdCIbV9" resolve="medicijnenGebruik" />
+          <node concept="3tQF1_" id="7TjiQgD5SsG" role="3tLvDF">
+            <node concept="3tLvEa" id="7TjiQgD5SsI" role="3tLvEb">
+              <ref role="3tLvDH" node="4pUypdCJYcp" resolve="medicijn" />
+            </node>
+            <node concept="3tLvEa" id="7TjiQgD5SsK" role="3tLvEb">
+              <ref role="3tLvDH" node="7gCvk7cX9Nu" resolve="aantalPerDag" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3tQF1_" id="7TjiQgD5SsA" role="3tLvJw">
+        <node concept="3tLvEa" id="7TjiQgD5SsP" role="3tLvEb">
+          <ref role="3tLvDH" node="4pUypdCIy2Z" resolve="antistollingsPad" />
+        </node>
+      </node>
+      <node concept="2HeBU9" id="7TjiQgD5SsR" role="2HeBD$">
+        <ref role="2HeBUa" node="7BEvwB3ISAv" resolve="MedicijnGroepen" />
+      </node>
+      <node concept="2HeBU9" id="7TjiQgD5SsT" role="2HeBD$">
+        <ref role="2HeBUa" node="6AAC_8oTvyf" resolve="Medicijnen" />
+      </node>
+      <node concept="2HeBU9" id="7TjiQgD5SsW" role="2HeBD$">
+        <ref role="2HeBUa" node="4CAiFKVfDAv" resolve="AntistollingsPaden" />
       </node>
     </node>
   </node>
