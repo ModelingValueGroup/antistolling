@@ -313,7 +313,7 @@
     <node concept="1eNGT8" id="4CAiFKVupEK" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVupFI" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVv5VK" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVvlgV" role="ou1UI">
@@ -334,7 +334,7 @@
     <node concept="1eNGT8" id="4CAiFKVjaxD" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVjay5" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVqT20" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVr4$q" role="ou1UI">
@@ -355,7 +355,7 @@
     <node concept="1eNGT8" id="4CAiFKVjlxU" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVjlyq" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVrgn9" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVrsAa" role="ou1UI">
@@ -376,7 +376,7 @@
     <node concept="1eNGT8" id="4CAiFKVjyJU" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVjyKu" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVrD17" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVrPBZ" role="ou1UI">
@@ -397,7 +397,7 @@
     <node concept="1eNGT8" id="4CAiFKVklLG" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVklMo" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVs2kr" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVsfsn" role="ou1UI">
@@ -421,7 +421,7 @@
     <node concept="1eNGT8" id="4CAiFKVjLXc" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVjLXO" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVssAK" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVsEkT" role="ou1UI">
@@ -448,7 +448,7 @@
     <node concept="1eNGT8" id="4CAiFKVv$u$" role="1eNGTS">
       <node concept="1eNGTK" id="4CAiFKVv$vD" role="1eNGTL">
         <property role="TrG5h" value="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
-        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling" />
+        <ref role="1eNGTN" node="4CAiFKVfyWU" resolve="?.medicijnenGebruik.medicijn.groep.samenstelling.toSet()" />
         <node concept="1eNGTy" id="4CAiFKVw50b" role="1eNGTY">
           <ref role="18$Dm6" to="58bx:4ESKiu55m7a" resolve="gelijk" />
           <node concept="3f$x08" id="4CAiFKVw50c" role="ou1UI">
@@ -543,6 +543,17 @@
         <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
         <node concept="asc1O" id="4CAiFKVj3H5" role="2Ezeth">
           <property role="asc1R" value="TripleTherapie" />
+        </node>
+      </node>
+    </node>
+    <node concept="2EzfPp" id="4fnuajn7m2z" role="2EzfP9">
+      <property role="TrG5h" value="Onbekend" />
+      <ref role="2EzfPj" node="4pUypdCHWA8" resolve="AntistollingsPad" />
+      <node concept="2EzfPm" id="4fnuajn7m2V" role="2EzfPk">
+        <property role="TrG5h" value="id" />
+        <ref role="2EzfPh" to="58bx:39mK9B0Vi1$" resolve="id" />
+        <node concept="asc1O" id="4fnuajn7m2W" role="2Ezeth">
+          <property role="asc1R" value="Onbekend" />
         </node>
       </node>
     </node>
@@ -1020,7 +1031,7 @@
           <ref role="3zXCHX" node="6AAC_8oZ6j1" resolve="sintrom mitis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfr" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2b" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1049,7 +1060,7 @@
           <ref role="3zXCHX" node="6AAC_8oZiCu" resolve="marcoumar" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfp" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2f" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3Jc_r" resolve="VKA" />
         </node>
       </node>
@@ -1078,7 +1089,7 @@
           <ref role="3zXCHX" node="6AAC_8oZjli" resolve="pradaxa" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfm" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m27" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1107,7 +1118,7 @@
           <ref role="3zXCHX" node="6AAC_8oZk3e" resolve="xarelto" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfo" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2a" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1136,7 +1147,7 @@
           <ref role="3zXCHX" node="6AAC_8oZkMi" resolve="eliquis" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfu" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2d" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1165,7 +1176,7 @@
           <ref role="3zXCHX" node="6AAC_8oZlyu" resolve="lixiana" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfs" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m29" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JPhs" resolve="DOAC" />
         </node>
       </node>
@@ -1194,7 +1205,7 @@
           <ref role="3zXCHX" node="6AAC_8oZmjM" resolve="aspirine" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfn" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2h" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1223,7 +1234,7 @@
           <ref role="3zXCHX" node="6AAC_8oZwxK" resolve="ascal" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mft" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2j" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1252,7 +1263,7 @@
           <ref role="3zXCHX" node="6AAC_8oZxn6" resolve="persantin" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfv" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2e" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3ISAR" resolve="TAR" />
         </node>
       </node>
@@ -1281,7 +1292,7 @@
           <ref role="3zXCHX" node="6AAC_8oZyd$" resolve="grepid" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfx" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2g" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1310,7 +1321,7 @@
           <ref role="3zXCHX" node="6AAC_8oZz5a" resolve="plavix" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfq" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2k" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1339,7 +1350,7 @@
           <ref role="3zXCHX" node="6AAC_8oZzXS" resolve="iscover" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfy" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2c" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1368,7 +1379,7 @@
           <ref role="3zXCHX" node="6AAC_8oZHIk" resolve="efient" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfw" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m28" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1397,7 +1408,7 @@
           <ref role="3zXCHX" node="6AAC_8oZKvM" resolve="brilique" />
           <ref role="3uZZnp" node="79eYlakG$a6" resolve="=.groep" />
         </node>
-        <node concept="2bQEkN" id="7TjiQgD9mfl" role="2Ezeth">
+        <node concept="2bQEkN" id="4fnuajn7m2i" role="2Ezeth">
           <ref role="2bQEkM" node="7BEvwB3JSUs" resolve="TAR-P2Y12-remmers" />
         </node>
       </node>
@@ -1571,7 +1582,7 @@
             <node concept="2EzfPm" id="7TjiQgD7cWi" role="2EzfPk">
               <property role="TrG5h" value="medicijn" />
               <ref role="2EzfPh" node="4pUypdCJYcp" resolve="medicijn" />
-              <node concept="2bQEkN" id="7TjiQgD9mfb" role="2Ezeth">
+              <node concept="2bQEkN" id="4fnuajn7meR" role="2Ezeth">
                 <ref role="2bQEkM" node="6AAC_8oYK$Z" resolve="asasantin" />
               </node>
             </node>
@@ -1623,7 +1634,7 @@
     <node concept="2EzfPm" id="7TjiQgD7bKF" role="2EzfPk">
       <property role="TrG5h" value="antistollingsPad" />
       <ref role="2EzfPh" node="4pUypdCIy2Z" resolve="antistollingsPad" />
-      <node concept="3uZZn6" id="7TjiQgD9mfd" role="WL0qH">
+      <node concept="3uZZn6" id="4fnuajn7mdR" role="WL0qH">
         <ref role="3zXCHX" node="7TjiQgD79GA" resolve="Jan" />
         <ref role="3uZZnp" node="4CAiFKVjLXP" resolve="=.antistollingsPad" />
       </node>

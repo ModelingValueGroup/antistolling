@@ -15,7 +15,7 @@
     <dependency reexport="false">2b379ad1-c243-479c-be1a-0c81bd5ce136(cdm.lang)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:2b379ad1-c243-479c-be1a-0c81bd5ce136:cdm.lang" version="6" />
+    <language slang="l:2b379ad1-c243-479c-be1a-0c81bd5ce136:cdm.lang" version="7" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
